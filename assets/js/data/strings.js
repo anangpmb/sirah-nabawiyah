@@ -1,0 +1,71 @@
+/* DATA · Teks antarmuka & metadata bab. Global: I18N, CH_META_EN */
+
+/* ============ i18n ============ */
+const I18N = {
+  id:{
+    lang:'ID',
+    introTitle:'Cahaya di Atas Cahaya',
+    introTag:'Sirah · dengan aparatus sumbernya',
+    introLede1:'Menyusuri hidup Rasulullah ﷺ dari Tahun Gajah hingga wafat — bukan sebagai dongeng heroik, melainkan sebagai rekaman keputusan seorang manusia yang setiap langkahnya bisa dilacak sumbernya.',
+    introLede2:'Setiap layar membawa rujukannya sendiri: surah, riwayat, derajat sanad. Termasuk hal-hal yang jarang naik mimbar.',
+    introStart:'Mulai Perjalanan',
+    introFoot:'Sosok beliau tidak digambarkan. Yang Anda lihat di layar adalah kaligrafi nama beliau yang tersusun dari partikel cahaya — dan Anda menjalaninya sebagai seorang penziarah waktu, bukan sebagai beliau.',
+    btnBack:'Kembali', btnMap:'Peta Waktu', btnRef:'Rujukan',
+    hint:'Ketuk atau tekan <b>Spasi</b>', hintChoose:'Pilih salah satu', continueStory:'Lanjutkan cerita',
+    mapTitle:'Peta Waktu', mapSub:'Dua belas bab · 570 – 632 M · dan satu ruang tematik',
+    refTitle:'Rujukan Bab Ini', noteMethod:'Catatan Metodologi',
+    noteP1:'Penomoran hadis berbeda antar-cetakan (Fathul Bari, Al-\'Alamiyah, Abdul Baqi). Nomor di sini adalah penunjuk untuk pencarian, bukan patokan mutlak — telusuri lafalnya, bukan hanya angkanya.',
+    noteP2:'Label <b>SIRAH</b> berarti riwayat itu bersumber dari kitab sejarah (Ibnu Ishaq, Ibnu Hisyam, Ath-Thabari) yang tidak memakai standar isnad sekeras kitab hadis. Label <b>DHAIF</b> ditampilkan apa adanya, bukan disembunyikan — sebagian ulama membolehkannya untuk fadhail a\'mal, sebagian menolak. Anda berhak tahu.',
+    noteP3:'Media ini alat belajar, bukan pengganti guru. Verifikasi ke kitab aslinya dan tanyakan pada ahlinya.',
+    refEmpty:'Bab ini bersifat naratif; rujukannya muncul pada layar-layar berikutnya.',
+    chapPrefix:'Bab', resumePrefix:'Lanjutkan · Bab',
+    menuKhulafa:'Kehidupan Empat Khalifah', mainMenu:'Menu Utama',
+    changeFigure:'Ganti Tokoh:', resumePill:'lanjutkan',
+    spNar:'Narator', spPilgrim:'Penziarah', spRiwayat:'Riwayat',
+    spNabi:'Sabda Nabi ﷺ', spFirman:'Firman Allah',
+    spRare:'Jarang Naik Mimbar', spChoice:'Pilihan',
+    railLabel:'Garis waktu bab', plateLabel:'Lanjutkan',
+  },
+  en:{
+    lang:'EN',
+    introTitle:'Light Upon Light',
+    introTag:'Sīrah · with its source apparatus',
+    introLede1:'Tracing the life of the Messenger ﷺ from the Year of the Elephant to his passing — not as a heroic tale, but as a record of a human being whose every step can be traced to its sources.',
+    introLede2:'Each screen carries its own references: sūrah, narration, chain grade. Including things rarely mentioned from the pulpit.',
+    introStart:'Begin the Journey',
+    introFoot:'His likeness is not depicted. What you see on screen is the calligraphy of his name rendered in particles of light — and you journey through it as a pilgrim through time, not as him.',
+    btnBack:'Back', btnMap:'Timeline', btnRef:'References',
+    hint:'Tap or press <b>Space</b>', hintChoose:'Choose one', continueStory:'Continue the story',
+    mapTitle:'Timeline', mapSub:'Twelve chapters · 570–632 CE · and one thematic space',
+    refTitle:'Chapter References', noteMethod:'Methodology Note',
+    noteP1:'Hadīth numbering differs across editions (Fatḥul Bārī, Al-ʿĀlamiyya, ʿAbd al-Bāqī). Numbers here are search guides, not absolute markers — trace the wording, not just the number.',
+    noteP2:'The <b>SIRAH</b> label means the narration comes from historical chronicles (Ibn Isḥāq, Ibn Hishām, al-Ṭabarī) which do not apply the same isnād standards as ḥadīth collections. The <b>WEAK</b> label is shown plainly, not hidden — some scholars permit weak narrations for virtuous deeds, others do not. You deserve to know.',
+    noteP3:'This resource is a learning tool, not a substitute for a teacher. Verify against primary sources and consult scholars.',
+    refEmpty:'This chapter is narrative; references appear on subsequent screens.',
+    chapPrefix:'Chapter', resumePrefix:'Continue · Chapter',
+    menuKhulafa:'Lives of the Four Caliphs', mainMenu:'Main Menu',
+    changeFigure:'Change Figure:', resumePill:'resume',
+    spNar:'Narrator', spPilgrim:'Pilgrim', spRiwayat:'Narration',
+    spNabi:'Prophetic Word ﷺ', spFirman:'Word of God',
+    spRare:'Rarely from the Pulpit', spChoice:'Choice',
+    railLabel:'Chapter timeline', plateLabel:'Continue',
+  }
+};
+
+/* English chapter metadata (titles / years / blurbs) */
+let CH_META_EN = [
+  {title:'Before the Dawn',    years:'c. 570 CE · Year of the Elephant',   blurb:'A valley without a river, the ancient house of Ibrāhīm, and a society that was noble and brutal at the same time.'},
+  {title:'Orphan in the Desert', years:'570–582 CE',                        blurb:'Losing father, mother, and grandfather before age eight. Then years of herding sheep for wages.'},
+  {title:'Al-Amīn',            years:'c. 595–610 CE',                       blurb:'A reputation built before any claim. A pact to defend the oppressed. And a clever solution that averted civil war.'},
+  {title:'Read!',              years:'610 CE · Ramaḍān',                    blurb:'The first revelation, honest fear, and a woman who assessed prophethood by social record.'},
+  {title:'The First Oppressed', years:'613–619 CE',                         blurb:'Open preaching, and a pattern repeated through history: those struck first are always the most powerless.'},
+  {title:'Year of Grief',      years:"619–620 CE · ʿĀmul Ḥuzn",           blurb:"Loss of protector and support in one year. Then Ṭā'if — and an offer of revenge that was refused."},
+  {title:'The Night Journey',  years:'c. 620–621 CE',                       blurb:'The most difficult event to explain in the Sīrah — and the ethical mandate it brought back to earth.'},
+  {title:'The Migration',      years:'621–622 CE',                          blurb:'Two pledges, two women who swore the oath, an assassination attempt, and enemy deposits returned in full.'},
+  {title:'The Madinah Charter', years:'622–624 CE',                         blurb:'The first thing built was not a fort. And a political document guaranteeing pluralism — rarely read in full.'},
+  {title:'War, Defeat, Treaty', years:'624–628 CE',                         blurb:"A consultation that overruled the Prophet's own view, scripture's open correction, and a victory shaped like concession."},
+  {title:'When Power Is in Hand', years:'630 CE · Ramaḍān 8 AH',           blurb:'Ten thousand troops enter the city that oppressed them for twenty years. The real test is not endurance — it is victory.'},
+  {title:'The Final Sermon',   years:'632 CE · 10–11 AH',                  blurb:"The first usury abolished was his own uncle's. And his last words named the most powerless."},
+  {title:'Rarely from the Pulpit', years:'Thematic · cross-timeline',       blurb:'Eight themes outside the chronology: home, animals, children, humor, racism, limits of authority, simplicity, and neighbors.'},
+];
+

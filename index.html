@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cahaya di Atas Cahaya — Perjalanan Sirah Nabawiyah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cardo:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<canvas id="gl"></canvas>
+<div id="scene-art" aria-hidden="true"></div>
+<div id="vignette"></div>
+<div id="grain"></div>
+
+<nav id="rail" aria-label="Garis waktu bab"></nav>
+
+<header id="chaptop">
+  <span class="kicker" id="kick">Bab I</span>
+  <span class="ttl" id="ttl">—</span>
+  <span class="yrs" id="yrs"></span>
+</header>
+
+<main id="stage">
+  <div id="plate" tabindex="0" role="button" aria-label="Lanjutkan">
+    <div id="scroll">
+      <div class="speaker" id="sp"><i class="dot"></i><span id="spn">Narator</span></div>
+      <div id="body"></div>
+      <div id="refs"></div>
+      <div id="choices"></div>
+    </div>
+    <div id="ctl">
+      <span id="hint" data-i18n="hint">Ketuk atau tekan <b>Spasi</b></span>
+      <span class="right">
+        <button class="ctl-b" id="bBack" data-i18n="btnBack">Kembali</button>
+        <button class="ctl-b" id="bMap" data-i18n="btnMap">Peta Waktu</button>
+        <button class="ctl-b" id="bRef" data-i18n="btnRef">Rujukan</button>
+      </span>
+    </div>
+    <div id="prog"><i></i></div>
+  </div>
+</main>
+
+<div class="sheet" id="shMap"><button class="x" data-close>✕</button><div class="sheet-in">
+  <h2 data-i18n="mapTitle">Peta Waktu</h2><div class="sub" data-i18n="mapSub">Dua belas bab · 570 – 632 M · dan satu ruang tematik</div>
+  <div id="mapList"></div>
+</div></div>
+
+<div class="sheet" id="shRef"><button class="x" data-close>✕</button><div class="sheet-in">
+  <h2 data-i18n="refTitle">Rujukan Bab Ini</h2><div class="sub" id="refSub">—</div>
+  <div id="refList"></div>
+  <h3 data-i18n="noteMethod">Catatan Metodologi</h3>
+  <p class="small" data-i18n="noteP1">Penomoran hadis berbeda antar-cetakan (Fathul Bari, Al-'Alamiyah, Abdul Baqi). Nomor di sini adalah penunjuk untuk pencarian, bukan patokan mutlak — telusuri lafalnya, bukan hanya angkanya.</p>
+  <p class="small" data-i18n="noteP2">Label <b>SIRAH</b> berarti riwayat itu bersumber dari kitab sejarah (Ibnu Ishaq, Ibnu Hisyam, Ath-Thabari) yang tidak memakai standar isnad sekeras kitab hadis. Label <b>DHAIF</b> ditampilkan apa adanya, bukan disembunyikan — sebagian ulama membolehkannya untuk fadhail a'mal, sebagian menolak. Anda berhak tahu.</p>
+  <p class="small" data-i18n="noteP3">Media ini alat belajar, bukan pengganti guru. Verifikasi ke kitab aslinya dan tanyakan pada ahlinya.</p>
+</div></div>
+
+<div class="sheet" id="shSelect"><button class="x" data-close>✕</button><div class="sheet-in">
+  <h2 id="selTitle">—</h2>
+  <div class="sel-lede" id="selSub"></div>
+  <div id="selList"></div>
+</div></div>
+
+<div id="intro">
+  <div class="mark">مُحَمَّد</div>
+  <h1 data-i18n="introTitle">Cahaya di Atas Cahaya</h1>
+  <div class="tag" data-i18n="introTag">Sirah · dengan aparatus sumbernya</div>
+  <p class="lede" data-i18n="introLede1">Menyusuri hidup Rasulullah ﷺ dari Tahun Gajah hingga wafat — bukan sebagai dongeng heroik, melainkan sebagai rekaman keputusan seorang manusia yang setiap langkahnya bisa dilacak sumbernya.</p>
+  <p class="lede" data-i18n="introLede2">Setiap layar membawa rujukannya sendiri: surah, riwayat, derajat sanad. Termasuk hal-hal yang jarang naik mimbar.</p>
+  <div class="rule"></div>
+  <div class="menu">
+    <button id="start" data-i18n="introStart">Mulai Perjalanan</button>
+    <button id="startKhulafa" class="alt" data-i18n="menuKhulafa">Kehidupan Empat Khalifah</button>
+  </div>
+  <p class="foot" data-i18n="introFoot">Sosok beliau tidak digambarkan. Yang Anda lihat di layar adalah kaligrafi nama beliau yang tersusun dari partikel cahaya — dan Anda menjalaninya sebagai seorang penziarah waktu, bukan sebagai beliau.</p>
+</div>
+
+<div id="toolbar">
+  <button class="tool-b" id="bHome" aria-label="Menu Utama" title="Menu Utama">⌂</button>
+  <span class="music-wrap">
+    <input type="range" class="vol" id="musicVol" min="0" max="100" value="30" step="1"
+           aria-label="Volume musik latar" title="Volume musik latar">
+    <button class="tool-b" id="bMusic" aria-label="Musik latar" title="Musik latar">♪</button>
+  </span>
+  <button class="tool-b" id="bTts" aria-label="Toggle narration" title="Toggle narration">▶</button>
+  <button class="tool-b" id="bLang" aria-label="Switch language">ID</button>
+  <button class="tool-b" id="bTheme" aria-label="Toggle theme" title="Toggle dark/light mode">◑</button>
+</div>
+
+<audio id="bg-audio" src="bg-sound.mp3" loop preload="auto"></audio>
+
+
+<!-- three.js (WebGL) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<!-- ============ DATA ============ -->
+<script src="assets/js/data/scenes.js"></script>
+<script src="assets/js/data/strings.js"></script>
+<script src="assets/js/data/content.id.js"></script>
+<script src="assets/js/data/content.en.js"></script>
+<script src="assets/js/data/story-khulafa.js"></script>
+<script src="assets/js/data/stories.js"></script>
+<script src="assets/js/data/glossary.js"></script>
+
+<!-- ============ UI / LOGIC ============ -->
+<script src="assets/js/illus.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/scene.js"></script>
+<script src="assets/js/tts.js"></script>
+<script src="assets/js/music.js"></script>
+<script src="assets/js/engine.js"></script>
+</body>
+</html>
