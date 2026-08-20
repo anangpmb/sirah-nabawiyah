@@ -106,6 +106,11 @@ nodes:[
 {n:'Di Madinah, Abu Bakar tak pernah mencari sorotan. Ia hadir di Badar, Uhud, dan hampir setiap peristiwa besar — tapi perannya lebih sering sebagai penasihat yang tenang daripada pahlawan yang mencolok.'},
 {n:'Di Hudaibiyah, ketika banyak sahabat gusar oleh perjanjian yang terasa merugikan, Abu Bakar menenangkan dengan logika yang sama dengan Nabi: tunduk pada Allah dan Rasul-Nya, meski hati belum paham.', s:'HR. Al-Bukhari', g:'shahih'},
 {n:'Kedekatannya diakui langsung. Nabi bersabda bahwa seandainya beliau boleh mengambil kekasih (khalil) selain Tuhannya, tentu Abu Bakar orangnya — tetapi persaudaraan Islam sudah lebih dari cukup.', s:'HR. Al-Bukhari', g:'shahih'},
+{n:'Sebuah fitnah keji pernah menimpa putrinya, Aisyah — istri Nabi ﷺ — tuduhan dusta yang mengguncang Madinah sebulan lamanya. Salah satu penyebarnya adalah Misthah, kerabat miskin yang selama ini justru dibiayai Abu Bakar. Setelah Allah menurunkan ayat yang membersihkan nama Aisyah, Abu Bakar bersumpah tak akan lagi menafkahi Misthah.', s:'HR. Al-Bukhari', g:'shahih'},
+{ay:'وَلَا يَأْتَلِ أُولُو الْفَضْلِ مِنكُمْ وَالسَّعَةِ أَن يُؤْتُوا أُولِي الْقُرْبَىٰ وَالْمَسَاكِينَ وَالْمُهَاجِرِينَ فِي سَبِيلِ اللَّهِ ۖ وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ',
+ m:'“Dan janganlah orang-orang yang mempunyai kelebihan dan kelapangan di antara kamu bersumpah bahwa mereka tidak akan memberi (bantuan) kepada kerabatnya, orang-orang miskin, dan orang-orang yang berhijrah di jalan Allah. Hendaklah mereka memaafkan dan berlapang dada. Tidakkah kamu ingin bahwa Allah mengampunimu? Dan Allah Maha Pengampun lagi Maha Penyayang.”',
+ s:'QS An-Nur: 22', qref:1},
+{n:'Mendengar ayat itu, Abu Bakar segera berkata, “Tentu, demi Allah, aku ingin Allah mengampuniku.” Ia pun kembali menafkahi Misthah seperti semula dan bertekad tak akan menghentikannya lagi. Ditegur untuk memaafkan, ia memaafkan seketika.', s:'HR. Al-Bukhari', g:'shahih'},
 {n:'Lalu tiba sakit terakhir Nabi. Ketika beliau tak sanggup lagi mengimami shalat, beliau memerintahkan satu nama untuk menggantikannya di depan jamaah: Abu Bakar.', s:'HR. Al-Bukhari; Muslim', g:'shahih'},
 {c:'Isyarat yang tak terucap', x:'Aisyah pernah berusaha agar tugas itu dialihkan, khawatir ayahnya — yang mudah menangis — tak kuat memimpin. Nabi tetap pada pilihannya, bahkan mengulanginya.<br><br>Banyak sahabat kelak membaca perintah ini sebagai isyarat: siapa yang layak memimpin shalat, layak pula dipertimbangkan memimpin umat.'},
 {n:'Kemudian Nabi wafat. Kota berguncang. Umar berdiri dan mengancam siapa pun yang berani mengatakan beliau telah tiada; ia tak sanggup menerimanya.'},
@@ -126,29 +131,88 @@ nodes:[
 {k:'ab5_g', n:'Nabi telah tiada. Umat kehilangan porosnya. Dan di ruang kosong yang menakutkan itu, orang-orang menoleh kepada lelaki yang sejak dulu selalu berdiri paling dekat dengan Nabi.'}
 ]},
 
-{id:6, glyph:'خ', yr:'634', years:'632 – 634 M · 11 – 13 H', title:'Khalifah',
-blurb:'Dua tahun yang menahan Jazirah tetap satu — perang atas zakat yang ditolak, dan penghimpunan pertama Al-Qur’an.',
+{id:6, glyph:'خ', yr:'632', years:'632 M · 11 H', title:'Amanah yang Berat',
+blurb:'Dipilih memimpin dengan enggan — lalu meletakkan prinsip bahwa ketaatan pada penguasa itu bersyarat, dan hidup sesederhana rakyatnya.',
 nodes:[
-{n:'Di Saqifah Bani Sa‘idah, kaum Anshar dan Muhajirin nyaris berselisih soal kepemimpinan. Abu Bakar meredakannya bukan dengan mengklaim hak, melainkan dengan mengingatkan persatuan. Umat lalu membaiatnya sebagai khalifah pertama.', s:'Ath-Thabari', g:'sirah'},
-{n:'Pidato pertamanya sebagai pemimpin memutar arah gagasan kekuasaan pada zamannya.'},
+{n:'Belum lagi jasad Nabi ﷺ dimakamkan, di Saqifah Bani Sa‘idah kaum Anshar dan Muhajirin nyaris berselisih soal siapa yang memimpin. Abu Bakar meredakannya bukan dengan mengklaim hak, melainkan dengan mengingatkan persatuan. Umat lalu membaiatnya sebagai khalifah pertama.', s:'Ath-Thabari', g:'sirah'},
+{n:'Ia menerima amanah itu dengan berat, bukan dengan gembira. Pidato pertamanya sebagai pemimpin memutar arah gagasan kekuasaan pada zamannya.'},
 {r:'Abu Bakar Ash-Shiddiq r.a.', x:'Aku telah dipilih memimpin kalian, padahal aku bukan yang terbaik di antara kalian. Jika aku berbuat baik, bantulah aku; jika aku menyimpang, luruskan aku. Taatilah aku selama aku menaati Allah dan Rasul-Nya; jika aku mendurhakai keduanya, tidak ada kewajiban taat kalian kepadaku.', s:'Ath-Thabari', g:'sirah'},
 {c:'Kekuasaan yang boleh dikoreksi', x:'Perhatikan kalimatnya: pemimpin tertinggi umat justru membuka dirinya untuk diluruskan rakyat, dan menegaskan bahwa ketaatan itu bersyarat — hanya selama ia taat pada Tuhan.<br><br>Ini bukan sekadar kerendahan hati pribadi; ia menegaskan sebuah prinsip: tidak ada ketaatan mutlak kepada makhluk.'},
-{n:'Ujian pertamanya datang cepat dan keras. Sebagian kabilah, sepeninggal Nabi, menolak membayar zakat — sebagian bahkan murtad. Banyak sahabat menyarankan bersikap lunak demi menjaga persatuan.'},
-{n:'Abu Bakar — yang lembut itu — justru paling tegas. Ia bersumpah akan memerangi siapa pun yang memisahkan shalat dari zakat.', s:'HR. Al-Bukhari', g:'shahih'},
-{r:'Abu Bakar Ash-Shiddiq r.a.', x:'Demi Allah, seandainya mereka menolak menyerahkan seekor anak kambing yang dulu mereka tunaikan kepada Rasulullah, sungguh akan kuperangi mereka karena penolakan itu.', s:'HR. Al-Bukhari', g:'shahih'},
-{c:'Ketegasan dari orang yang paling lembut', x:'Umar sendiri semula tidak setuju, lalu mengakui bahwa Allah telah melapangkan dada Abu Bakar untuk keputusan itu — dan ia tahu itulah yang benar.<br><br>Perang Riddah menyelamatkan kesatuan Jazirah. Kelembutan Abu Bakar tak pernah berarti lemah pada prinsip.'},
-{q:'Warisan mana dari kekhalifahannya yang ingin kau telusuri?', o:[
-  {l:'Keputusan mengumpulkan Al-Qur’an', to:'ab6_quran'},
-  {l:'Kesederhanaannya sebagai penguasa', to:'ab6_zuhud'}
+{n:'Kekuasaan tak mengubah hidupnya. Sebelum menjadi khalifah, ia biasa memerah susu kambing milik tetangga. Ketika ia diangkat, seorang gadis kecil menyangka kebiasaan itu akan berhenti — tetapi Abu Bakar tetap memerahkannya seperti biasa.', s:'Riwayat sejarah', g:'sirah'},
+{n:'Ia mula-mula tetap berdagang untuk menafkahi keluarganya, sampai para sahabat memintanya mengambil tunjangan secukupnya dari kas negara agar bisa fokus mengurus umat.', s:'Riwayat sejarah', g:'sirah'},
+{a:'Pemimpin sebuah negara yang sedang lahir, tetapi masih memerah susu kambing tetangga. Kekuasaan baginya beban yang diemban, bukan hadiah yang dinikmati.'},
+{q:'Apa yang paling menonjol dari cara Abu Bakar memimpin?', o:[
+  {l:'Prinsip ketaatan yang bersyarat', to:'ab6_prinsip'},
+  {l:'Kesederhanaannya sebagai penguasa', to:'ab6_sederhana'}
 ]},
-{k:'ab6_quran', n:'Dalam Perang Yamamah, banyak penghafal Al-Qur’an gugur. Umar cemas dan mendesak agar Al-Qur’an dikumpulkan dalam satu mushaf. Abu Bakar mula-mula ragu — “bagaimana aku melakukan yang tidak dilakukan Nabi?” — lalu Allah melapangkan dadanya.', s:'HR. Al-Bukhari', g:'shahih'},
-{n:'Ia menugaskan Zaid bin Tsabit menghimpunnya dengan sangat hati-hati. Dari langkah inilah teks yang kita baca hari ini mulai terkumpul dalam satu naskah resmi.', s:'HR. Al-Bukhari', g:'shahih'},
+{k:'ab6_prinsip', n:'Dengan membuka dirinya untuk dikoreksi, Abu Bakar meletakkan fondasi bahwa pemimpin bukan penguasa mutlak, melainkan pelaksana amanah yang tunduk pada hukum yang sama. Gagasan ini jauh mendahului zamannya.'},
 {j:'ab6_g'},
-{k:'ab6_zuhud', n:'Sebagai khalifah, ia semula tetap berdagang untuk menafkahi keluarganya, sampai diminta mengambil tunjangan secukupnya agar bisa fokus mengurus umat. Menjelang wafat, ia berpesan agar tunjangan yang pernah ia terima dikembalikan dari hartanya.', s:'Riwayat sejarah', g:'sirah'},
+{k:'ab6_sederhana', n:'Ia menolak menjadikan jabatan sebagai tangga kekayaan. Hidupnya nyaris tak berubah — pakaian sederhana, rumah sederhana — karena ia menganggap harta umat sebagai titipan, bukan miliknya.'},
 {j:'ab6_g'},
-{k:'ab6_g', n:'Kekhalifahannya hanya sekitar dua tahun. Ia jatuh sakit, lalu bermusyawarah dan menunjuk Umar sebagai penggantinya — memilih yang paling mampu, bukan yang paling dekat.', s:'Ath-Thabari', g:'sirah'},
-{n:'Ia wafat pada tahun 13 Hijriah dan dimakamkan di samping Nabi — persis seperti hidupnya: selalu di sisi beliau, dalam bayangannya.', s:'Riwayat sejarah', g:'sirah'},
-{a:'Dari pedagang jujur menjadi orang yang menjaga umat tetap satu setelah Nabi tiada. Sepanjang jalan, hanya satu kata yang ia pegang: benar.'}
+{k:'ab6_g', n:'Namun kepemimpinan yang tenang itu segera diuji. Belum genap negara ini berdiri, sebuah badai besar datang mengancam meruntuhkan segalanya dalam hitungan bulan.'}
+]},
+
+{id:7, glyph:'د', yr:'632', years:'632 – 633 M · 11 H', title:'Badai Kemurtadan',
+blurb:'Sepeninggal Nabi, Jazirah nyaris berkeping — kabilah menolak zakat, nabi-nabi palsu bangkit. Yang paling lembut justru paling tegas.',
+nodes:[
+{n:'Wafatnya Nabi ﷺ mengguncang seluruh Jazirah. Banyak kabilah menolak membayar zakat, sebagian murtad total, dan beberapa orang bangkit mengaku sebagai nabi. Dalam hitungan bulan, seluruh bangunan bisa runtuh.', s:'Ath-Thabari', g:'sirah'},
+{n:'Sebagian sahabat menyarankan bersikap lunak — terima shalat mereka, tunda soal zakat — demi menjaga persatuan yang rapuh. Abu Bakar menolak dengan tegas.'},
+{r:'Abu Bakar Ash-Shiddiq r.a.', x:'Demi Allah, seandainya mereka menolak menyerahkan seekor anak kambing yang dulu mereka tunaikan kepada Rasulullah, sungguh akan kuperangi mereka karena penolakan itu.', s:'HR. Al-Bukhari', g:'shahih'},
+{c:'Ketegasan dari orang yang paling lembut', x:'Umar sendiri semula tidak setuju, lalu mengakui bahwa Allah telah melapangkan dada Abu Bakar untuk keputusan itu — dan ia tahu itulah yang benar.<br><br>Ini bukan soal seekor kambing, melainkan soal keutuhan agama: memisahkan shalat dari zakat berarti membongkar Islam sepotong demi sepotong.'},
+{n:'Nabi-nabi palsu bermunculan: Musailamah al-Kadzdzab di Yamamah, Thulaihah di kalangan Bani Asad, dan Sajah dari arah timur. Wilayah demi wilayah ikut memberontak.', s:'Ath-Thabari', g:'sirah'},
+{n:'Abu Bakar menyusun sebelas pasukan dan mengirim mereka ke berbagai penjuru. Panglima andalannya, Khalid bin Al-Walid, memimpin pertempuran demi pertempuran. Puncaknya adalah Perang Yamamah melawan Musailamah — sangat sengit, dan banyak sahabat penghafal Al-Qur’an gugur di sana.', s:'Ath-Thabari', g:'sirah'},
+{c:'Bulan-bulan yang menyelamatkan segalanya', x:'Andai Abu Bakar goyah di titik ini, Islam mungkin pecah menjadi serpihan kabilah yang saling lepas.<br><br>Ketegasannya selama Perang Riddah, kurang dari dua tahun, mengembalikan kesatuan Jazirah — dan menjadi fondasi bagi segala yang datang sesudahnya.'},
+{q:'Apa yang ingin kau dalami dari badai ini?', o:[
+  {l:'Mengapa ia begitu tegas soal zakat', to:'ab7_zakat'},
+  {l:'Harga yang dibayar di Yamamah', to:'ab7_yamamah'}
+]},
+{k:'ab7_zakat', n:'Bagi Abu Bakar, zakat bukan sekadar pungutan, melainkan rukun yang tak terpisahkan dari shalat. Membiarkannya gugur berarti membuka pintu bagi runtuhnya rukun-rukun lain. Ia mempertahankan keutuhan agama, bukan sekadar kepatuhan administratif.'},
+{j:'ab7_g'},
+{k:'ab7_yamamah', n:'Kemenangan di Yamamah mahal harganya: ratusan gugur, termasuk banyak yang hafal Al-Qur’an. Kepergian mereka menyalakan kecemasan baru — bagaimana menjaga Al-Qur’an bila para penjaganya berkurang? Dari luka inilah lahir gagasan besar berikutnya.'},
+{j:'ab7_g'},
+{k:'ab7_g', n:'Badai reda. Jazirah kembali satu. Tetapi Yamamah meninggalkan satu pertanyaan yang tak bisa ditunda: bagaimana memastikan Kalam yang mereka bela tetap terjaga utuh?'}
+]},
+
+{id:8, glyph:'ذ', yr:'633', years:'633 – 634 M · 12 – 13 H', title:'Menjaga Kalam & Membuka Cakrawala',
+blurb:'Dua warisan dari dua tahun: Al-Qur’an dihimpun dalam satu naskah, dan pasukan dilepas menembus perbatasan dunia.',
+nodes:[
+{n:'Gugurnya banyak penghafal di Yamamah membuat Umar cemas. Ia mendesak Abu Bakar agar Al-Qur’an dikumpulkan dalam satu naskah sebelum semakin banyak penghafal yang wafat.', s:'HR. Al-Bukhari', g:'shahih'},
+{n:'Abu Bakar mula-mula ragu: “Bagaimana aku melakukan sesuatu yang tidak dilakukan Rasulullah ﷺ?” Namun setelah berpikir, Allah melapangkan dadanya, dan ia melihat kebaikan besar dalam usulan itu.', s:'HR. Al-Bukhari', g:'shahih'},
+{n:'Ia menugaskan Zaid bin Tsabit — penulis wahyu — untuk menghimpunnya dengan sangat hati-hati, mencocokkan hafalan dengan catatan tertulis. Naskah pertama itu lalu disimpan, diwariskan kepada Umar, kemudian kepada Hafshah.', s:'HR. Al-Bukhari', g:'shahih'},
+{c:'Menyelamatkan teks demi menyelamatkan umat', x:'Naskah resmi pertama inilah yang kelak menjadi dasar ketika Utsman menyeragamkan mushaf ke seluruh penjuru.<br><br>Satu keputusan tenang di masa krisis menjaga agar Al-Qur’an tetap utuh sepanjang zaman — sebuah rantai penjagaan yang bermula dari keberanian Abu Bakar.'},
+{n:'Di tengah kekacauan awal, ada satu perintah Nabi yang belum tuntas: pasukan pimpinan Usamah bin Zaid yang masih sangat muda, yang disiapkan menuju perbatasan Romawi. Banyak yang menyarankan menundanya karena Madinah sedang genting.'},
+{r:'Abu Bakar Ash-Shiddiq r.a.', x:'Tidak akan kubiarkan pasukan yang telah diberangkatkan Rasulullah ﷺ untuk kutahan. Sekalipun aku diseret binatang buas, aku tetap akan mengirim Usamah.', s:'Ath-Thabari', g:'sirah'},
+{n:'Ia pun melepas pasukan Usamah — menuntaskan perintah Nabi — lalu membuka front-front baru: mengirim Khalid ke arah Irak (Persia) dan pasukan ke Syam (Romawi). Penaklukan besar yang kelak diselesaikan para penggantinya, dimulai di tangannya.', s:'Ath-Thabari', g:'sirah'},
+{q:'Warisan mana yang ingin kau telusuri?', o:[
+  {l:'Penghimpunan Al-Qur’an', to:'ab8_quran'},
+  {l:'Usamah dan pembukaan perbatasan', to:'ab8_futuh'}
+]},
+{k:'ab8_quran', n:'Ia menjaga yang paling berharga: Kalam Allah. Dari satu naskah yang dihimpun hati-hati di masanya, lahir kepastian bahwa yang dibaca umat hari ini adalah yang sama dengan yang diturunkan.'},
+{j:'ab8_g'},
+{k:'ab8_futuh', n:'Dengan bersikeras mengirim Usamah, ia menegaskan bahwa perintah Nabi tidak batal hanya karena keadaan sulit. Dan dengan membuka front Irak dan Syam, ia meletakkan batu pertama bagi perluasan yang mengubah wajah dunia.'},
+{j:'ab8_g'},
+{k:'ab8_g', n:'Dalam waktu sesingkat itu, ia menyelamatkan Kalam ke dalam dan melepas panji ke luar. Tugasnya hampir paripurna — dan tubuhnya mulai lelah.'}
+]},
+
+{id:9, glyph:'ر', yr:'634', years:'634 M · 13 H', title:'Pergi ke Sisi Sahabatnya',
+blurb:'Setelah dua tahun yang menentukan, ia memilih pengganti terbaik, mengembalikan gajinya, dan pergi menyusul sahabatnya.',
+nodes:[
+{n:'Setelah sekitar dua tahun memimpin, Abu Bakar jatuh sakit. Ia merasa ajalnya dekat, dan pikirannya tertuju pada satu hal: jangan sampai umat kembali terpecah sepeninggalnya.'},
+{n:'Ia bermusyawarah dengan para sahabat senior, lalu menunjuk Umar sebagai penggantinya. Sebagian khawatir Umar terlalu keras; Abu Bakar menenangkan mereka bahwa beban tanggung jawab akan melunakkan ketegasan Umar. Ia memilih yang paling mampu, bukan yang paling dekat.', s:'Ath-Thabari', g:'sirah'},
+{n:'Ia teringat tunjangan yang pernah ia ambil dari kas negara, dan berpesan agar sebidang tanahnya dijual untuk mengembalikan seluruhnya — ia tak ingin menghadap Tuhannya dengan membawa sedikit pun harta umat.', s:'Riwayat sejarah', g:'sirah'},
+{r:'Abu Bakar Ash-Shiddiq r.a.', x:'Aku berharap aku hanyalah sebatang pohon di pinggir jalan yang buahnya dimakan, lalu ia ditinggalkan.', s:'Atsar', g:'sirah'},
+{c:'Takut yang menjaga', x:'Kalimat itu bukan basa-basi. Orang yang memegang kuasa terbesar di Jazirah justru berharap menjadi sesuatu yang tak dihisab.<br><br>Rasa takut akan pertanggungjawaban itulah yang menjaga kekuasaannya tetap bersih dari awal sampai akhir.'},
+{n:'Ia wafat pada tahun 13 Hijriah, dalam usia sekitar enam puluh tiga tahun — sama dengan usia Nabi ﷺ ketika wafat — dan dimakamkan tepat di samping beliau.', s:'Riwayat sejarah', g:'sirah'},
+{q:'Apa yang paling membekas darimu tentang akhir hayat Abu Bakar?', o:[
+  {l:'Pilihannya menunjuk Umar', to:'ab9_umar'},
+  {l:'Kerendahan hatinya sampai akhir', to:'ab9_tawadhu'}
+]},
+{k:'ab9_umar', n:'Dengan menunjuk pengganti melalui musyawarah, ia menyelamatkan umat dari kekosongan dan perebutan kekuasaan. Ia mendahulukan kemaslahatan umat di atas perasaan dan kedekatan — konsisten dengan seluruh hidupnya.'},
+{j:'ab9_g'},
+{k:'ab9_tawadhu', n:'Sampai napas terakhir, ia tak merasa berhak atas apa pun dari umat. Mengembalikan gaji, berandai menjadi pohon tak berarti, dimakamkan tanpa kemegahan — ia pergi seringan ia datang.'},
+{j:'ab9_g'},
+{k:'ab9_g', n:'Dua tahun yang menentukan nasib sebuah agama, dijalani oleh seorang yang tak pernah menginginkan kursinya. Ia dimakamkan di sisi sahabat yang paling ia cintai — persis seperti hidupnya: selalu di belakang Nabi, dalam bayangannya.'},
+{a:'Dari pedagang jujur, menjadi sahabat di gua, menjadi orang yang menjaga umat tetap satu — dan menutup semuanya dengan satu kata yang ia pegang sejak awal: benar.'}
 ]}
 ];
 
@@ -158,7 +222,10 @@ const AB_META_EN = [
 {title:'Al-Siddiq', years:'c. 620 CE · Makkah', blurb:'When others turned back at the Night Journey, he staked his name on a single word — and earned it.'},
 {title:'The Second of Two', years:'622 CE · The Hijra', blurb:'The one the Qur’an calls “his companion” in the cave — who wept with joy to be led into danger.'},
 {title:'In the Prophet’s Shadow', years:'622–632 CE · Madinah', blurb:'The quiet counsellor who, on the hardest day, became the steadiest man in the city.'},
-{title:'The Caliph', years:'632–634 CE · 11–13 AH', blurb:'Two years that held Arabia together — the war over withheld charity, and the first gathering of the Qur’an.'}
+{title:'The Heavy Trust', years:'632 CE · 11 AH', blurb:'Chosen to lead against his will — he set the rule that obedience to a ruler is conditional, and lived as plainly as his people.'},
+{title:'The Storm of Apostasy', years:'632–633 CE · 11 AH', blurb:'After the Prophet, Arabia nearly shattered — tribes withheld zakat, false prophets rose. The gentlest man was the firmest.'},
+{title:'Guarding the Word, Opening Horizons', years:'633–634 CE · 12–13 AH', blurb:'Two legacies from two years: the Qur’an gathered into one manuscript, and armies released across the world’s frontiers.'},
+{title:'Departing to His Friend’s Side', years:'634 CE · 13 AH', blurb:'After two decisive years, he chose the best successor, repaid his salary, and went to follow his friend.'}
 ];
 
 const AB_TRANS_EN = [
@@ -253,6 +320,11 @@ null,
 {n:'In Madinah, Abu Bakr never sought the spotlight. He was present at Badr, Uhud, and nearly every great event — but his role was more often the calm counsellor than the conspicuous hero.'},
 {n:'At Hudaybiyyah, when many companions were troubled by a treaty that felt like a loss, Abu Bakr calmed them with the same logic as the Prophet: submit to God and His Messenger, even when the heart does not yet understand.', s:'al-Bukhari', g:'shahih'},
 {n:'His closeness was acknowledged directly. The Prophet said that were he to take an intimate friend (khalil) other than his Lord, it would be Abu Bakr — but the brotherhood of Islam was already more than enough.', s:'al-Bukhari', g:'shahih'},
+{n:'A vile slander once struck his daughter ‘A’ishah — the Prophet’s ﷺ wife — a false accusation that shook Madinah for a month. Among those who spread it was Mistah, a poor relative whom Abu Bakr had been supporting. After God revealed verses clearing ‘A’ishah’s name, Abu Bakr swore he would never again spend on Mistah.', s:'al-Bukhari', g:'shahih'},
+{ay:'وَلَا يَأْتَلِ أُولُو الْفَضْلِ مِنكُمْ وَالسَّعَةِ أَن يُؤْتُوا أُولِي الْقُرْبَىٰ وَالْمَسَاكِينَ وَالْمُهَاجِرِينَ فِي سَبِيلِ اللَّهِ ۖ وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ',
+ m:'“And let not those of virtue and abundance among you swear not to give to their relatives, the needy, and the emigrants for the cause of God. Let them pardon and overlook. Would you not love that God should forgive you? And God is Forgiving, Merciful.”',
+ s:'Qur’an, al-Nur: 22', qref:1},
+{n:'Hearing the verse, Abu Bakr said at once, “Yes, by God, I love that God should forgive me.” He restored his support to Mistah as before, resolving never to cut it off again. Told to forgive, he forgave on the spot.', s:'al-Bukhari', g:'shahih'},
 {n:'Then came the Prophet’s final illness. When he could no longer lead the prayer, he commanded one name to take his place before the congregation: Abu Bakr.', s:'al-Bukhari; Muslim', g:'shahih'},
 {c:'An unspoken signal', x:'‘A’ishah tried to have the task shifted, fearing her father — who wept easily — could not hold up leading. The Prophet kept his choice, and even repeated it.<br><br>Many companions later read this command as a signal: whoever is fit to lead the prayer is fit to be considered to lead the community.'},
 {n:'Then the Prophet died. The city shook. ‘Umar stood and threatened anyone who dared say he had passed; he could not accept it.'},
@@ -274,30 +346,83 @@ null,
 ],
 /* ── Bab 6 ── */
 [
-{n:'At Saqifah Bani Sa‘idah, the Ansar and the Muhajirun nearly split over leadership. Abu Bakr defused it not by claiming a right, but by recalling unity. The community then pledged allegiance to him as the first caliph.', s:'al-Tabari', g:'sirah'},
-{n:'His first address as leader turned the very idea of power on its head for his age.'},
+{n:'Before the Prophet’s ﷺ body was even buried, at Saqifah Bani Sa‘idah the Ansar and Muhajirun nearly split over who would lead. Abu Bakr defused it not by claiming a right, but by recalling unity. The community then pledged allegiance to him as the first caliph.', s:'al-Tabari', g:'sirah'},
+{n:'He took the trust with reluctance, not joy. His first address as leader turned the very idea of power on its head for his age.'},
 {r:'Abu Bakr al-Siddiq (r.a.)', x:'I have been placed over you, though I am not the best of you. If I do well, help me; if I go astray, set me straight. Obey me so long as I obey God and His Messenger; if I disobey them, you owe me no obedience.', s:'al-Tabari', g:'sirah'},
 {c:'Power that may be corrected', x:'Notice his words: the community’s highest leader opens himself to correction by the people, and states that obedience is conditional — only so long as he obeys God.<br><br>This is not mere personal humility; it asserts a principle: there is no absolute obedience to any creature.'},
-{n:'His first test came fast and hard. After the Prophet’s death, some tribes refused to pay zakat — some even apostatised. Many companions advised leniency to preserve unity.'},
-{n:'Abu Bakr — the gentle one — was the firmest of all. He swore to fight anyone who separated prayer from zakat.', s:'al-Bukhari', g:'shahih'},
-{r:'Abu Bakr al-Siddiq (r.a.)', x:'By God, if they withhold from me even a young she-goat they used to render to the Messenger of God, I will fight them for withholding it.', s:'al-Bukhari', g:'shahih'},
-{c:'Firmness from the gentlest of men', x:'‘Umar himself first disagreed, then acknowledged that God had opened Abu Bakr’s heart to the decision — and he knew it was right.<br><br>The Ridda wars saved the unity of Arabia. Abu Bakr’s gentleness never meant weakness on principle.'},
-{q:'Which legacy of his caliphate do you want to trace?', o:[
-  'The decision to gather the Qur’an',
+{n:'Power did not change his life. Before becoming caliph, he used to milk the goats of his neighbours. When he was appointed, a little girl feared the habit would stop — but Abu Bakr kept milking them just as before.', s:'Historical account', g:'sirah'},
+{n:'At first he kept trading to support his family, until the companions asked him to take a modest stipend from the treasury so he could focus on the community.', s:'Historical account', g:'sirah'},
+{a:'The leader of a state being born, still milking his neighbours’ goats. To him, power was a burden shouldered, not a prize enjoyed.'},
+{q:'What stands out most about how Abu Bakr led?', o:[
+  'The principle of conditional obedience',
   'His simplicity as a ruler'
 ]},
-{n:'At the Battle of Yamamah, many who had memorised the Qur’an fell. ‘Umar, alarmed, urged that the Qur’an be gathered into one codex. Abu Bakr at first hesitated — “how can I do what the Prophet did not?” — then God opened his heart.', s:'al-Bukhari', g:'shahih'},
-{n:'He entrusted Zayd ibn Thabit to gather it with utmost care. From this step, the text we read today began to be collected into one official manuscript.', s:'al-Bukhari', g:'shahih'},
+{n:'By opening himself to correction, Abu Bakr laid the foundation that a leader is no absolute ruler but a trustee bound by the same law. The idea was far ahead of its age.'},
 null,
-{n:'As caliph, he at first kept trading to support his family, until he was asked to take a modest stipend so he could focus on the community. Near death, he directed that the stipend he had received be repaid from his own estate.', s:'Historical account', g:'sirah'},
+{n:'He refused to make office a ladder to wealth. His life barely changed — simple clothes, a simple home — because he regarded the community’s wealth as a deposit, not his own.'},
 null,
-{n:'His caliphate lasted only about two years. He fell ill, then consulted and appointed ‘Umar as his successor — choosing the most capable, not the closest.', s:'al-Tabari', g:'sirah'},
-{n:'He died in the year 13 AH and was buried beside the Prophet — exactly like his life: always at his side, in his shadow.', s:'Historical account', g:'sirah'},
-{a:'From an honest merchant to the man who held the community together after the Prophet was gone. All along the way, he held to a single word: true.'}
+{n:'Yet that calm leadership was soon tested. Before the state had even settled, a great storm came, threatening to bring it all down within months.'}
+],
+/* ── Bab 7 ── */
+[
+{n:'The Prophet’s ﷺ death shook the whole peninsula. Many tribes refused to pay zakat, some apostatised entirely, and several men rose claiming prophethood. Within months, the whole edifice could collapse.', s:'al-Tabari', g:'sirah'},
+{n:'Some companions advised leniency — accept their prayer, defer the zakat question — to preserve a fragile unity. Abu Bakr firmly refused.'},
+{r:'Abu Bakr al-Siddiq (r.a.)', x:'By God, if they withhold from me even a young she-goat they used to render to the Messenger of God, I will fight them for withholding it.', s:'al-Bukhari', g:'shahih'},
+{c:'Firmness from the gentlest of men', x:'‘Umar himself first disagreed, then acknowledged that God had opened Abu Bakr’s heart to the decision — and he knew it was right.<br><br>This was not about a goat, but about the wholeness of the religion: to split prayer from zakat is to dismantle Islam piece by piece.'},
+{n:'False prophets arose: Musaylimah the Liar in Yamamah, Tulayhah among Banu Asad, and Sajah from the east. Region after region joined the revolt.', s:'al-Tabari', g:'sirah'},
+{n:'Abu Bakr organised eleven columns and sent them in every direction. His foremost general, Khalid ibn al-Walid, led battle after battle. The climax was the Battle of Yamamah against Musaylimah — ferocious, and many companions who had memorised the Qur’an fell there.', s:'al-Tabari', g:'sirah'},
+{c:'The months that saved everything', x:'Had Abu Bakr wavered at this point, Islam might have fractured into loose, warring tribes.<br><br>His firmness during the Ridda wars — in under two years — restored the unity of Arabia, and became the foundation for all that came after.'},
+{q:'What do you want to explore from this storm?', o:[
+  'Why he was so firm about zakat',
+  'The price paid at Yamamah'
+]},
+{n:'For Abu Bakr, zakat was no mere levy but a pillar inseparable from prayer. To let it fall was to open the door to the collapse of the other pillars. He was defending the integrity of the religion, not mere administrative compliance.'},
+null,
+{n:'Victory at Yamamah came at a heavy price: hundreds fell, including many who had memorised the Qur’an. Their loss lit a new anxiety — how to preserve the Qur’an as its guardians dwindled? From this wound the next great idea was born.'},
+null,
+{n:'The storm subsided. Arabia was one again. But Yamamah left a question that could not wait: how to ensure the Word they had defended stayed perfectly preserved?'}
+],
+/* ── Bab 8 ── */
+[
+{n:'The fall of so many memorisers at Yamamah alarmed ‘Umar. He urged Abu Bakr to gather the Qur’an into one manuscript before still more of its bearers passed away.', s:'al-Bukhari', g:'shahih'},
+{n:'Abu Bakr at first hesitated: “How can I do something the Messenger of God ﷺ did not do?” But after reflection, God opened his heart, and he saw the great good in the proposal.', s:'al-Bukhari', g:'shahih'},
+{n:'He entrusted Zayd ibn Thabit — a scribe of revelation — to gather it with utmost care, matching memorisation against written record. That first manuscript was then kept, passed to ‘Umar, and then to Hafsah.', s:'al-Bukhari', g:'shahih'},
+{c:'Saving the text to save the ummah', x:'This first official manuscript would later become the basis when ‘Uthman standardised the codex across the lands.<br><br>One calm decision in a time of crisis kept the Qur’an intact for all time — a chain of preservation that began with Abu Bakr’s courage.'},
+{n:'Amid the early chaos, one command of the Prophet remained unfinished: the army under the very young Usamah ibn Zayd, prepared for the Byzantine frontier. Many advised delaying it while Madinah was in danger.'},
+{r:'Abu Bakr al-Siddiq (r.a.)', x:'I will not hold back an army the Messenger of God ﷺ had already sent forth. Even if the wild beasts were to drag me away, I would still send Usamah.', s:'al-Tabari', g:'sirah'},
+{n:'So he dispatched Usamah’s army — completing the Prophet’s command — then opened new fronts: sending Khalid toward Iraq (Persia) and armies toward the Levant (Byzantium). The great conquests his successors would finish began in his hands.', s:'al-Tabari', g:'sirah'},
+{q:'Which legacy do you want to trace?', o:[
+  'The gathering of the Qur’an',
+  'Usamah and the opening of the frontiers'
+]},
+{n:'He guarded the most precious thing: the Word of God. From one carefully gathered manuscript in his time came the certainty that what the ummah reads today is the same as what was revealed.'},
+null,
+{n:'By insisting on sending Usamah, he affirmed that the Prophet’s command is not annulled merely by hard circumstances. And by opening the fronts of Iraq and the Levant, he laid the first stone of an expansion that would change the face of the world.'},
+null,
+{n:'In so short a time, he saved the Word within and released the banners without. His task was nearly complete — and his body began to tire.'}
+],
+/* ── Bab 9 ── */
+[
+{n:'After about two years of leadership, Abu Bakr fell ill. He felt his end was near, and his mind turned to one thing: that the community must not split again after him.'},
+{n:'He consulted the senior companions, then appointed ‘Umar as his successor. Some feared ‘Umar was too harsh; Abu Bakr reassured them that the weight of responsibility would soften ‘Umar’s severity. He chose the most capable, not the closest.', s:'al-Tabari', g:'sirah'},
+{n:'He remembered the stipend he had taken from the treasury, and directed that a plot of his land be sold to repay all of it — he would not meet his Lord carrying even a little of the community’s wealth.', s:'Historical account', g:'sirah'},
+{r:'Abu Bakr al-Siddiq (r.a.)', x:'I wish I were only a tree by the roadside, whose fruit is eaten and then it is left behind.', s:'Athar', g:'sirah'},
+{c:'A fear that guards', x:'Those words were no jest. The man who held the greatest power in Arabia wished instead to be something never called to account.<br><br>It was that dread of the reckoning that kept his rule clean from beginning to end.'},
+{n:'He died in the year 13 AH, at about sixty-three — the same age as the Prophet ﷺ at his death — and was buried right beside him.', s:'Historical account', g:'sirah'},
+{q:'What stays with you most about the end of Abu Bakr’s life?', o:[
+  'His choice of ‘Umar',
+  'His humility to the very end'
+]},
+{n:'By appointing a successor through consultation, he saved the community from a vacuum and a struggle for power. He put the community’s welfare above feeling and closeness — consistent with his entire life.'},
+null,
+{n:'To his last breath, he felt entitled to nothing from the ummah. Repaying his stipend, wishing to be an unremembered tree, buried without pomp — he left as lightly as he came.'},
+null,
+{n:'Two years that decided the fate of a religion, carried by a man who never wanted its seat. He was buried beside the friend he loved most — exactly like his life: always behind the Prophet, in his shadow.'},
+{a:'From an honest merchant, to the companion in the cave, to the man who held the community together — and he sealed it all with the single word he had held from the start: true.'}
 ]
 ];
 
-const AB_SCENES = ['mecca','mecca','ascent','cave','madinah','interior'];
+const AB_SCENES = ['mecca','mecca','ascent','cave','madinah','madinah','battlefield','interior','interior'];
 
 /* ============================================================
    UMAR BIN KHATTAB (AL-FARUQ) — kronik lengkap (dwibahasa)
