@@ -14,6 +14,8 @@ assets/js/data/
   scenes.js           ← suasana WebGL per bab             →  global: MOODS, CHAPTER_SCENES
   story-khulafa.js    ← kronik 4 Khalifah (ID+EN)        →  global: KHULAFA_TRACKS
   stories.js          ← daftar semua cerita               →  global: STORIES
+assets/js/
+  illus.js            ← ilustrasi SVG per bab (indeks ci) →  global: ILLUSTRATIONS
 ```
 
 ---
@@ -267,12 +269,67 @@ Nilai yang tersedia: `'mecca'`, `'desert'`, `'cave'`, `'mountains'`, `'ascent'`,
 
 ---
 
+## Aturan Kronologi — Menjaga Cerita Tetap Runtut
+
+**Prinsip inti: cerita dikelompokkan berdasarkan WAKTU, bukan berdasarkan tokoh atau tema.** Urutan bab pada tiap track wajib mengikuti garis waktu dari awal ke akhir (Sirah: 570 → 632 M; tiap Khalifah: dari kelahiran → wafat). Pembaca menyusuri satu garis waktu — jangan sampai peristiwa tahun 624 muncul sebelum peristiwa tahun 615.
+
+### Urutan bab ditentukan oleh `ci`, bukan `id`
+
+- `id` bersifat **permanen** (dipakai untuk memilih MOODS & membuat aria-label) dan **boleh loncat** — mis. `id:14` disisipkan di antara `id:5` dan `id:6`.
+- Yang menentukan urutan tampil di rail & Peta Waktu adalah **posisi array (`ci`)**. Karena itu **bab baru sering disisipkan di TENGAH array, bukan di akhir**, tepat pada titik tahun yang sesuai.
+- `yr`/`years` harus jujur: bab di `ci` tertentu harus punya tahun yang cocok dengan tetangganya (bab sebelum ≤ bab ini ≤ bab sesudah).
+
+### Bab lebar-tahun: boleh *event-grouped*, HINDARI *person-grouped*
+
+- **Event-grouped (boleh):** satu bab berpusat pada SATU peristiwa, boleh punya epilog wajar ("bertahun-tahun kemudian…"). Bab tetap diletakkan di tahun peristiwa utamanya. Contoh: "Hijrah ke Habasyah" berpusat di 615 M dengan epilog opsional soal kepulangan Ja'far.
+- **Person-grouped (hindari):** satu bab yang mengumpulkan SEMUA peristiwa seorang tokoh lintas belasan tahun lalu dipin ke satu tahun. Ini merusak keruntutan — kematian tokoh (mis. 624) bisa muncul sebelum bab-bab 615–622.
+
+### Tokoh/benang merah lintas waktu → SEBAR, jangan dibuatkan bab sendiri
+
+Jika satu tokoh atau tema muncul di banyak periode (mis. Abu Lahab, Khalid bin Walid, peran Umar di masa Nabi), **jangan buat bab biografi tunggal**. Sebar detailnya ke bab-bab yang sudah mencakup tahun tiap peristiwa: perkenalan → bab periode awal; puncak → bab periode itu; kematian/akhir → bab periode akhir. Contoh:
+- **Abu Lahab:** kedekatan + Al-Masad (613) → Bab "Yang Ditindas"; kematian pasca-Badar (624) → Bab "Perang".
+- **Khalid bin Walid:** musuh di Uhud (625) → Bab "Perang"; "Pedang Allah" di Mu'tah (629) → Bab "Antara Perjanjian"; penakluk + Bani Jadzimah (630) → Bab "Ketika Kuasa".
+
+### Menambah detail ke bab yang sudah ada (cara paling disarankan)
+
+Lebih sering, "menambah cerita" = **menambah node ke bab yang tahunnya sudah sesuai**, bukan bikin bab baru:
+- Sisipkan node pada **posisi kronologis di dalam bab** (peristiwa lebih awal di atas). Jangan menaruh peristiwa 624 sebelum 613 dalam satu bab.
+- **Setiap node ID wajib punya pasangan EN di indeks yang sama** (lihat [Terjemahan Inggris](#terjemahan-inggris)). Sisipkan di kedua file pada titik yang sama.
+- Node di dalam cabang tetap harus kronologis; jangan pindahkan peristiwa ke cabang yang salah tahun.
+
+### Satu pengecualian yang disengaja
+
+Bab tematik **"Yang Jarang Naik Mimbar"** memang lintas-waktu (dikelompokkan per tema). Ia diletakkan di AKHIR sebagai "ruang tematik" — itu disengaja, bukan pelanggaran aturan ini.
+
+### Menyisipkan bab di tengah → semua array ber-`ci` harus ikut
+
+Menyisipkan bab di `ci` tertentu menggeser `ci` semua bab sesudahnya. Sisipkan entri baru di **indeks yang sama** pada SEMUA array ber-`ci`: `content.id.js` (`CH`/array tokoh), `content.en.js` (`CH_TRANSLATIONS.en`), `strings.js` (`CH_META_EN`), `scenes.js` (`CHAPTER_SCENES`), dan `illus.js` (`ILLUSTRATIONS`). `MOODS` dikunci oleh `id` (bukan `ci`) — cukup tambah key `id` baru, tak perlu digeser.
+
+### Validasi wajib setelah tiap perubahan kronologi/konten
+
+```
+node --check <file>            # sintaks tiap file yang diubah
+# lalu (eval bundel dengan let/const→var) pastikan:
+#   CH.length === CH_TRANSLATIONS.en.length === CH_META_EN.length === CHAPTER_SCENES.length === ILLUSTRATIONS.length
+#   untuk tiap ci:  CH[ci].nodes.length === CH_TRANSLATIONS.en[ci].length            (alignment ID↔EN)
+#   Khulafa:        track.chapters[ci].nodes.length === track.transEn[ci].length
+#   percabangan: penanda {k} unik per bab; semua {j} & pilihan {to} menuju penanda yang ada
+#   urutan tahun: yr tiap bab menaik sesuai ci (kecuali bab tematik di akhir)
+```
+
+---
+
 ## Menambah Bab Sirah
 
-1. **`content.id.js`** — tambahkan `CH.push({...})` di akhir file.
-2. **`content.en.js`** — tambahkan sub-array terjemahan ke `CH_TRANSLATIONS.en` (posisi terakhir).
-3. **`strings.js`** — tambahkan entri ke `CH_META_EN` (posisi terakhir).
-4. **`scenes.js`** — tambahkan `id` ke `MOODS` dan string ke `CHAPTER_SCENES`.
+> Tentukan dulu **tahun** bab, lalu **posisi kronologis (`ci`)**-nya di antara bab yang ada (lihat [Aturan Kronologi](#aturan-kronologi--menjaga-cerita-tetap-runtut)). Sisipkan di titik itu — **sering di tengah, bukan di akhir**. Pakai `id` baru yang belum dipakai (permanen untuk MOODS; boleh tak berurutan). Jika hanya **menambah detail** ke periode yang sudah ada, jangan buat bab baru — tambahkan node ke bab yang tahunnya sesuai (ID + EN di indeks sama).
+
+Sisipkan entri pada **indeks `ci` yang sama** di kelima tempat:
+
+1. **`content.id.js`** — objek bab lengkap ke `CH` (di posisi kronologis).
+2. **`content.en.js`** — sub-array terjemahan ke `CH_TRANSLATIONS.en`.
+3. **`strings.js`** — entri metadata ke `CH_META_EN`.
+4. **`scenes.js`** — string latar ke `CHAPTER_SCENES` (indeks `ci`) **dan** entri suasana ke `MOODS` (key `id`).
+5. **`illus.js`** — SVG ilustrasi ke `ILLUSTRATIONS` (indeks `ci`).
 
 ---
 
@@ -288,6 +345,8 @@ Setiap tokoh punya array bab sendiri di `story-khulafa.js`:
 | Ali bin Abi Thalib | `AL_CH` | `'ali'` |
 
 Setiap array bab tokoh **punya `id` sendiri mulai dari 1** (bukan lanjutan Sirah).
+
+> Kronologi juga berlaku di sini: garis waktu tiap Khalifah harus runtut dari kelahiran → wafat. Bab baru disisipkan di **posisi `ci` yang sesuai tahun** (sering di tengah array, bukan selalu di akhir), dan tiap array paralel (`*_CH`, `*_TRANS_EN`, `*_META_EN`, `*_SCENES`) disisipi di **indeks yang sama**. Untuk menambah *detail* satu peristiwa, lebih baik tambahkan node ke bab yang tahunnya sudah sesuai (ID + EN di indeks sama) daripada membuat bab baru. Lihat [Aturan Kronologi](#aturan-kronologi--menjaga-cerita-tetap-runtut).
 
 Untuk menambah bab:
 1. Push objek bab baru ke array yang sesuai (`AB_CH.push({...})`).
