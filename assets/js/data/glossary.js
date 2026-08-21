@@ -9,6 +9,9 @@ var Glossary = (function(){
      Keys are matched case-insensitively, word-boundary-aware.
      Sort by length desc so longer matches (e.g. "ahlul kitab") win over sub-terms. */
   var TERMS = {
+    /* ── Kata Ganti & Gelar ── */
+    'beliau'       : ['Kata ganti orang ketiga penghormatan dalam Sirah ini selalu merujuk kepada Rasulullah ﷺ, kecuali disebutkan nama tokoh lain sebelumnya', 'In this Sirah, the honorific third-person pronoun always refers to the Prophet ﷺ unless another person was explicitly named before it'],
+
     /* ── Sosial & Suku ── */
     'kabilah'      : ['Klan atau suku Arab yang diikat oleh garis keturunan bersama; unit sosial terkecil sebelum negara', 'An Arab tribe or clan bound by common lineage — the primary social unit of pre-Islamic Arabia'],
     'kafilah'      : ['Rombongan pedagang atau musafir yang bepergian bersama melintasi gurun untuk keamanan', 'A merchant or travel caravan crossing the desert together for mutual safety'],

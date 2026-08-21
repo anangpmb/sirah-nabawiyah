@@ -126,6 +126,71 @@ null,
 {m:'"Indeed, you do not guide whom you love. But Allah guides whom He wills."'},
 {c:'The limits of a prophet\'s power', x:'This verse was revealed in connection with Abu Talib, according to al-Bukhari no. 4772. Its meaning is stark: <strong>even the Prophet could not place guidance into the heart of the one he loved most.</strong><br><br>If he himself could not, then no one after him has any greater authority. Whoever thinks they have the right to force belief onto another person is claiming a power never given to the Messenger of Allah himself.'}
 ],
+/* ── CH 17 · The Uncle Who Turned Away ── */
+[
+{n:'You have just left one uncle at the threshold of death — Abu Talib, who protected his nephew to his last breath without ever pronouncing the testimony of faith. But Abdul-Muttalib had many sons, and not every uncle stood on the same side. One of them turned away entirely.'},
+{n:'His name was Abdul-\'Uzza ibn Abdul-Muttalib. His house shared a wall with his nephew\'s in Makkah. Yet history hardly ever records his real name — he is remembered by a nickname: <em>Abu Lahab</em>, "father of the flame," said to come from his handsome, reddish, glowing face.'},
+{c:'A name the Quran did not use', x:'His real name, Abdul-\'Uzza, means "servant of (the idol) \'Uzza." The Quran named him not by that, but by his nickname, <em>Abu Lahab</em> — and the choice carries an echo: "father of the flame" sits directly beside the threat of <em>naran dhata lahab</em>, "a fire full of flame."<br><br>He is also the only contemporary enemy condemned by his personal title within revelation — while he was still alive and still able to refute it.'},
+{n:'Before the prophethood, these two families were bound by more than being neighbours. Two of Abu Lahab\'s sons — \'Utbah and \'Utaibah — were married to two of Muhammad\'s daughters: Ruqayyah and Umm Kulthum. They were in-laws. That close.'},
+{n:'Even the news of Muhammad\'s birth, the accounts say, once brought Abu Lahab joy. The one who carried the news was Thuwaybah, his slave woman; out of gladness he freed her. Thuwaybah then became one of those who nursed the infant in his earliest days.'},
+{c:'A sip of water every Monday', x:'There is a well-known report — recorded by al-Bukhari in <em>mu\'allaq</em> form (mentioned without a connected chain) from \'Urwah — that Abu Lahab was seen in someone\'s dream after his death, in a wretched state, yet saying that every Monday his punishment was eased: he was given a sip of water from the hollow of his fingers, because on a Monday he had once freed Thuwaybah, who brought the news of Muhammad\'s birth.<br><br>Its status is mursal, and scholars differ over it — some read it as a sign that even the smallest kindness toward the Messenger is not wasted, others withhold judgement because the chain is broken. It is shown here as it is, not as a basis for law.'},
+{n:'Then revelation came. And everything that had bound the two families — the shared wall, the marriage ties, the joy over a birth — was tested by a single question: is blood stronger than truth?'},
+{a:'We tend to assume the closest person will be the first defender. This story rejects that assumption from its very first page.'},
+{n:'You have already witnessed the moment on Mount Safa: when Muhammad gathered his kin and delivered his warning, it was this uncle who first shouted him down and broke up the gathering.'},
+{n:'"Tabban laka sa\'ira al-yawm! A-li-hadha jama\'tana?" — <em>May you perish all day long! Is it for this you gathered us?</em> So Abu Lahab shouted, before the entire clan.'},
+{m:'"Perish the two hands of Abu Lahab, and perish he. His wealth and what he earned will avail him nothing. He will burn in a fire full of flame. And his wife — carrier of firewood. Around her neck a rope of twisted fibre."'},
+{c:'A curse that threw back his own words', x:'Abu Lahab said "<em>tabban laka</em>" — may you perish. The revelation opened with "<em>tabbat yada abi lahab</em>" — perish the two hands of Abu Lahab. The word he hurled was returned precisely to him.<br><br>But there is something sharper: this surah is a <strong>prophecy</strong>. It declared that Abu Lahab would die in disbelief — years before he actually died. Had he wished to "break" the Quran, it would have cost him only to pretend, once, to accept Islam. He never did. Revelation staked itself on a living name — and won.'},
+{n:'His wife, Umm Jamil bint Harb — sister of Abu Sufyan — is named in the surah as the "carrier of firewood." Accounts say she scattered thorns and thorny branches along the path Muhammad usually walked, in the dark of night.'},
+{n:'At Abu Lahab\'s insistence, his two sons divorced Ruqayyah and Umm Kulthum — before the marriages were ever truly consummated. The once-close in-law bond was severed almost overnight. Ruqayyah was later married to Uthman ibn Affan, and emigrated with him to Abyssinia.'},
+{q:'From here, you can follow two threads:', o:['How far did he pursue his nephew?','How did his life end?']},
+
+{n:'During the pilgrimage season, when the Arab tribes gathered at the markets of \'Ukaz and Dhu al-Majaz, Muhammad went from tent to tent offering Islam. And there was one man who always followed close behind him, whispering to everyone not to believe.'},
+{r:'Rabi\'ah ibn \'Ibad ad-Dili r.a.', x:'"I saw the Messenger of Allah ﷺ at the market of Dhu al-Majaz calling the people... and behind him was a cross-eyed man with a bright face and two braids, saying: \'O people, do not obey him, he is a liar!\' I asked, who is that? They said: his own uncle, Abu Lahab."'},
+{c:'An enemy who knew exactly who you were', x:'Slander from a stranger is easy to brush aside. Slander from a blood-uncle carries a different weight: "if his own family rejects him, surely something is wrong with him." It was precisely that closeness that was turned into a weapon.<br><br>The Prophet ﷺ faced not mere rejection, but rejection that used the good name of his own family as a tool to bring him down.'},
+null,
+
+{n:'Abu Lahab did not go out to Badr; he paid a man to take his place. When word of the crushing Quraysh defeat reached Makkah, it struck him hard. Only a few days later his body was seized by a vicious sore they called \'adasah — a disease they feared as contagious as a plague.'},
+{n:'He died in isolation. Accounts say his corpse was left for two or three days until it stank, because no one dared touch it. In the end they doused it with water from a distance, pushed the body into a corner, and buried it under stones.'},
+{c:'Two uncles, two deaths', x:'Abu Talib died while protecting, without believing — and the Prophet ﷺ grieved for him. Abu Lahab died neither protecting nor believing — abandoned even by his own sons.<br><br>Both shared the same blood as the Prophet, and that blood saved neither of them. The dividing line was not lineage, but faith.'},
+null,
+
+null,
+{n:'Two brothers. Two uncles of the same man. Both had once carried the same infant and watched the same revelation descend upon their city. One gave all his protection without ever pronouncing the testimony of faith; the other withdrew all his affection and replaced it with enmity until death.'},
+{a:'Closeness before the prophethood, it turns out, guaranteed nothing. And enmity from the closest of kin stopped nothing either.'},
+{c:'What cannot be inherited', x:'If there is one lesson written large by the story of Abu Lahab, it is simple and severe at once: <strong>faith does not flow through blood.</strong> The Quran named a blood-uncle of the Prophet among the condemned precisely to shut that door tight — no lineage, not even the lineage of prophethood, can be a shortcut.<br><br>Every person stands alone before their own choice. Even the neighbour who shares your wall must still choose.'}
+],
+/* ── CH 14 · Emigration to Abyssinia ── */
+[
+{n:'Year five of the prophethood. The pressure in Makkah had exceeded what could be endured. The Prophet did not ask his followers to hide or hold out. He told them to leave.'},
+{n:'Their destination: Abyssinia, across the Red Sea. A Christian kingdom in East Africa, under a king known by the title Negus — from Ge\'ez: meaning king.'},
+{m:'"If you were to go to the land of Abyssinia — there is a king there beside whom no one is wronged. It is a land of truthfulness — until God grants you relief from what you face."'},
+{n:'The first group left in secret: eleven men and four women. They boarded a ship at the port of Shu\'aybah and crossed the Red Sea. This was the first migration in Islam — long before the famous one to Madinah.'},
+{a:'They went to a kingdom they did not know, with a king who might not receive them. Their only assurance: the word of the Prophet that no one is wronged in that king\'s presence.'},
+{n:'A year later came word that conditions in Makkah had improved. Some returned — only to find the news was wrong — and had to cross again. The second group was far larger: eighty-three men, including Ja\'far ibn Abi Talib, the Prophet\'s cousin.'},
+{n:'The Quraysh sent their two most capable envoys: Amr ibn al-As and Abdullah ibn Abi Rabi\'a. They brought expensive gifts for the bishops and the Negus. Strategy: bribe the religious leaders first, then approach the king. Goal: bring those people back.'},
+{n:'Before the Negus, Amr spoke first: those people had abandoned the religion of their ancestors and followed neither Christianity nor the king\'s faith. The Negus summoned the Muslims. Ja\'far ibn Abi Talib rose.'},
+{n:'He did not speak as a defendant pleading for mercy. He spoke as a witness reporting facts.'},
+{r:'Umm Salama r.a.', x:'"Ja\'far said: O King, we were once a people of ignorance — worshipping idols, eating carrion, cutting family ties, and the strong preying on the weak. Until God sent us a messenger from among ourselves, whose lineage, truthfulness, and trustworthiness we knew. He told us to worship God alone and to leave the stones we had worshipped."'},
+{n:'The Negus asked them to recite something from the revelation their prophet had brought. Ja\'far recited the opening of the chapter of Mary.'},
+{m:'"And mention in the Book the story of Mary — when she withdrew from her family to a place toward the east. We sent to her Our spirit, who appeared before her in the form of a well-formed man."'},
+{n:'The Negus and his bishops listened. When Ja\'far finished, the Negus wept — tears soaking his beard. The bishops wept too, until their scrolls were dampened.'},
+{r:'Umm Salama r.a.', x:'"By God, Jesus son of Mary does not exceed this" — and he placed his staff on the ground — "welcome to you and to the one from whom you have come." He refused the Quraysh envoys\' gifts and guaranteed the safety of the Muslims. Amr ibn al-As left empty-handed.'},
+
+{q:'Two things about this event are rarely examined in depth. Which would you like to explore?', o:['Why did Ja\'far choose Surah Mary — and not another surah?','How long did they stay in Abyssinia, and what happened next?']},
+
+{n:'Ja\'far did not choose the chapter of Mary by accident. Before a Christian king, he recited the surah that speaks of Mary — a woman honoured in the Gospel — and of Jesus born without a father. Not because it was the only surah he knew.'},
+{c:'Mary as a bridge across faiths', x:'Ja\'far\'s strategy holds a principle that has outlasted the event by more than a millennium: <em>dialogue begins from common ground, not from points of conflict.</em> He did not open with "your religion is wrong" or "your idols are false." He opened with: here is what we believe about someone you also honour.<br><br>From that shared ground, the difference could be stated clearly: Islam does not regard Jesus as God, but as a prophet born from a noble woman. That difference moved a king to tears — not because it was stated harshly, but because it was stated beautifully.'},
+null,
+
+{n:'Some Muslims stayed in Abyssinia for nearly twelve years. Not as temporary refugees — some built lives there. Children were born. A small community formed far from their homeland.'},
+{n:'Among them was Ja\'far ibn Abi Talib himself, who only returned to Madinah after the Battle of Khaybar. The Prophet ﷺ was overjoyed when he arrived: he did not know which made him happier — the victory of Khaybar or the return of Ja\'far.'},
+{c:'When the Negus died — the Prophet prayed over him', x:'When news of the Negus\'s death reached Madinah, the Prophet ﷺ led a funeral prayer for him in absentia — the first such prayer in Islamic history (al-Bukhari no. 1327; Muslim no. 951).<br><br>The Negus, according to most scholars, never formally converted to Islam. He was a Christian king who acted with justice. And the Prophet ﷺ led his funeral prayer.<br><br>What that means for a person\'s ultimate standing has been debated for fourteen centuries. But the Prophet\'s action itself is unambiguous: a person\'s justice does not disappear behind the religious identity they inherited.'},
+null,
+
+null,
+{n:'Abyssinia taught something that would become a pattern in Islamic history: truth and justice are not monopolised by one community. A Christian king protected persecuted Muslims — not because he converted, but because justice precedes identity.'},
+{n:'And for the Muslims who lived for years under the protection of a king of different faith: they learned that faith can be preserved in a foreign land, that protection can come from an unexpected direction, and that trust is rightly given to whoever truly deserves it.'}
+],
 /* ── CH 6 · Year of Sorrow ── */
 [
 {n:'The boycott ended, but the bodies of the two most important people in his life were already too frail. Within the space of a few months, Abu Talib died, then Khadijah died.'},
@@ -218,6 +283,36 @@ null,
 null,
 {n:'For two years, the city grew. But Makkah did not forget. The wealth of the Muhajirun there had been confiscated, and a great confrontation was only waiting for the right time.'}
 ],
+/* ── CH 15 · Building Madinah ── */
+[
+{n:'The mosque stood. The charter was written. But a city is more than buildings and documents — it is the shared rhythms of daily life. The first two years in Madinah were the most institutionally dense in early Islamic history.'},
+{n:'First: how to gather people for prayer? At first they simply reminded each other. Some suggested ringing a bell like the Christians. Some suggested a horn like the Jews. Both were rejected. Then a companion had a dream.'},
+{r:'Abdullah ibn Zayd al-Ansari r.a.', x:'I saw in a dream a man carrying a bell. I asked him to sell it to me — I wanted to use it to call people to prayer. He said: shall I teach you something better than that? Then he taught me the words of the adhan.'},
+{n:'The Prophet ﷺ confirmed the dream and had the words taught to Bilal. Bilal — who had the strongest and most resonant voice — climbed to the rooftop and gave the first call to prayer in Islamic history.'},
+{c:'Who was chosen as the first caller', x:'Bilal ibn Rabah was a formerly enslaved man from Africa, tortured by his enslaver for refusing to return to polytheism, then freed by Abu Bakr. Of all the people in Madinah at that time, he was chosen to be the first voice of Islam calling people to prayer.<br><br>This was not a choice made for lack of alternatives. It was a statement about who is valued in this new community.'},
+{n:'For seventeen months they had prayed facing Bayt al-Maqdis in Jerusalem. Then on a day in Sha\'ban in the second year of the Hijra, in the middle of the Dhuhr prayer, revelation came.'},
+{m:'"We see you turning your face toward the sky. We will surely direct you to a qibla that you will be pleased with — so turn your face toward the Sacred Mosque."'},
+{c:'The qibla changed mid-prayer', x:'The well-known account states that when this revelation came during the prayer, he turned to face Makkah — and the entire congregation turned with him, mid-prayer (al-Bukhari no. 399–400).<br><br>The mosque where this occurred, the Mosque of Bani Salama, has since been called Masjid al-Qiblatain — the Mosque of the Two Qiblas. This raised a question: what is the status of prayers performed over the previous seventeen months? Scholars answer: valid, since they followed the command in effect at the time.'},
+{n:'In the same month, in the same year, came the command to fast the entire month of Ramadan.'},
+{m:'"O you who believe, fasting has been prescribed for you as it was prescribed for those before you, that you may be conscious of God."'},
+{n:'On the economic side, Madinah\'s markets at the time were dominated by certain groups who charged rent for stalls. The Prophet ﷺ opened a new market on land belonging to no one, with no rent and no taxes.'},
+
+{q:'Two aspects of this period are often overlooked. Which would you like to understand?', o:['How did this community sustain itself economically?','How did their early relationship with the Jewish tribes work?']},
+
+{n:'The Muhajirun arrived in Madinah without wealth — everything was left behind or seized in Makkah. The Ansar shared generously, but that was not a long-term solution. What followed was a series of careful steps.'},
+{n:'The Prophet ﷺ walked through the new market saying: "This is your market. Let no one constrict it and let no payment be taken." The result: traders among both the Muhajirun and Ansar had equal access, without debt or dependence on anyone.'},
+{c:'Public infrastructure as social policy', x:'A free market on open land was a public-infrastructure investment in the seventh century. Abdurrahman ibn Awf, who had declined direct assistance from the Ansar and asked only to be shown the market, was self-sufficient within months. His capital was not money — it was skill and the newly available access.<br><br>The Prophet did not organize the economy from above with complex regulation, but by removing the most basic barrier: market access.'},
+null,
+
+{n:'In this early phase, relations with the Jewish tribes ran normally. The Madinah Charter had included them as one community alongside the Muslims, with equal rights and obligations in the city\'s defense.'},
+{n:'Some companions even learned Hebrew on the Prophet\'s instruction, to facilitate communication and read incoming correspondence. Markets ran together. Credit transactions between communities were routine.'},
+{c:'What changed later', x:'Tension did not arise from the first day. It developed slowly, through a series of events: the victory of Badr demonstrated Muslim military capacity; the balance of economics and politics began to shift; and some figures — not all — began quietly assisting the Quraysh.<br><br>The Madinah Charter contained a clause permitting expulsion of those who violated the agreement. Its later application to Bani Qaynuqa, Bani al-Nadir, and Bani Qurayza was an application of that clause — not a cancellation of its original pluralism.<br><br>This history is often told as a religious conflict. Most historians evaluate it more accurately as a political and interest-based conflict, with religion as an identity marker rather than the primary cause.'},
+null,
+
+null,
+{n:'The first two years moved at a remarkable pace: mosque, brotherhood, charter, market, adhan, qibla, fasting. Institution after institution arose not from theory but from real needs addressed one by one.'},
+{n:'The city grew. But Makkah did not forget. The first confrontation was already at the door.'}
+],
 /* ── CH 10 · War, Defeat, Treaty ── */
 [
 {n:'At Badr, in the second year after the Hijra, around three hundred faced a thousand. Before the battle, something occurred that determined the entire Islamic approach to decision-making.'},
@@ -231,6 +326,7 @@ null,
 {q:'A year later came Uhud. What decision would you like to see there?', o:['When the Prophet was outvoted in consultation','When he was about to curse his enemies']},
 {n:'His opinion: defend from within the city. The majority opinion, especially the young men who had missed Badr: go out to meet the enemy. He followed the majority.'},
 {n:'When some of them later regretted it and offered to defer to his opinion, he refused — because the armor was already on, and a decision once made is not rescinded simply because people grew uncertain.'},
+{n:'At first the Muslims had the upper hand, and the Quraysh lines fell back. But the archers stationed on the hill — ordered not to leave their posts no matter what happened — saw the enemy flee and came down to gather the spoils. The army\'s rear lay open. Khalid ibn al-Walid, then still commanding the Quraysh cavalry, rode around the hill from behind and charged through the now-unguarded gap. The victory reversed within minutes.'},
 {n:'Uhud ended in defeat. Seventy companions fell, including Hamzah. His teeth were broken and his face was wounded. That consultation, by its outcome, proved to be wrong.'},
 {n:'Then the following verse came down — after that defeat, not before it.'},
 {m:'"So by mercy from Allah you were lenient with them. And if you had been rude and hard-hearted, they would have dispersed from around you. So pardon them, ask forgiveness for them, and consult them in the matter."'},
@@ -256,6 +352,36 @@ null,
 {m:'"Set out in the name of Allah... do not kill the aged and frail, nor an infant, nor a child, nor a woman; and do not betray the war spoils."'},
 {c:'Rules of war that preceded their time', x:'These prohibitions were issued centuries before the Geneva Conventions: non-combatants must not be touched, trees must not be cut down, houses of worship and their occupants must not be disturbed, corpses must not be mutilated, and war spoils must not be misappropriated.<br><br>That there are parties today who violate these rules while claiming to follow him is a separate problem — but the text is unambiguous, and it is fourteen centuries old.'}
 ],
+/* ── CH 16 · Between Treaty and Victory ── */
+[
+{n:'The Treaty of Hudaybiyya had just been signed. Ten years of ceasefire. Some companions saw it as a humiliation. He saw it as time.'},
+{n:'The first move he made was not to prepare for the next war. He dictated letters.'},
+{n:'Six letters were sent in close succession: to Heraclius, Emperor of Byzantium; to Khosrow Parviz, King of Persia; to the Muqawqis, ruler of Egypt; to the Negus of Abyssinia; and to the rulers of Bahrain, Oman, and Yemen. All contained an invitation to Islam.'},
+{r:'Ibn Abbas r.a.', x:'Heraclius gathered the Byzantine nobles and read the letter aloud. He questioned Abu Sufyan — who was trading in Syria at the time — about Muhammad\'s character. Abu Sufyan acknowledged: he had never lied, he commanded prayer and virtue, and his followers kept growing. Heraclius said: "If what you say is true, then he will surely come to possess the ground beneath my two feet."'},
+{c:'The kings\' responses', x:'The Negus received the letter warmly. The Muqawqis sent diplomatic gifts — the Prophet accepted the gifts even though Muqawqis did not immediately embrace Islam.<br><br>Khosrow tore the letter apart. When news reached the Prophet, he said: "God will tear apart his kingdom." The Sasanid Empire did indeed collapse within a few decades — from within, not from Muslim conquest.<br><br>Heraclius, according to a narration of disputed grade, personally came close to embracing Islam but retreated under pressure from his nobles.'},
+{n:'In the same year, three of the most unexpected people entered Islam: Khalid ibn al-Walid — the general who had led the flanking attack at Uhud that turned Muslim victory into defeat; Amr ibn al-As — the skilled diplomat who had once tried to have the Muslim refugees returned from Abyssinia; and Uthman ibn Talhah — the keeper of the Ka\'bah.'},
+{r:'Khalid ibn al-Walid r.a.', x:'When I came to the Prophet ﷺ and said the testimony of faith, I said: "O Messenger of God, seek forgiveness for my sins." He replied: "O Khalid, Islam wipes away everything that came before it."'},
+{n:'In the eighth year of the Hijra, three thousand Muslim soldiers were sent north to respond to the killing of the Prophet\'s envoy in the region of Mu\'tah, on the Byzantine frontier. They met roughly one hundred thousand combined Byzantine and Christian Arab forces.'},
+{n:'Three commanders fell in succession: Zayd ibn Haritha, then Ja\'far ibn Abi Talib — whose arms were severed while holding the banner, and who held it with his chest before he fell — then Abdullah ibn Rawaha. Khalid, who had recently entered Islam, took command.'},
+{m:'"...until the banner was taken up by a sword from the swords of God, and God granted them victory." — the Prophet ﷺ speaking of Khalid; from that day he was known as Sayfullah, the Sword of God.'},
+{c:'The Battle of Mu\'tah — first encounter with Byzantium', x:'Mu\'tah was not a victory. But it was not a rout either — Khalid managed to withdraw the force intact, changing formations repeatedly through the night to give the impression that fresh troops kept arriving.<br><br>The Prophet ﷺ in Madinah described the fall of all three commanders to the companions before the official news arrived. When Khalid returned and some called him a "runaway," the Prophet answered: "Not a runaway. He who saves by withdrawing."<br><br>Mu\'tah introduced Islam to the Byzantine world as a force capable of fighting — and Khalid as a name that would echo through the military records of two civilizations.'},
+
+{q:'Near the end of this period, two things happened almost simultaneously. Which would you like to follow?', o:['How was the Hudaybiyya ceasefire ultimately broken?','What happened with Abu Sufyan on the eve of the conquest?']},
+
+{n:'Hudaybiyya had divided the Arab tribes into two camps: those allied with the Quraysh and those allied with Madinah. Bani Bakr chose the Quraysh side; Bani Khuza\'a chose Madinah.'},
+{n:'In the eighth year of the Hijra, Bani Bakr attacked Bani Khuza\'a at night — with weapons and support from members of the Quraysh themselves. This was a blatant violation of the treaty.'},
+{n:'Representatives of Bani Khuza\'a brought their complaint directly to Madinah. The Prophet said: <em>"I will not be helped if I do not help you."</em> Preparations began — in total secrecy lasting several weeks.'},
+null,
+
+{n:'Abu Sufyan ibn Harb, supreme leader of the Quraysh, realized his side had broken the treaty. He rushed to Madinah to renew it. He approached Abu Bakr — refused. He approached Umar — refused. Then he went to his own daughter, Umm Habiba, a wife of the Prophet ﷺ.'},
+{n:'When Abu Sufyan went to sit on the Prophet\'s mat, Umm Habiba folded it away. Her father asked: is the mat too noble for him, or is he too unclean for it? She replied calmly: "This is the mat of the Messenger of God. And you are a polytheist."'},
+{c:'The architect of resistance who came to plead', x:'Abu Sufyan had designed almost every Qurayshi military campaign against Madinah: Uhud, the Trench, and numerous smaller raids. For nearly two decades he was the face of organized opposition to Islam.<br><br>When he finally entered Islam at the gates of Makkah, moments before the city fell without a battle, the Prophet announced: "Whoever enters the house of Abu Sufyan is safe." The home of his most persistent enemy became a place of sanctuary.<br><br>This was not naivety — Abu Sufyan had entered Islam only hours earlier. It was long-range calculation: giving someone a stake in the stability of the new order, even a former enemy.'},
+null,
+
+null,
+{n:'The ten-year ceasefire lasted less than two years. Its breach by the Quraysh gave the Prophet ﷺ a legitimate — and treaty-legal — ground to end it. Ten thousand soldiers moved north in total secrecy.'},
+{n:'War did not happen. Or more precisely: the war that had lasted two decades was ended by the absence of a major battle. The next chapter is about what happens when a long-warring city finally surrenders.'}
+],
 /* ── CH 11 · When Power Is in Your Hands ── */
 [
 {n:'The Quraysh violated the ceasefire by helping their allies attack a Madinah ally. He moved with ten thousand men. Makkah had no strength to resist.'},
@@ -265,10 +391,12 @@ null,
 {m:'"Today is the day of mercy."'},
 {n:'The operational orders he issued were almost entirely restraining: whoever enters his home and closes the door is safe; whoever enters Masjid al-Haram is safe; whoever enters the house of Abu Sufyan is safe.'},
 {a:'The house of Abu Sufyan. The commander who led the armies at Uhud and Khandaq. His house was made a safe zone.'},
+{n:'The army entered from four directions. Three columns passed through the city without resistance. Only Khalid ibn al-Walid\'s column, entering from the lower part of Makkah, was confronted by a band of die-hard Quraysh led by \'Ikrimah ibn Abi Jahl and Safwan ibn Umayyah. That brief clash was the only bloodshed on a day of conquest almost without a battle.'},
 {n:'He stood before the Ka\'bah, in front of the people who had expelled him, and asked what they thought he would do to them. They replied: a noble brother, son of a noble brother. He then quoted the words of Prophet Yusuf to the brothers who had thrown him into the well.'},
 {m:'"No blame will there be upon you today. Allah will forgive you; and He is the most merciful of the merciful."'},
 {n:'Then: "Go, you are free."'},
 {c:'A general amnesty, not a conditional pardon', x:'No mass trials, no long lists of executions, no confiscation of property. Hind bint \'Utbah, who had mutilated the body of Hamzah, lived. Wahshi, who had killed him, lived. \'Ikrimah ibn Abi Jahl, Abu Sufyan, Safwan ibn Umayyah — all lived.<br><br>The true test of character is not when someone is powerless. It comes when someone <strong>can retaliate and chooses not to</strong>.'},
+{c:'When the Prophet disowned the act of his own commander', x:'A few weeks after the conquest, Khalid ibn al-Walid was sent to the Bani Jadhima — to invite them to Islam, not to fight. The tribe surrendered, but not being fluent they said <em>shaba\'na</em> (we have left our old religion) instead of <em>aslamna</em> (we have embraced Islam). Khalid misread it, took them captive, and had some of the prisoners killed.<br><br>When the news reached him, the Prophet ﷺ raised both hands and said twice: <em>Allahumma inni abra\'u ilayka mimma sana\'a Khalid</em> — O God, I disown before You what Khalid has done. He then sent \'Ali with wealth to pay the blood-money — down to replacing even the watering troughs of their dogs.<br><br>Khalid remained a commander. His error did not erase his service, and his service did not cover his error. Both were recorded as they were — even the greatest can err, and still be held to account.'},
 {q:'There was one more decision that day — subtler, but sharper.', o:['Show me']},
 {n:'The key to the Ka\'bah had been held hereditarily by the Bani Shaybah family. The holder at that time, \'Uthman ibn Talhah, had previously refused to open the door for him before the Hijra and had treated him harshly.'},
 {n:'After the city fell, the key was taken. His uncle Abbas and \'Ali requested that the guardianship of the Ka\'bah be transferred to the Prophet\'s family — a completely reasonable political request.'},

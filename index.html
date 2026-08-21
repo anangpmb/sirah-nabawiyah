@@ -27,7 +27,7 @@
 <main id="stage">
   <div id="plate" tabindex="0" role="button" aria-label="Lanjutkan">
     <div id="scroll">
-      <div class="speaker" id="sp"><i class="dot"></i><span id="spn">Narator</span></div>
+      <div class="speaker" id="sp"><i class="dot"></i><span id="spn">Narator</span><span id="subjBadge" class="subj-badge" aria-live="polite"></span></div>
       <div id="body"></div>
       <div id="refs"></div>
       <div id="choices"></div>
@@ -36,6 +36,7 @@
       <span id="hint" data-i18n="hint">Ketuk atau tekan <b>Spasi</b></span>
       <span class="right">
         <button class="ctl-b" id="bBack" data-i18n="btnBack">Kembali</button>
+        <button class="ctl-b" id="bLog" data-i18n="btnLog">Naskah</button>
         <button class="ctl-b" id="bMap" data-i18n="btnMap">Peta Waktu</button>
         <button class="ctl-b" id="bRef" data-i18n="btnRef">Rujukan</button>
       </span>
@@ -56,6 +57,13 @@
   <p class="small" data-i18n="noteP1">Penomoran hadis berbeda antar-cetakan (Fathul Bari, Al-'Alamiyah, Abdul Baqi). Nomor di sini adalah penunjuk untuk pencarian, bukan patokan mutlak — telusuri lafalnya, bukan hanya angkanya.</p>
   <p class="small" data-i18n="noteP2">Label <b>SIRAH</b> berarti riwayat itu bersumber dari kitab sejarah (Ibnu Ishaq, Ibnu Hisyam, Ath-Thabari) yang tidak memakai standar isnad sekeras kitab hadis. Label <b>DHAIF</b> ditampilkan apa adanya, bukan disembunyikan — sebagian ulama membolehkannya untuk fadhail a'mal, sebagian menolak. Anda berhak tahu.</p>
   <p class="small" data-i18n="noteP3">Media ini alat belajar, bukan pengganti guru. Verifikasi ke kitab aslinya dan tanyakan pada ahlinya.</p>
+</div></div>
+
+<div class="sheet" id="shLog"><button class="x" data-close>✕</button><div class="sheet-in">
+  <h2 data-i18n="logTitle">Naskah Bab</h2><div class="sub" id="logSub">—</div>
+  <p class="small log-tip" data-i18n="logTip">Ketuk bagian mana pun untuk membacanya ulang di layar cerita.</p>
+  <div id="logNav" aria-label="Pilih bab"></div>
+  <div id="logList"></div>
 </div></div>
 
 <div class="sheet" id="shSelect"><button class="x" data-close>✕</button><div class="sheet-in">

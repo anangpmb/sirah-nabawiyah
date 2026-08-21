@@ -179,7 +179,34 @@ const ILLUSTRATIONS = (() => {
       + ground('M0,548 Q500,528 1000,548 L1000,600 L0,600 Z')
     + close,
 
-    /* 5 · Dakwah Terbuka — figure on height, crowd below */
+    /* 5 · Paman yang Berpaling — caller on the hill, a crowd, a lone figure amid flames */
+    open
+      + glow(560,410,340,210,'rgba(232,107,76,0.16)','g17')
+      + crescent(842,72,32,'cr17')
+      + stars([120,70,2],[262,48,1.8],[402,66,2.2],[600,44,2],[720,86,2])
+      + mountain(430,168,470,404)
+      + person(430,316,60)
+      + peeps([[150,506],[196,512],[242,506],[300,510],[344,514],[392,508]],46)
+      + '<path d="M712,512 Q694,468 712,438 Q719,466 734,449 Q747,477 738,506 Z" fill="rgba(232,107,76,0.55)"/>'
+      + '<path d="M760,512 Q746,480 760,452 Q766,472 779,459 Q790,483 781,507 Z" fill="rgba(232,192,96,0.5)"/>'
+      + '<path d="M735,512 Q724,486 735,466 Q740,480 749,470 Q757,488 750,508 Z" fill="rgba(255,150,90,0.4)"/>'
+      + person(738,508,50)
+      + ground('M0,538 Q500,518 1000,538 L1000,600 L0,600 Z')
+    + close,
+
+    /* 6 · Hijrah ke Habasyah — dhow at sea, crescent, refugees */
+    open
+      + crescent(162,88,32,'cr14')
+      + stars([322,58,2],[502,40,1.8],[682,72,2.2],[842,54,2],[180,120,1.8],[760,110,1.8])
+      + glow(700,380,200,130,'rgba(138,188,240,0.18)','g14')
+      + waves(442)
+      + ship(382,328,200,90)
+      + ship(710,352,162,72)
+      + peeps([[285,452],[318,456],[352,452],[385,456],[418,452]],42)
+      + ground('M0,548 Q500,530 1000,548 L1000,600 L0,600 Z')
+    + close,
+
+    /* 6 · Dakwah Terbuka — figure on height, crowd below */
     open
       + crescent(842,68,35,'cr5')
       + glow(500,380,320,200,'rgba(200,160,60,0.13)','g5')
@@ -230,7 +257,20 @@ const ILLUSTRATIONS = (() => {
       + ground('M0,522 Q250,505 500,518 Q750,505 1000,518 L1000,600 L0,600 Z')
     + close,
 
-    /* 9 · Membangun Madinah — mosque, workers, palms */
+    /* 10 · Membangun Madinah — mosque under construction, workers */
+    open
+      + crescent(802,68,36,'cr15')
+      + stars([102,62,2],[212,42,1.8],[548,50,2])
+      + glow(490,380,280,180,'rgba(128,208,160,0.15)','g15')
+      + mosque(490,480,340,230)
+      + '<path d="M188,298 L178,452 L204,452 Z M178,316 Q156,328 150,352 Q178,364 204,352 Q222,328 204,316 Z" fill="' + S + '"/>'
+      + '<path d="M790,318 L780,452 L806,452 Z M780,336 Q758,348 752,372 Q780,384 806,372 Q824,348 806,336 Z" fill="' + S + '"/>'
+      + peeps([[228,492],[265,492],[302,492]],50)
+      + peeps([[672,492],[709,492],[746,492]],50)
+      + ground('M0,538 Q500,518 1000,538 L1000,600 L0,600 Z')
+    + close,
+
+    /* 11 · Membangun Madinah — mosque, workers, palms */
     open
       + crescent(802,68,36,'cr9')
       + stars([102,62,2],[212,42,1.8],[376,72,2.2],[622,50,2])
@@ -242,7 +282,20 @@ const ILLUSTRATIONS = (() => {
       + ground('M0,538 Q500,518 1000,538 L1000,600 L0,600 Z')
     + close,
 
-    /* 10 · Perang Badr — two armies face each other */
+    /* 12 · Antara Perjanjian — caravans, emissaries, desert horizon */
+    open
+      + glow(900,340,220,140,'rgba(255,203,107,0.22)','g16')
+      + crescent(110,78,30,'cr16')
+      + stars([280,55,2],[450,38,2.2],[630,62,1.8],[800,48,2])
+      + mountain(880,290,280,312)
+      + camel(88,480,0.85)  + person(135,462,42)
+      + camel(262,480,0.85) + person(308,462,42)
+      + camel(438,480,0.85) + person(484,462,42)
+      + camel(614,480,0.85) + person(660,462,42)
+      + ground('M0,522 Q250,505 500,518 Q750,505 1000,518 L1000,600 L0,600 Z')
+    + close,
+
+    /* 13 · Perang Badr — two armies face each other */
     open
       + glow(500,552,380,120,'rgba(196,83,74,0.20)','g10')
       + stars([202,68,1.8],[402,45,2],[622,62,2])

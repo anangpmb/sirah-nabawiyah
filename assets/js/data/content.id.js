@@ -63,8 +63,9 @@ nodes:[
 CH.push({
 id:2, glyph:'ب', yr:'570', years:'570 – 582 M', title:'Yatim di Padang',
 blurb:'Kehilangan ayah, ibu, dan kakek sebelum usia delapan. Lalu bertahun-tahun menggembala kambing dengan upah.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
-{n:'Ia lahir pada hari Senin di bulan Rabiul Awal. Kita tahu harinya bukan dari perayaan, melainkan dari jawaban singkat beliau bertahun-tahun kemudian saat ditanya mengapa berpuasa di hari Senin.'},
+{n:'Ia lahir pada hari Senin di bulan Rabiul Awal. Kita tahu harinya bukan dari perayaan, melainkan dari jawaban singkat beliau bertahun-tahun kemudian saat ditanya mengapa berpuasa di hari Senin.', subj:'Rasulullah ﷺ'},
 {sb:'ذَاكَ يَوْمٌ وُلِدْتُ فِيهِ، وَيَوْمٌ بُعِثْتُ — أَوْ أُنْزِلَ عَلَيَّ فِيهِ',
  m:'“Itu hari aku dilahirkan, dan hari aku diutus — atau hari diturunkan wahyu kepadaku.”',
  s:'HR. Muslim no. 1162', g:'shahih'},
@@ -108,9 +109,10 @@ nodes:[
 CH.push({
 id:3, glyph:'ج', yr:'595', years:'c. 595 – 610 M', title:'Al-Amin',
 blurb:'Reputasi yang dibangun sebelum ada klaim apa pun. Sebuah pakta membela orang tertindas. Dan sebuah solusi cerdik yang mencegah perang saudara.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
-{n:'Khadijah binti Khuwailid adalah pengusaha kafilah paling berhasil di Mekah. Ia mempekerjakan Muhammad untuk membawa dagangannya ke Syam. Laporan pelayannya, Maisarah, membuat ia mengambil keputusan yang tidak biasa bagi perempuan zaman itu: ia mengajukan lamaran lebih dulu.'},
-{n:'Mereka menikah. Beliau berusia dua puluh lima tahun. Tentang usia Khadijah, riwayat berbeda — empat puluh dalam riwayat yang masyhur, dua puluh delapan dalam riwayat lain yang dikutip Ibnu Sa‘d dan Al-Baihaqi. Kita tidak tahu pasti, dan tidak perlu berpura-pura tahu.', s:'Perbandingan riwayat: Ibnu Sa‘d, Ath-Thabaqat', g:'sirah'},
+{n:'Khadijah binti Khuwailid adalah pengusaha kafilah paling berhasil di Mekah. Ia mempekerjakan Muhammad untuk membawa dagangannya ke Syam. Laporan pelayannya, Maisarah, membuat ia mengambil keputusan yang tidak biasa bagi perempuan zaman itu: ia mengajukan lamaran lebih dulu.', subj:'Khadijah r.a.'},
+{n:'Mereka menikah. Beliau berusia dua puluh lima tahun. Tentang usia Khadijah, riwayat berbeda — empat puluh dalam riwayat yang masyhur, dua puluh delapan dalam riwayat lain yang dikutip Ibnu Sa’d dan Al-Baihaqi. Kita tidak tahu pasti, dan tidak perlu berpura-pura tahu.’, s:’Perbandingan riwayat: Ibnu Sa’d, Ath-Thabaqat’, g:’sirah’, subj:’Rasulullah ﷺ'},
 {c:'Dua puluh lima tahun, satu istri',
  x:'Selama Khadijah hidup, beliau tidak menikahi siapa pun. Ini penting untuk diletakkan di tempatnya: seluruh pernikahan lain terjadi <em>setelah</em> usia lima puluh, di Madinah, dalam konteks politik, perlindungan janda perang, dan aliansi kabilah. Fase paling panjang dan paling produktif dalam hidup rumah tangga beliau justru monogami — dan ini nyaris tak pernah disebut.'},
 {a:'Lalu apa yang membuatnya dipercaya seluruh kota, sebelum ia mengaku menerima wahyu apa pun?'},
@@ -147,6 +149,7 @@ nodes:[
 CH.push({
 id:4, glyph:'د', yr:'610', years:'610 M · Ramadan', title:'Bacalah',
 blurb:'Wahyu pertama, ketakutan yang jujur, dan seorang perempuan yang menilai kenabian dari rekam jejak sosial.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Aisyah radhiyallahu ‘anha meriwayatkan permulaannya. Perhatikan bahwa perawi utama peristiwa paling sakral dalam sejarah Islam adalah seorang perempuan, yang meriwayatkannya dari Nabi sendiri.'},
 {r:'Aisyah r.a.', x:'Permulaan wahyu yang datang kepada Rasulullah ﷺ adalah mimpi yang benar dalam tidur. Tidaklah beliau bermimpi kecuali mimpi itu datang seperti terangnya waktu subuh. Kemudian beliau menyukai menyendiri.',
@@ -190,6 +193,7 @@ nodes:[
 CH.push({
 id:5, glyph:'ه', yr:'613', years:'613 – 619 M', title:'Yang Ditindas Lebih Dulu',
 blurb:'Dakwah terbuka, dan sebuah pola yang berulang di sepanjang sejarah: yang dihajar duluan selalu yang paling tak berdaya.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Tiga tahun pertama berlangsung diam-diam, berpusat di rumah Al-Arqam bin Abil Arqam — seorang pemuda dari Bani Makhzum, kabilah yang justru jadi musuh terkeras. Rumahnya di kaki bukit Shafa: dekat, tapi tak mencurigakan.'},
 {n:'Lalu turun perintah untuk terbuka.'},
@@ -238,10 +242,108 @@ nodes:[
 ]});
 
 CH.push({
+id:17, glyph:'ل', yr:'613', years:'613 – 624 M · Dua Paman, Dua Jalan', title:'Paman yang Berpaling',
+blurb:'Dua paman dari lelaki yang sama: satu melindungi tanpa beriman, satu menyayangi lalu berbalik memusuhi. Kisah Abu Lahab, dari kegembiraan atas kelahiran sampai kutukan yang menyebut namanya.',
+mainSubj:'Rasulullah ﷺ',
+nodes:[
+{n:'Kau baru saja meninggalkan satu paman di ambang kematiannya — Abu Thalib, yang melindungi keponakannya sampai napas terakhir tanpa pernah mengucap syahadat. Tetapi Abdul-Muthalib punya banyak anak, dan tidak semua paman berdiri di sisi yang sama. Ada satu yang justru berbalik.'},
+{n:'Namanya Abdul-‘Uzza bin Abdul-Muthalib. Rumahnya menempel dinding-ke-dinding dengan rumah keponakannya di Makkah. Namun sejarah nyaris tak pernah menyebut nama aslinya — ia dikenang dengan julukan: <em>Abu Lahab</em>, “bapak nyala api”, konon karena wajahnya yang tampan berseri kemerahan.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{c:'Nama yang tidak disebut Al-Qur’an',
+ x:'Nama aslinya, Abdul-‘Uzza, berarti “hamba (berhala) ‘Uzza”. Al-Qur’an menyebutnya bukan dengan nama itu, melainkan dengan julukannya, <em>Abu Lahab</em> — dan pilihan kata ini punya gema: “bapak nyala api” bersandingan langsung dengan ancaman <em>nâran dzâta lahab</em>, “api yang bergejolak”.<br><br>Ia juga satu-satunya musuh sezaman yang dikutuk dengan sebutan pribadinya di dalam wahyu, ketika ia masih hidup dan masih bisa membantah.'},
+{n:'Sebelum kenabian, dua keluarga ini terjalin lebih dari sekadar bertetangga. Dua putra Abu Lahab — ‘Utbah dan ‘Utaibah — menikahi dua putri Muhammad: Ruqayyah dan Ummu Kultsum. Mereka berbesan. Sedekat itu.', s:'Sirah Ibnu Hisyam; Ath-Thabari', g:'sirah'},
+{n:'Bahkan kabar kelahiran Muhammad, kata riwayat, sempat membuat Abu Lahab bergembira. Yang membawa kabar itu adalah Tsuwaibah, budak perempuannya; karena senang, ia memerdekakannya. Tsuwaibah kemudian termasuk yang menyusui bayi itu di hari-hari pertamanya.', s:'Sirah Ibnu Hisyam; Thabaqat Ibnu Sa‘d', g:'sirah'},
+{c:'Setetes air setiap hari Senin',
+ x:'Ada riwayat masyhur — dicantumkan Al-Bukhari secara <em>mu‘allaq</em> (disebut tanpa sanad bersambung) dari ‘Urwah — bahwa Abu Lahab terlihat dalam mimpi seseorang sesudah matinya, dalam keadaan buruk, namun berkata bahwa setiap hari Senin siksanya diringankan: ia diberi seteguk air dari sela jarinya, sebab pada hari Senin itu dulu ia memerdekakan Tsuwaibah yang mengabarkan kelahiran Muhammad.<br><br>Statusnya mursal, dan para ulama berbeda menyikapinya — sebagian membacanya sebagai isyarat bahwa kebaikan sekecil apa pun kepada Rasulullah tidak sia-sia, sebagian menahan diri karena sanadnya tidak bersambung. Ditampilkan di sini apa adanya, bukan sebagai dalil hukum.'},
+{n:'Lalu wahyu turun. Dan segala yang pernah menyatukan dua keluarga itu — tembok yang sama, ikatan besan, kegembiraan atas kelahiran — diuji oleh satu pertanyaan: apakah darah lebih kuat dari kebenaran?'},
+{a:'Kita cenderung mengira orang yang paling dekat akan menjadi pembela pertama. Kisah ini menolak asumsi itu sejak halaman pertamanya.'},
+{n:'Kau sudah menyaksikan momen di bukit Shafa: ketika Muhammad mengumpulkan kerabatnya dan menyampaikan peringatan, paman inilah yang pertama membentak dan membubarkan majelis.'},
+{n:'“تَبًّا لَكَ سَائِرَ الْيَوْمِ! أَلِهَٰذَا جَمَعْتَنَا؟” — <em>Celaka engkau sepanjang hari! Untuk inikah kau kumpulkan kami?</em> Begitu teriak Abu Lahab, di hadapan seluruh kabilah.', s:'HR. Al-Bukhari no. 4770; Muslim no. 208', g:'shahih'},
+{ay:'تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ ۝ مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ ۝ سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ ۝ وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ ۝ فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ',
+ m:'“Binasalah kedua tangan Abu Lahab, dan benar-benar binasa ia. Hartanya dan apa yang ia usahakan tidak berguna baginya. Kelak ia akan masuk ke dalam api yang bergejolak. Dan istrinya — pembawa kayu bakar. Di lehernya ada tali dari sabut.”',
+ s:'QS Al-Masad: 1-5', qref:1},
+{c:'Kutukan yang memantulkan kata-katanya sendiri',
+ x:'Abu Lahab berkata “<em>tabban laka</em>” — celaka kau. Wahyu turun membuka dengan “<em>tabbat yadâ abî lahab</em>” — celakalah kedua tangan Abu Lahab. Kata yang ia lemparkan, dikembalikan tepat kepadanya.<br><br>Tapi ada yang lebih tajam: surah ini sebuah <strong>ramalan</strong>. Ia menyatakan Abu Lahab akan mati dalam kekufuran — bertahun-tahun sebelum ia benar-benar mati. Seandainya ia ingin “mematahkan” Al-Qur’an, cukup baginya berpura-pura masuk Islam sekali saja. Ia tidak pernah melakukannya. Wahyu mempertaruhkan diri pada satu nama yang masih hidup — dan menang.'},
+{n:'Istrinya, Ummu Jamil binti Harb — saudari Abu Sufyan — disebut di dalam surah sebagai “pembawa kayu bakar”. Riwayat menyebut ia menebar duri dan ranting berduri di jalan yang biasa dilewati Muhammad, di kegelapan malam.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Atas desakan Abu Lahab, kedua putranya menceraikan Ruqayyah dan Ummu Kultsum — sebelum keduanya benar-benar dibawa berumah tangga. Ikatan besan yang dulu erat diputus hampir dalam semalam. Ruqayyah kemudian dinikahi Utsman bin Affan, dan turut hijrah bersamanya ke Habasyah.', s:'Sirah Ibnu Hisyam; Thabaqat Ibnu Sa‘d', g:'sirah'},
+{q:'Sampai di sini, kau bisa menelusuri dua hal:', o:[
+  {l:'Sejauh mana ia mengejar keponakannya?', to:'lahab_pasar'},
+  {l:'Bagaimana akhir hidupnya?', to:'lahab_akhir'}
+]},
+
+{k:'lahab_pasar', n:'Di musim haji, ketika kabilah-kabilah Arab berkumpul di pasar ‘Ukazh dan Dzul-Majaz, Muhammad berkeliling menawarkan Islam dari kemah ke kemah. Dan ada satu orang yang selalu membuntuti di belakangnya, membisiki setiap orang agar tidak percaya.'},
+{r:'Rabi‘ah bin ‘Ibad ad-Dili r.a.', x:'“Aku melihat Rasulullah ﷺ di pasar Dzul-Majaz menyeru manusia... dan di belakangnya ada seorang lelaki bermata juling, berwajah cerah, dengan dua kepang rambut, berkata: ‘Wahai manusia, jangan taati dia, ia pendusta!’ Aku bertanya, siapa dia? Mereka menjawab: pamannya sendiri, Abu Lahab.”',
+ s:'HR. Ahmad; dinilai hasan oleh sebagian ulama', g:'hasan'},
+{c:'Musuh yang tahu persis siapa kau',
+ x:'Fitnah dari orang jauh mudah ditepis. Fitnah dari paman kandung punya bobot lain: “kalau keluarganya sendiri menolaknya, tentu ada yang salah dengannya.” Justru kedekatan itulah yang dijadikan senjata.<br><br>Rasulullah ﷺ menghadapi bukan sekadar penolakan, melainkan penolakan yang memakai nama baik keluarganya sendiri sebagai alat untuk meruntuhkan dirinya.'},
+{j:'lahab_g'},
+
+{k:'lahab_akhir', n:'Abu Lahab tidak ikut ke medan Badr; ia mengupah orang untuk menggantikan tempatnya. Ketika kabar kekalahan telak Quraisy sampai ke Makkah, ia terpukul hebat. Hanya beberapa hari kemudian tubuhnya diserang bisul ganas yang mereka sebut ‘adasah — penyakit yang mereka takuti menular seperti wabah.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Ia mati dalam keterkucilan. Riwayat menyebut jenazahnya dibiarkan dua-tiga hari hingga berbau, sebab tak ada yang berani menyentuhnya. Akhirnya mereka menyiramnya dengan air dari kejauhan, mendorong tubuhnya ke satu sudut, lalu menimbunnya dengan bebatuan.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{c:'Dua paman, dua kematian',
+ x:'Abu Thalib mati sambil melindungi, tanpa beriman — dan Rasulullah ﷺ berduka atasnya. Abu Lahab mati tanpa melindungi dan tanpa beriman — ditinggalkan bahkan oleh anak-anaknya sendiri.<br><br>Keduanya berbagi darah yang sama dengan Nabi, dan darah itu tidak menyelamatkan salah satu dari keduanya. Garis pemisahnya bukan nasab, melainkan iman.'},
+{j:'lahab_g'},
+
+null,
+{k:'lahab_g', n:'Dua bersaudara. Dua paman dari lelaki yang sama. Keduanya pernah menggendong bayi yang sama dan menyaksikan wahyu yang sama turun di kota mereka. Yang satu memberikan seluruh perlindungannya tanpa sekali pun mengucap syahadat; yang satu menarik seluruh kasih sayangnya dan menggantinya dengan permusuhan sampai mati.'},
+{a:'Kedekatan sebelum kenabian ternyata tidak menjamin apa-apa. Dan permusuhan dari orang paling dekat pun tidak menghentikan apa-apa.'},
+{c:'Yang tidak bisa diwariskan',
+ x:'Kalau ada satu pelajaran yang ditulis besar-besar oleh kisah Abu Lahab, ia sederhana dan keras sekaligus: <strong>iman tidak mengalir lewat darah.</strong> Al-Qur’an menyebut seorang paman kandung Nabi di antara yang dikutuk justru untuk menutup pintu itu rapat-rapat — tidak ada nasab, bahkan nasab kenabian, yang bisa menjadi jalan pintas.<br><br>Setiap orang berdiri sendiri di hadapan pilihannya. Tetangga dinding-ke-dinding pun tetap harus memilih.'}
+]});
+
+CH.push({
+id:14, glyph:'ن', yr:'615', years:'615 – 628 M · Hijrah Pertama',
+title:'Hijrah ke Habasyah',
+blurb:'Dua belas tahun di negeri Kristen. Ja\'far membacakan Surah Maryam di hadapan raja — dan raja itu menangis. Kisah suaka pertama umat Islam.',
+mainSubj:'Rasulullah ﷺ',
+nodes:[
+{n:'Tahun kelima kenabian. Tekanan di Mekah sudah melampaui batas. Beliau tidak meminta pengikutnya bersembunyi — ia memerintahkan mereka pergi.'},
+{n:'Tujuannya: Habasyah, di seberang Laut Merah. Sebuah kerajaan Kristen di Afrika Timur, di bawah raja yang dikenal dengan sebutan Najasyi — dari bahasa Ge\'ez: <em>negus</em>, artinya raja.'},
+{sb:'لَوْ خَرَجْتُمْ إِلَى أَرْضِ الْحَبَشَةِ فَإِنَّ بِهَا مَلِكًا لَا يُظْلَمُ عِنْدَهُ أَحَدٌ وَهِيَ أَرْضُ صِدْقٍ حَتَّى يَجْعَلَ اللَّهُ لَكُمْ فَرَجًا مِمَّا أَنْتُمْ فِيهِ',
+ m:'"Seandainya kalian pergi ke negeri Habasyah — di sana ada seorang raja yang di sisinya tidak seorang pun dizalimi. Itu negeri kejujuran — sampai Allah memberi jalan keluar bagi kalian dari apa yang kalian hadapi."',
+ s:'Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Rombongan pertama berangkat diam-diam: sebelas laki-laki dan empat perempuan. Mereka menaiki perahu di Pelabuhan Syuaibah, menyeberangi Laut Merah. Ini hijrah pertama dalam Islam — jauh sebelum Hijrah ke Madinah.'},
+{a:'Mereka pergi ke kerajaan yang tidak mereka kenal, dengan raja yang belum tentu mau menerima mereka. Satu-satunya modal: pengakuan bahwa di sana orang tidak dizalimi.'},
+{n:'Setahun kemudian kabar datang bahwa kondisi Mekah membaik. Sebagian kembali — lalu mendapati kabar itu keliru, dan harus menyeberang lagi. Rombongan kedua jauh lebih besar: delapan puluh tiga laki-laki, termasuk Ja\'far bin Abi Thalib, sepupu Nabi ﷺ.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Quraisy mengirim dua utusan terbaik: Amr bin Al-Ash dan Abdullah bin Abi Rabia. Mereka membawa hadiah mahal untuk para uskup dan Najasyi sendiri. Strategi: sogok para pemuka agama dulu, baru hadap raja. Tujuan: kembalikan orang-orang itu.'},
+{n:'Di hadapan Najasyi, Amr berbicara lebih dulu: rombongan itu telah meninggalkan agama nenek moyang mereka dan tidak menganut Kristen. Najasyi memanggil kaum Muslim. Ja\'far bin Abi Thalib berdiri.'},
+{n:'Ia tidak berbicara sebagai terdakwa yang memohon belas kasihan. Ia berbicara sebagai saksi yang melaporkan fakta.'},
+{r:'Ummu Salamah r.a.', x:'"Ja\'far berkata: Wahai Raja, kami dahulu adalah kaum yang jahil — menyembah berhala, memakan bangkai, memutus kekerabatan, dan yang kuat memangsa yang lemah. Begitulah kami, hingga Allah mengutus kepada kami seorang rasul dari kalangan kami sendiri — yang kami kenal nasabnya, kejujurannya, dan amanahnya. Ia menyuruh kami menyembah Allah saja dan meninggalkan batu-batu yang kami sembah."',
+ s:'Sirah Ibnu Hisyam; HR. Ahmad no. 1740', g:'sirah'},
+{n:'Najasyi meminta mereka membacakan sesuatu dari wahyu yang dibawa nabi mereka. Ja\'far membaca awal Surah Maryam.'},
+{ay:'وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا ۝ فَأَرْسَلْنَا إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا',
+ m:'"Dan ceritakanlah kisah Maryam — ketika ia menjauhkan diri dari keluarganya ke suatu tempat di timur. Lalu Kami mengutus ruh Kami kepadanya, dan ia menampakkan diri dalam rupa manusia yang sempurna."',
+ s:'QS Maryam: 16-17', qref:1},
+{n:'Najasyi dan para uskup mendengarkan. Ketika Ja\'far selesai, Najasyi menangis sampai membasahi janggutnya. Para uskup ikut menangis sampai gulungan kitab mereka basah.'},
+{r:'Ummu Salamah r.a.', x:'"Demi Allah, Isa bin Maryam tidak melebihi ini" — dan ia meletakkan tongkatnya di lantai — "selamat datang untukmu dan siapa pun yang kau berasal darinya." Ia menolak hadiah para utusan Quraisy dan menjamin keamanan kaum Muslim. Amr bin Al-Ash pulang dengan tangan kosong.',
+ s:'Sirah Ibnu Hisyam; HR. Ahmad no. 1740', g:'sirah'},
+
+{q:'Dua hal dari peristiwa ini jarang dibahas mendalam. Mana yang ingin kau dalami?', o:[
+  {l:'Mengapa Ja\'far memilih Surah Maryam — bukan surah yang lain?', to:'hab_jafar'},
+  {l:'Berapa lama mereka tinggal di Habasyah, dan apa yang terjadi sesudahnya?', to:'hab_lama'}
+]},
+
+{k:'hab_jafar', n:'Ja\'far tidak memilih Surah Maryam secara sembarangan. Di hadapan raja Kristen, ia membacakan surah yang berbicara tentang Maryam — perempuan yang dihormati dalam Injil — dan tentang Isa yang lahir tanpa ayah. Bukan karena itu satu-satunya yang ia hafal.'},
+{c:'Maryam sebagai jembatan lintas iman',
+ x:'Strategi Ja\'far mengandung prinsip yang bertahan lebih dari seribu tahun: <em>dialog dimulai dari titik temu, bukan dari titik konflik.</em> Ia tidak membuka dengan "agama kalian keliru" atau "berhala kalian batil". Ia membuka dengan: inilah yang kami percaya tentang seseorang yang juga kalian hormati.<br><br>Dari titik temu itu, perbedaan bisa disampaikan jernih: Islam tidak mengakui Isa sebagai Tuhan, melainkan sebagai nabi dari perempuan mulia. Perbedaan itu justru menimbulkan tangis — bukan karena disampaikan keras, melainkan karena disampaikan dengan indah.'},
+{j:'hab_g'},
+
+{k:'hab_lama', n:'Sebagian kaum Muslim tinggal di Habasyah hampir dua belas tahun. Bukan pelarian sementara — sebagian membangun kehidupan di sana. Anak-anak lahir. Komunitas kecil terbentuk jauh dari tanah asal mereka.'},
+{n:'Di antara mereka ada Ja\'far bin Abi Thalib, yang baru kembali ke Madinah setelah Perang Khaibar. Nabi ﷺ sangat bahagia ketika menyambut kedatangannya: beliau tidak tahu mana yang lebih membuatnya bahagia — kemenangan Khaibar atau kedatangan Ja\'far.', s:'HR. Al-Bukhari no. 4251', g:'shahih'},
+{c:'Ketika Najasyi wafat — Nabi menshalatkannya',
+ x:'Ketika berita wafat Najasyi sampai ke Madinah, Nabi ﷺ menshalati jenazahnya secara gaib — shalat gaib pertama dalam sejarah Islam (HR. Al-Bukhari no. 1327; Muslim no. 951).<br><br>Najasyi, menurut mayoritas ulama, tidak pernah berpindah agama menjadi Muslim secara formal. Ia raja Kristen yang berlaku adil. Dan Nabi ﷺ memimpinkan shalat untuknya.<br><br>Apa artinya itu bagi status seseorang di akhirat telah diperdebatkan selama empat belas abad. Tetapi tindakannya sendiri tidak ambigu: keadilan seseorang tidak hilang ditelan identitas agama yang ia warisi.'},
+{j:'hab_g'},
+
+null,
+{k:'hab_g', n:'Habasyah mengajarkan sesuatu yang kelak menjadi pola dalam sejarah Islam: kebenaran dan keadilan tidak dimonopoli satu komunitas. Seorang raja Kristen melindungi kaum Muslim yang teraniaya — bukan karena mualaf, melainkan karena keadilan mendahului identitas.'},
+{n:'Dan bagi kaum Muslim yang bertahun-tahun hidup di bawah naungan raja yang berbeda keyakinan: mereka belajar bahwa iman bisa dipertahankan di negeri asing, bahwa perlindungan bisa datang dari arah yang tidak terduga, dan bahwa kepercayaan layak diberikan kepada siapa pun yang memang bisa dipercaya.'}
+]});
+
+CH.push({
 id:6, glyph:'و', yr:'619', years:'619 – 620 M · ‘Amul Huzn', title:'Tahun Duka',
 blurb:'Kehilangan pelindung dan penopang dalam satu tahun. Lalu Thaif — dan sebuah tawaran balas dendam yang ditolak.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
-{n:'Boikot berakhir, tetapi tubuh dua orang paling penting dalam hidupnya sudah terlalu rapuh. Dalam rentang beberapa bulan, Abu Thalib wafat, lalu Khadijah wafat.'},
+{n:'Boikot berakhir, tetapi tubuh dua orang paling penting dalam hidupnya sudah terlalu rapuh. Dalam rentang beberapa bulan, Abu Thalib wafat, lalu Khadijah wafat.', subj:'Rasulullah ﷺ'},
 {a:'Satu perisai politiknya hilang. Satu penopang batinnya hilang. Dua puluh lima tahun pernikahan berakhir.'},
 {n:'Beliau menamai tahun itu <em>‘Amul Huzn</em> — tahun kesedihan. Dan bertahun-tahun setelahnya, ketika sudah menikah lagi, beliau masih menyembelih kambing lalu mengirimkan dagingnya kepada teman-teman Khadijah.', s:'HR. Muslim no. 2435', g:'shahih'},
 {r:'Aisyah r.a.', x:'“Aku tidak pernah cemburu kepada seorang pun dari istri-istri Nabi ﷺ seperti cemburuku kepada Khadijah, padahal aku tidak pernah melihatnya.”',
@@ -275,6 +377,7 @@ nodes:[
 CH.push({
 id:7, glyph:'ز', yr:'621', years:'c. 620 – 621 M', title:'Perjalanan Malam',
 blurb:'Peristiwa paling sulit dijelaskan dalam sirah — dan mandat etika yang dibawanya pulang ke bumi.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Pada suatu malam, beliau dibawa dari Masjidil Haram ke Baitul Maqdis, lalu naik melampaui langit. Al-Qur’an menyebutnya dalam satu ayat, dan pembukaannya adalah <em>Subhanalladzi</em> — Maha Suci Dia — bukan “Muhammad pergi”.'},
 {ay:'سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا',
@@ -321,6 +424,7 @@ nodes:[
 CH.push({
 id:8, glyph:'ح', yr:'622', years:'621 – 622 M', title:'Hijrah',
 blurb:'Dua baiat, dua perempuan yang ikut bersumpah, sebuah upaya pembunuhan, dan barang titipan musuh yang tetap dikembalikan.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Yatsrib sedang lelah oleh perang saudara antara Aus dan Khazraj yang berlangsung puluhan tahun. Mereka butuh seseorang yang tidak berpihak pada salah satu kubu. Dua belas orang berbaiat di Aqabah pada tahun pertama.'},
 {n:'Beliau mengutus Mush‘ab bin Umair — seorang pemuda yang dulu paling wangi dan paling perlente di Mekah — sebagai duta pertama Islam. Bukan sahabat paling senior. Yang dikirim adalah yang paling cakap berkomunikasi.', s:'Sirah Ibnu Hisyam', g:'sirah'},
@@ -352,6 +456,7 @@ nodes:[
 CH.push({
 id:9, glyph:'ط', yr:'622', years:'622 – 624 M', title:'Konstitusi Madinah',
 blurb:'Yang pertama dibangun bukan benteng. Dan dokumen politik yang menjamin kemajemukan — jarang sekali dibahas isinya.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Tiga hal pertama yang beliau kerjakan di Madinah, berurutan: membangun masjid, mempersaudarakan pendatang dengan penduduk asli, dan menulis sebuah perjanjian tertulis dengan seluruh penghuni kota — termasuk yang bukan Muslim.'},
 {a:'Tidak ada benteng. Tidak ada istana. Tidak ada pasukan.'},
@@ -394,8 +499,56 @@ nodes:[
 ]});
 
 CH.push({
+id:15, glyph:'س', yr:'623', years:'622 – 624 M · Fondasi Masyarakat',
+title:'Membangun Madinah',
+blurb:'Azan pertama, kiblat yang bergeser di tengah shalat, puasa Ramadan, dan pasar bebas biaya. Dalam dua tahun, fondasi peradaban diletakkan.',
+mainSubj:'Rasulullah ﷺ',
+nodes:[
+{n:'Masjid sudah berdiri. Perjanjian sudah ditulis. Tapi kota bukan sekadar bangunan dan dokumen — ia adalah ritme kehidupan sehari-hari yang disepakati bersama. Dua tahun pertama di Madinah adalah dua tahun paling padat secara kelembagaan dalam sejarah Islam awal.'},
+{n:'Pertama: bagaimana mengumpulkan orang untuk shalat? Semula mereka saling mengingatkan secara manual. Ada yang mengusulkan membunyikan lonceng seperti Nasrani. Ada yang mengusulkan terompet seperti Yahudi. Keduanya ditolak. Lalu seorang sahabat bermimpi.'},
+{r:'Abdullah bin Zaid Al-Anshari r.a.', x:'Aku bermimpi melihat seseorang membawa lonceng. Aku memintanya menjualnya — aku ingin menggunakannya untuk memanggil orang shalat. Ia berkata: apakah kau mau aku ajarkan sesuatu yang lebih baik dari itu? Lalu ia mengajarkanku lafal azan.',
+ s:'HR. Abu Dawud no. 499; Ibnu Majah no. 706', g:'shahih'},
+{n:'Nabi ﷺ membenarkan mimpi itu dan memerintahkan lafal tersebut diajarkan kepada Bilal. Bilal — yang memiliki suara paling kuat dan merdu — naik ke atap dan menyerukan panggilan shalat pertama dalam sejarah Islam.'},
+{c:'Siapa yang dipilih sebagai penyeru pertama',
+ x:'Bilal bin Rabah adalah bekas budak Afrika, disiksa oleh majikannya karena menolak kembali ke kemusyrikan, lalu dibebaskan oleh Abu Bakar. Dari semua orang yang ada di Madinah saat itu, ialah yang dipilih menjadi suara Islam pertama yang terdengar memanggil ke shalat.<br><br>Pilihan ini bukan karena tidak ada pilihan lain. Ia adalah pernyataan tentang siapa yang dihargai dalam komunitas baru ini.'},
+{n:'Tujuh belas bulan lamanya mereka shalat menghadap Baitul Maqdis di Yerusalem. Lalu pada suatu hari di bulan Sya\'ban tahun kedua Hijriah, di tengah shalat Dzuhur, wahyu turun.'},
+{ay:'قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ',
+ m:'"Sungguh Kami melihat wajahmu sering menengadah ke langit. Maka Kami palingkan engkau ke kiblat yang engkau sukai — palingkan wajahmu ke arah Masjidil Haram."',
+ s:'QS Al-Baqarah: 144', qref:1},
+{c:'Perubahan kiblat di tengah shalat',
+ x:'Riwayat yang masyhur menyebut bahwa ketika wahyu itu turun di tengah shalat, beliau berputar menghadap Makkah — dan seluruh jemaah berputar pula, di tengah shalat yang sedang berjalan (HR. Al-Bukhari no. 399-400).<br><br>Masjid tempat peristiwa itu terjadi, Masjid Bani Salamah, sejak saat itu disebut Masjid Qiblatain — Masjid Dua Kiblat. Peristiwa ini menimbulkan pertanyaan: apa hukum shalat-shalat yang sudah dikerjakan selama tujuh belas bulan? Para ulama menjawab: sah, karena mereka mengikuti perintah yang berlaku saat itu.'},
+{n:'Di bulan yang sama, di tahun yang sama, turun pula perintah berpuasa sebulan penuh di bulan Ramadan.'},
+{ay:'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ',
+ m:'"Wahai orang-orang yang beriman, diwajibkan atas kalian berpuasa sebagaimana diwajibkan atas orang-orang sebelum kalian, agar kalian bertakwa."',
+ s:'QS Al-Baqarah: 183', qref:1},
+{n:'Di sisi ekonomi, pasar Madinah saat itu dikuasai oleh suku-suku tertentu yang memungut biaya lapak. Nabi ﷺ membuka pasar sendiri di atas tanah yang tidak dimiliki siapa pun, tanpa sewa, tanpa pajak.'},
+
+{q:'Dua aspek dari periode ini sering terlewat. Mana yang ingin kau pahami?', o:[
+  {l:'Bagaimana komunitas ini menghidupi dirinya secara ekonomi?', to:'mad_ekonomi'},
+  {l:'Bagaimana hubungan awal mereka dengan suku-suku Yahudi?', to:'mad_yahudi'}
+]},
+
+{k:'mad_ekonomi', n:'Kaum Muhajirin tiba di Madinah tanpa harta — semuanya ditinggalkan atau disita di Mekah. Kaum Anshar berbagi dengan tulus, tapi itu bukan solusi jangka panjang. Yang terjadi kemudian adalah serangkaian langkah yang cermat.'},
+{n:'Nabi ﷺ berjalan menelusuri pasar baru itu sambil berkata: "Ini pasar kalian. Jangan ada yang dipersempit dan jangan dipungut bayaran." Hasil: para pedagang Muhajirin dan Anshar memiliki akses yang setara, tanpa hutang budi kepada pihak lain.', s:'Ibnu Majah no. 2462; Ibnu Khuzaimah', g:'hasan'},
+{c:'Infrastruktur publik sebagai kebijakan sosial',
+ x:'Pasar bebas di atas tanah terbuka adalah investasi infrastruktur pada abad ke-7. Abdurrahman bin Auf, yang menolak bantuan langsung Anshar dan meminta ditunjukkan pasar, sudah mandiri dalam hitungan bulan. Modal utamanya bukan uang — melainkan keahlian dan akses yang kini tersedia.<br><br>Beliau tidak menata ekonomi dari atas dengan regulasi yang rumit, melainkan dengan menghilangkan hambatan paling dasar: akses pasar.'},
+{j:'mad_g'},
+
+{k:'mad_yahudi', n:'Pada tahap awal ini hubungan dengan suku-suku Yahudi berjalan normal. Piagam Madinah memasukkan mereka sebagai satu komunitas bersama kaum Muslim, dengan hak dan kewajiban yang setara dalam pertahanan kota.'},
+{n:'Beberapa sahabat bahkan belajar bahasa Ibrani atas perintah Nabi ﷺ untuk memperlancar komunikasi dan membaca surat-surat yang datang. Pasar berjalan bersama. Transaksi utang-piutang antar komunitas berjalan lazim.', s:'HR. Abu Dawud no. 3645', g:'hasan'},
+{c:'Apa yang kemudian berubah',
+ x:'Tegangan tidak muncul dari hari pertama. Ia berkembang perlahan, melalui serangkaian peristiwa: kemenangan Badar membuktikan kapasitas militer Muslim; keseimbangan ekonomi dan politik mulai bergeser; dan beberapa tokoh — bukan semua — mulai membantu pihak Quraisy secara diam-diam.<br><br>Piagam Madinah memiliki klausul pengusiran bagi yang melanggar perjanjian. Penggunaannya kemudian terhadap Bani Qaynuqa, Bani Nadhir, dan Bani Quraizhah adalah aplikasi klausul itu — bukan pembatalan nilai pluralisme awalnya.<br><br>Sejarah ini sering diceritakan sebagai konflik agama. Sebagian besar cendekiawan sejarah menilainya lebih tepat sebagai konflik politik dan kepentingan dengan latar agama sebagai penanda identitas, bukan penyebabnya.'},
+{j:'mad_g'},
+
+null,
+{k:'mad_g', n:'Dua tahun pertama berjalan dengan kecepatan yang mengagumkan: masjid, persaudaraan, piagam, pasar, azan, kiblat, puasa. Institusi demi institusi lahir bukan dari teori, melainkan dari kebutuhan nyata yang diatasi satu per satu.'},
+{n:'Kota itu tumbuh. Tapi Mekah tidak melupakan. Konfrontasi pertama sudah di ambang pintu.'}
+]});
+
+CH.push({
 id:10, glyph:'ي', yr:'624', years:'624 – 628 M', title:'Perang, Kekalahan, Perjanjian',
-blurb:'Musyawarah yang mengalahkan pendapat Nabi sendiri, teguran Al-Qur’an yang terbuka, dan kemenangan yang berbentuk konsesi.',
+blurb:  'Musyawarah yang mengalahkan pendapat Nabi sendiri, teguran Al-Qur’an yang terbuka, dan kemenangan yang berbentuk konsesi.’',
+mainSubj:'’Rasulullah ﷺ’',
 nodes:[
 {n:'Di Badar, tahun kedua Hijriah, sekitar tiga ratus orang berhadapan dengan seribu. Sebelum bertempur, terjadi sesuatu yang menentukan seluruh cara Islam mengambil keputusan.'},
 {n:'Beliau menempatkan pasukan di suatu titik. Al-Hubab bin Al-Mundzir bertanya: apakah posisi ini wahyu dari Allah, atau pendapat dan siasat perang? Beliau menjawab bahwa itu pendapat dan siasat. Al-Hubab lalu mengusulkan maju ke sumber air terdekat dan menutup sumur-sumur lainnya. Usul itu diterima dan dijalankan.', s:'Sirah Ibnu Hisyam', g:'sirah'},
@@ -417,6 +570,7 @@ nodes:[
 
 {k:'uhud', n:'Pendapat beliau: bertahan di dalam kota. Pendapat mayoritas, terutama para pemuda yang tak sempat ikut Badar: keluar menyongsong musuh. Beliau mengikuti mayoritas.'},
 {n:'Ketika sebagian mereka kemudian menyesal dan menawarkan agar beliau memilih pendapatnya sendiri, beliau menolak — karena baju besi sudah dipakai, dan keputusan yang sudah diambil tidak dicabut hanya karena orang jadi ragu.', s:'HR. Ahmad; Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Mula-mula Muslim di atas angin, dan barisan Quraisy mundur. Tetapi para pemanah yang ditempatkan di bukit — yang diperintahkan untuk tidak turun apa pun yang terjadi — melihat musuh lari dan turun memungut rampasan. Punggung pasukan terbuka. Khalid bin Al-Walid, saat itu masih memimpin kavaleri Quraisy, memutari bukit dari belakang dan menyerbu lewat celah yang tak lagi terjaga. Kemenangan berbalik dalam hitungan menit.', s:'Sirah Ibnu Hisyam; lih. HR. Al-Bukhari no. 3039', g:'sirah'},
 {n:'Uhud berakhir dengan kekalahan. Tujuh puluh sahabat gugur, termasuk Hamzah. Gigi beliau patah dan wajahnya terluka. Musyawarah itu, secara hasil, terbukti salah.'},
 {n:'Lalu turun ayat berikut — setelah kekalahan itu, bukan sebelumnya.'},
 {ay:'فَبِمَا رَحْمَةٍ مِّنَ اللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ الْقَلْبِ لَانفَضُّوا مِنْ حَوْلِكَ ۖ فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ',
@@ -460,8 +614,54 @@ nodes:[
 ]});
 
 CH.push({
+id:16, glyph:'ع', yr:'628', years:'628 – 630 M · Antara Perjanjian dan Kemenangan',
+title:'Antara Perjanjian dan Kemenangan',
+blurb:'Surat-surat ke raja-raja dunia, masuk Islamnya Khalid bin Al-Walid dan Amr bin Al-Ash, Pertempuran Mu\'tah, dan perjanjian yang dilanggar.',
+mainSubj:'Rasulullah ﷺ',
+nodes:[
+{n:'Perjanjian Hudaibiyah baru saja ditandatangani. Sepuluh tahun gencatan senjata. Sebagian sahabat memandangnya sebagai penghinaan. Beliau memandangnya sebagai waktu.'},
+{n:'Langkah pertama yang beliau ambil bukan mempersiapkan perang berikutnya. Ia mendiktekan surat-surat.'},
+{n:'Enam surat dikirim hampir bersamaan: kepada Heraklius, Kaisar Byzantium; kepada Kisra Abrawiz, Raja Persia; kepada Muqauqis, penguasa Mesir; kepada Najasyi di Habasyah; kepada raja-raja di Bahrain, Oman, dan Yaman. Semuanya berisi ajakan untuk masuk Islam.', s:'Sirah Ibnu Hisyam; HR. Al-Bukhari no. 7', g:'sirah'},
+{r:'Ibnu Abbas r.a.', x:'Heraklius mengumpulkan para pembesar Byzantium dan membacakan surat itu. Ia bertanya kepada Abu Sufyan — yang saat itu berdagang di Syam — tentang karakter Muhammad. Abu Sufyan mengakui: ia tidak pernah berdusta, ia menyuruh shalat dan kebaikan, dan pengikutnya terus bertambah. Heraklius berkata: "Jika apa yang kau katakan benar, maka ia pasti akan menguasai tempat kedua kakiku berdiri ini."',
+ s:'HR. Al-Bukhari no. 7; Muslim no. 1773', g:'shahih'},
+{c:'Respons para raja',
+ x:'Najasyi menerima surat dengan baik. Muqauqis mengirimkan hadiah diplomatik — beliau menerima hadiahnya meski Muqauqis tidak langsung memeluk Islam.<br><br>Kisra merobek surat itu. Ketika kabar itu sampai, beliau berkata: "Allah akan merobek-robek kerajaannya." Kekaisaran Sasanid memang runtuh dalam beberapa dekade — dari dalam, bukan dari serangan Muslim.<br><br>Heraklius, menurut riwayat yang diperselisihkan derajatnya, hampir mau memeluk Islam secara pribadi, tetapi tekanan para pembesarnya membuatnya mundur.'},
+{n:'Di tahun yang sama, tiga orang yang paling tak terduga masuk Islam: Khalid bin Al-Walid — jenderal yang memimpin serangan dari sayap di Uhud dan mengubah kemenangan Muslim menjadi kekalahan; Amr bin Al-Ash — diplomat ulung yang pernah mencoba mengembalikan kaum Muslim dari Habasyah; dan Utsman bin Thalhah — penjaga Ka\'bah.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{r:'Khalid bin Al-Walid r.a.', x:'Ketika aku mendatangi Nabi ﷺ dan mengucapkan syahadat, aku berkata: "Ya Rasulullah, mohonkan ampun untuk dosa-dosaku." Beliau menjawab: "Wahai Khalid, Islam menghapus semua yang sebelumnya."',
+ s:'HR. Al-Hakim; lih. Muslim no. 121 (prinsip yang sama)', g:'hasan'},
+{n:'Tahun kedelapan Hijriah, tiga ribu pasukan Muslim dikirim ke utara untuk membalas pembunuhan utusan Nabi di wilayah Mu\'tah, perbatasan Byzantium. Mereka bertemu sekitar seratus ribu pasukan gabungan Byzantium dan Arab Kristen.'},
+{n:'Tiga komandan gugur berturut-turut: Zaid bin Haritsah, lalu Ja\'far bin Abi Thalib — yang kedua tangannya putus memegang panji dan menggantikannya dengan sayapnya sebelum gugur — lalu Abdullah bin Rawahah. Khalid yang baru masuk Islam mengambil alih komando.', s:'HR. Al-Bukhari no. 4262', g:'shahih'},
+{sb:'حَتَّى أَخَذَ الرَّايَةَ سَيْفٌ مِنْ سُيُوفِ اللَّهِ، حَتَّى فَتَحَ اللَّهُ عَلَيْهِمْ',
+ m:'“…hingga panji itu diambil oleh sebilah pedang dari pedang-pedang Allah, dan Allah pun memberi kemenangan kepada mereka.” — sabda Nabi ﷺ tentang Khalid; sejak hari itu ia dikenal sebagai Saifullāh, Pedang Allah.',
+ s:'HR. Al-Bukhari no. 4262', g:'shahih'},
+{c:'Pertempuran Mu\'tah — perkenalan pertama dengan Byzantium',
+ x:'Mu\'tah bukan kemenangan. Tapi juga bukan kehancuran total — Khalid berhasil mengeluarkan pasukan dalam keadaan masih utuh, dengan mengubah formasi berkali-kali sepanjang malam untuk memberi kesan bahwa pasukan terus berdatangan.<br><br>Nabi ﷺ di Madinah menceritakan gugurnya ketiga komandan kepada para sahabat sebelum kabar resmi tiba. Ketika Khalid kembali dan sebagian orang menyebutnya "pelari", beliau menjawab: "Bukan pelari. Ia yang menyelamatkan dengan mundur."<br><br>Mu\'tah memperkenalkan Islam ke dunia Byzantium sebagai lawan yang bisa bertarung — dan Khalid sebagai nama yang akan terus disebut dalam catatan militer dua peradaban.'},
+
+{q:'Menjelang akhir periode ini, dua hal terjadi hampir bersamaan. Mana yang ingin kau ikuti?', o:[
+  {l:'Bagaimana gencatan senjata Hudaibiyah akhirnya dilanggar?', to:'ant_bani'},
+  {l:'Apa yang terjadi dengan Abu Sufyan menjelang Fath Makkah?', to:'ant_sufyan'}
+]},
+
+{k:'ant_bani', n:'Hudaibiyah membagi suku-suku Arab ke dalam dua kubu: yang bersekutu dengan Quraisy dan yang bersekutu dengan Madinah. Bani Bakr memilih kubu Quraisy; Bani Khuza\'ah memilih Madinah.'},
+{n:'Pada tahun kedelapan Hijriah, Bani Bakr menyerang Bani Khuza\'ah di malam hari — dengan bantuan senjata dan beberapa orang dari Quraisy sendiri. Ini pelanggaran terang-terangan terhadap perjanjian.', s:'Sirah Ibnu Hisyam; Ath-Thabari', g:'sirah'},
+{n:'Perwakilan Bani Khuza\'ah menyampaikan pengaduan langsung ke Madinah. Beliau berkata: <em>"Laa nushirtu in lam anshurkum"</em> — Aku tidak akan ditolong jika aku tidak menolong kalian. Persiapan dimulai — dalam kerahasiaan total selama berminggu-minggu.'},
+{j:'ant_g'},
+
+{k:'ant_sufyan', n:'Abu Sufyan bin Harb, pemimpin tertinggi Quraisy, menyadari bahwa pihaknya telah melanggar perjanjian. Ia bergegas ke Madinah untuk memperbaruinya. Ia menemui Abu Bakar — ditolak. Menemui Umar — ditolak. Lalu ia mendatangi putrinya sendiri, Ummu Habibah, istri Nabi ﷺ.'},
+{n:'Ketika Abu Sufyan hendak duduk di atas permadani Nabi, Ummu Habibah melipatnya. Ayahnya bertanya: apakah permadani itu terlalu mulia untuknya atau ia terlalu kotor untuk permadani itu? Ia menjawab dengan tenang: "Ini permadani Rasulullah. Dan engkau musyrik."', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{c:'Arsitek perlawanan yang datang memohon',
+ x:'Abu Sufyan adalah perancang hampir semua ekspedisi militer Quraisy melawan Madinah: Uhud, Khandaq, dan sejumlah serbuan kecil. Selama hampir dua dekade ia adalah wajah perlawanan terorganisir terhadap Islam.<br><br>Ketika ia akhirnya masuk Islam di gerbang Mekah, sesaat sebelum kota jatuh tanpa pertempuran, Nabi ﷺ memberi pengumuman: "Barangsiapa masuk ke rumah Abu Sufyan, ia aman." Rumah musuh paling gigihnya dijadikan tempat perlindungan.<br><br>Keputusan itu bukan naif — Abu Sufyan baru masuk Islam beberapa jam sebelumnya. Itu perhitungan jangka panjang: memberi seseorang kepentingan dalam kestabilan sistem yang baru, bahkan kepada mantan musuh.'},
+{j:'ant_g'},
+
+null,
+{k:'ant_g', n:'Gencatan senjata sepuluh tahun berlangsung kurang dari dua tahun. Pelanggarannya dari pihak Quraisy memberi Nabi ﷺ alasan yang sah — dan secara hukum perjanjian — untuk mengakhirinya. Sepuluh ribu pasukan bergerak ke utara dalam kerahasiaan.'},
+{n:'Perang tidak terjadi. Atau lebih tepatnya: perang yang sudah berlangsung dua dekade diakhiri oleh ketidakhadiran pertempuran besar. Bab berikutnya adalah tentang apa yang terjadi ketika kota yang lama berperang akhirnya menyerah.'}
+]});
+
+CH.push({
 id:11, glyph:'ك', yr:'630', years:'630 M · Ramadan 8 H', title:'Ketika Kuasa Ada di Tangan',
 blurb:'Sepuluh ribu pasukan memasuki kota yang dua puluh tahun menyiksanya. Ujian sesungguhnya bukan bertahan — melainkan menang.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Quraisy melanggar gencatan senjata dengan membantu sekutunya menyerang sekutu Madinah. Beliau bergerak dengan sepuluh ribu orang. Mekah tidak punya kekuatan untuk melawan.'},
 {n:'Dua puluh satu tahun sebelumnya, kota yang sama menyiksa pengikutnya, memboikot keluarganya sampai anak-anak makan daun, dan mengirim pembunuh ke kamarnya.'},
@@ -472,6 +672,7 @@ nodes:[
  s:'Sirah Ibnu Hisyam; lih. HR. Al-Bukhari no. 4280', g:'sirah'},
 {n:'Perintah operasi yang beliau keluarkan hampir seluruhnya bersifat menahan diri: siapa yang masuk rumahnya dan menutup pintunya, aman; siapa yang masuk Masjidil Haram, aman; siapa yang masuk rumah Abu Sufyan, aman.'},
 {a:'Rumah Abu Sufyan. Panglima yang memimpin pasukan di Uhud dan Khandaq. Rumahnya dijadikan zona aman.'},
+{n:'Pasukan masuk dari empat penjuru. Tiga kolom melintasi kota tanpa perlawanan. Hanya kolom Khalid bin Al-Walid, yang masuk dari dataran rendah Mekah, dihadang segerombolan Quraisy keras kepala pimpinan Ikrimah bin Abi Jahal dan Shafwan bin Umayyah. Bentrokan singkat itu satu-satunya pertumpahan darah pada hari penaklukan yang nyaris tanpa pertempuran.', s:'Sirah Ibnu Hisyam', g:'sirah'},
 {n:'Beliau berdiri di depan Ka‘bah, di hadapan orang-orang yang mengusirnya, dan bertanya menurut mereka apa yang akan ia lakukan. Mereka menjawab: saudara yang mulia, putra saudara yang mulia. Beliau lalu mengutip perkataan Nabi Yusuf kepada saudara-saudara yang melemparkannya ke sumur.', s:'Sirah Ibnu Hisyam', g:'sirah'},
 {ay:'لَا تَثْرِيبَ عَلَيْكُمُ الْيَوْمَ ۖ يَغْفِرُ اللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ الرَّاحِمِينَ',
  m:'“Tidak ada cercaan atas kalian pada hari ini. Semoga Allah mengampuni kalian. Dan Dia Maha Penyayang di antara para penyayang.”',
@@ -479,6 +680,9 @@ nodes:[
 {n:'Lalu: “Pergilah, kalian bebas.”', s:'Sirah Ibnu Hisyam', g:'sirah'},
 {c:'Amnesti umum, bukan pengampunan bersyarat',
  x:'Tidak ada pengadilan massal, tidak ada daftar panjang eksekusi, tidak ada perampasan properti. Hindun binti ‘Utbah, yang mencabik jasad Hamzah, hidup. Wahsyi, yang membunuhnya, hidup. Ikrimah bin Abi Jahal, Abu Sufyan, Shafwan bin Umayyah — semuanya hidup.<br><br>Ujian karakter yang sesungguhnya bukanlah ketika seseorang tak berdaya. Ia datang ketika seseorang <strong>bisa membalas dan memilih tidak</strong>.'},
+{c:'Ketika Nabi berlepas diri dari perbuatan panglimanya sendiri',
+ x:'Beberapa pekan setelah penaklukan, Khalid bin Al-Walid diutus ke Bani Jadzimah untuk mengajak mereka masuk Islam, bukan untuk berperang. Suku itu menyerah, tetapi karena tak fasih mereka berkata <em>shaba’na</em> (kami tinggalkan agama lama) alih-alih <em>aslamna</em> (kami masuk Islam). Khalid salah menafsirkannya, menawan mereka, lalu membunuh sebagian tawanan.<br><br>Ketika kabar itu sampai, Nabi ﷺ mengangkat kedua tangannya dan berkata dua kali: <em>Allāhumma innī abra’u ilayka mimmā ṣana‘a Khālid</em> — Ya Allah, aku berlepas diri kepada-Mu dari apa yang diperbuat Khalid. Beliau lalu mengutus Ali membawa harta untuk membayar diyat, sampai mengganti tempat minum anjing mereka sekalipun.<br><br>Khalid tetap seorang panglima. Kesalahannya tidak menghapus jasanya, dan jasanya tidak menutupi kesalahannya. Keduanya dicatat apa adanya — yang paling hebat pun bisa keliru, dan tetap dimintai pertanggungjawaban.',
+ s:'HR. Al-Bukhari no. 4339', g:'shahih'},
 {q:'Ada satu keputusan lagi hari itu yang lebih halus, tapi lebih tajam.', o:[
   {l:'Tunjukkan', to:'kunci'}
 ]},
@@ -506,6 +710,7 @@ nodes:[
 CH.push({
 id:12, glyph:'ل', yr:'632', years:'632 M · 10 – 11 H', title:'Khutbah Terakhir',
 blurb:'Riba pertama yang dihapus adalah riba pamannya sendiri. Dan kata-kata terakhirnya menyebut orang paling lemah.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Tahun kesepuluh Hijriah, beliau menunaikan haji bersama lebih dari seratus ribu orang. Di Arafah, di atas untanya, beliau menyampaikan pidato yang kalimat-kalimatnya diulang oleh penyeru agar terdengar sampai ke tepi kerumunan.'},
 {sb:'إِنَّ دِمَاءَكُمْ وَأَمْوَالَكُمْ عَلَيْكُمْ حَرَامٌ، كَحُرْمَةِ يَوْمِكُمْ هَذَا، فِي شَهْرِكُمْ هَذَا، فِي بَلَدِكُمْ هَذَا',
@@ -555,6 +760,7 @@ nodes:[
 CH.push({
 id:13, glyph:'م', yr:'—', years:'Lintas waktu · tematik', title:'Yang Jarang Naik Mimbar',
 blurb:'Delapan tema yang tidak punya tempat dalam kronologi: rumah tangga, hewan, anak-anak, humor, rasisme, batas otoritas, kesederhanaan, dan tetangga.',
+mainSubj:'Rasulullah ﷺ',
 nodes:[
 {n:'Ruang ini tidak berurutan. Pilih apa yang ingin kau dengar. Kau bisa kembali ke sini sesudahnya.'},
 

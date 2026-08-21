@@ -10,15 +10,17 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const el = {
   rail:$('rail'), kick:$('kick'), ttl:$('ttl'), yrs:$('yrs'),
-  plate:$('plate'), sp:$('sp'), spn:$('spn'), body:$('body'),
+  plate:$('plate'), sp:$('sp'), spn:$('spn'), subjBadge:$('subjBadge'), body:$('body'),
   refs:$('refs'), choices:$('choices'), hint:$('hint'), prog:$('prog').firstElementChild,
   scroll:$('scroll'),
   map:$('shMap'), ref:$('shRef'), mapList:$('mapList'), refList:$('refList'), refSub:$('refSub'),
   select:$('shSelect'), selTitle:$('selTitle'), selSub:$('selSub'), selList:$('selList'),
+  log:$('shLog'), logList:$('logList'), logSub:$('logSub'), logNav:$('logNav'),
   intro:$('intro')
 };
 
 let ci = 0, ni = 0, hist = [], seen = {}, progress = {}, choiceLog = {};
+let currentSubj = null; // tokoh yang sedang dibicarakan (untuk resolusi kata ganti)
 /* percabangan: hub yang sedang dijelajahi + catatan cabang yang sudah dibuka */
 let branchHub = null;      // indeks node pilihan saat kita berada di dalam salah satu cabangnya
 let explored = {};         // explored[ci][marker] = true
@@ -39,7 +41,7 @@ function hasState(s,tk){ const d=loadState(s,tk); return !!(d && (d.ci || d.ni))
 /* keymap penanda→indeks; dibangun ulang tiap ganti cerita/jalur */
 let keymap = [];
 function rebuildKeymap(){
-  keymap = CH.map(c => { const m = {}; c.nodes.forEach((n,i)=>{ if(n.k) m[n.k]=i; }); return m; });
+  keymap = CH.map(c => { const m = {}; c.nodes.forEach((n,i)=>{ if(n && n.k) m[n.k]=i; }); return m; });
 }
 rebuildKeymap();
 
@@ -61,6 +63,7 @@ function convergenceOf(ci, qIdx){
     let guard = 0, found = false;
     while(idx < c.nodes.length && guard++ < 300){
       const nd = c.nodes[idx];
+      if(!nd){ idx++; continue; }                            // lewati pemisah konvergensi (null)
       if(nd.q !== undefined && idx !== qIdx) return null;   // cabang bercabang lagi → jangan intervensi
       if(nd.j !== undefined){
         const jt = keymap[ci][nd.j];
@@ -106,7 +109,7 @@ function buildRail(){
   CH.forEach((c,i)=>{
     const b = document.createElement('button');
     b.className = 'rail-mark';
-    b.innerHTML = `<span class="glyph">${c.glyph}</span><span class="yr">${c.yr}</span><span class="ch-prog"></span>`;
+    b.innerHTML = `<span class="glyph">${i+1}</span><span class="yr">${c.yr}</span><span class="ch-prog"></span>`;
     b.title = c.title;
     b.setAttribute('aria-label', `${t().chapPrefix} ${i+1}: ${currentLang === 'en' && CH_META_EN[i] ? CH_META_EN[i].title : c.title}`);
     b.onclick = ()=> goto(i,0);
@@ -144,16 +147,22 @@ function paint(target, html){
 }
 
 /* ---------- render satu node ---------- */
-const ROMAN = ['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII'];
 
 function render(){
   const c = CH[ci], n = c.nodes[ni];
   if(!n) return advanceChapter();
 
-  el.kick.textContent = t().chapPrefix + ' ' + (ROMAN[c.id] || c.id);
+  el.kick.textContent = t().chapPrefix + ' ' + (ci + 1);
   el.ttl.textContent = currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].title : c.title;
   el.yrs.textContent = currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].years : c.years;
   if(typeof IllusLayer !== 'undefined') IllusLayer.set(ci);
+
+  /* subject tracker — resolves ambiguous pronouns (dia/ia/beliau/-nya) */
+  if(n.subj !== undefined) currentSubj = n.subj;
+  if(el.subjBadge){
+    el.subjBadge.textContent = currentSubj ? '· ' + currentSubj : '';
+    el.subjBadge.classList.toggle('on', !!currentSubj);
+  }
 
   el.plate.className = '';
   el.refs.innerHTML = '';
@@ -297,6 +306,7 @@ function goto(i, j){
   hist.push([ci,ni]);
   branchHub = null;
   ci = i; ni = j||0;
+  currentSubj = CH[ci].mainSubj || null;
   Scene.mood(CH[ci].id);
   Scene.setScene(ci);
   Scene.reform();
@@ -305,7 +315,7 @@ function goto(i, j){
 }
 
 /* ---------- panel ---------- */
-function closeSheets(){ el.map.classList.remove('on'); el.ref.classList.remove('on'); if(el.select) el.select.classList.remove('on'); }
+function closeSheets(){ el.map.classList.remove('on'); el.ref.classList.remove('on'); if(el.select) el.select.classList.remove('on'); if(el.log) el.log.classList.remove('on'); }
 
 function openMap(){
   el.mapList.innerHTML = '';
@@ -482,7 +492,7 @@ function openMap(){
         class: cls,
         transform: 'translate('+x+','+ny+')',
         role:'button', tabindex:'0',
-        'aria-label':(ROMAN[c.id]||c.id)+' '+meta.title
+        'aria-label':t().chapPrefix+' '+(i+1)+' · '+meta.title
       });
 
       g.appendChild(mk('circle', {class:'bg', r:NR}));
@@ -498,7 +508,7 @@ function openMap(){
         }));
       }
 
-      g.appendChild(mk('text', {class:'glyph', x:0, y:1}, c.glyph));
+      g.appendChild(mk('text', {class:'glyph', x:0, y:1}, String(i+1)));
 
       /* title label — between node and edges */
       var title  = meta.title;
@@ -581,7 +591,7 @@ function openMap(){
 
       var qEl = document.createElement('div');
       qEl.className = 'ch-branch-q';
-      qEl.textContent = (ROMAN[c.id]||c.id)+' · '+(meta.title||'').slice(0,18)+' — '+qText;
+      qEl.textContent = (i+1)+' · '+(meta.title||'').slice(0,18)+' — '+qText;
       bWrap.appendChild(qEl);
 
       var optsEl = document.createElement('div');
@@ -621,10 +631,10 @@ function openMap(){
 
 function openRefs(){
   const c = CH[ci];
-  el.refSub.textContent = `${t().chapPrefix} ${ROMAN[c.id]||c.id} · ${currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].title : c.title} · ${currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].years : c.years}`;
+  el.refSub.textContent = `${t().chapPrefix} ${ci+1} · ${currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].title : c.title} · ${currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].years : c.years}`;
   const out = [], done = new Set();
   c.nodes.forEach(n=>{
-    if(!n.s || done.has(n.s + (n.m||n.x||n.n||''))) return;
+    if(!n || !n.s || done.has(n.s + (n.m||n.x||n.n||''))) return;
     done.add(n.s + (n.m||n.x||n.n||''));
     let ctx = n.m || n.x || (n.n||'').replace(/<[^>]+>/g,'');
     if(ctx.length > 190) ctx = ctx.slice(0,190) + '…';
@@ -636,13 +646,79 @@ function openRefs(){
   el.ref.classList.add('on');
 }
 
+/* ---------- naskah (transkrip bab, gaya backlog visual novel) ---------- */
+let logCi = 0;
+function openLog(){ logCi = ci; renderLog(); el.log.classList.add('on'); el.log.scrollTop = 0; }
+function renderLog(){
+  const c = CH[logCi];
+  const meta = (currentLang==='en' && CH_META_EN[logCi]) ? CH_META_EN[logCi] : c;
+  el.logSub.textContent = `${t().chapPrefix} ${logCi+1} · ${meta.title} · ${meta.years}`;
+
+  /* pemilih bab */
+  el.logNav.innerHTML = '';
+  CH.forEach((cc,i)=>{
+    const b = document.createElement('button');
+    b.className = 'log-chip' + (i===logCi?' active':'') + (seen[i]?' seen':'');
+    b.textContent = i+1;
+    b.title = (currentLang==='en' && CH_META_EN[i]) ? CH_META_EN[i].title : cc.title;
+    b.onclick = ()=>{ logCi = i; renderLog(); el.log.scrollTop = 0; };
+    el.logNav.appendChild(b);
+  });
+
+  /* teks lengkap bab, dalam urutan baca */
+  const nt = (typeof CH_TRANSLATIONS!=='undefined' && currentLang==='en' && CH_TRANSLATIONS.en[logCi]) ? CH_TRANSLATIONS.en[logCi] : null;
+  const tr = (i,k,fb)=> (nt && nt[i] && nt[i][k]!==undefined) ? nt[i][k] : fb;
+  const frag = document.createDocumentFragment();
+
+  c.nodes.forEach((n,i)=>{
+    if(!n || n.j!==undefined) return;                 // lewati pemisah konvergensi & lompatan
+    let html = '', kind = '';
+    if(n.q!==undefined){
+      kind = 'q';
+      let opts = '';
+      (n.o||[]).forEach((op,oi)=>{
+        const lbl = (nt && nt[i] && nt[i].o && nt[i].o[oi]) ? nt[i].o[oi] : op.l;
+        const chosen = !!(explored[logCi] && explored[logCi][op.to]);
+        opts += `<span class="log-opt${chosen?' chosen':''}">${chosen?'✓':'·'} ${lbl}</span>`;
+      });
+      html = `<div class="log-spk">${t().spChoice}</div><p class="log-qq">${tr(i,'q',n.q)}</p><div class="log-opts">${opts}</div>`;
+    }
+    else if(n.n!==undefined){ html = `<p>${tr(i,'n',n.n)}</p>`; }
+    else if(n.a!==undefined){ kind='a'; html = `<p class="log-a"><em>${tr(i,'a',n.a)}</em></p>`; }
+    else if(n.r!==undefined){ kind='r'; html = `<div class="log-spk">${t().spRiwayat} · ${n.r}</div><p class="log-quote">“${tr(i,'x',n.x)}”</p>`; }
+    else if(n.sb!==undefined){ kind='sb'; html = `<div class="log-spk">${t().spNabi}</div><div class="arabic">${n.sb}</div><div class="meaning">${tr(i,'m',n.m)}</div>`; }
+    else if(n.ay!==undefined){ kind='ay'; html = `<div class="log-spk">${t().spFirman}</div><div class="arabic">${n.ay}</div><div class="meaning">${tr(i,'m',n.m)}</div>`; }
+    else if(n.c!==undefined){ kind='c'; html = `<div class="log-spk">${t().spRare}</div><div class="note-h">${tr(i,'c',n.c)}</div><p>${tr(i,'x',n.x)}</p>`; }
+    else return;                                      // node penanda tanpa isi
+
+    if(n.s){
+      const gr = n.g ? ` <span class="grade g-${n.g}">${n.g}</span>` : '';
+      html += `<div class="log-src">${n.s}${gr}</div>`;
+    }
+
+    const item = document.createElement('div');
+    item.className = 'log-item' + (kind ? (' k-'+kind) : '');
+    item.setAttribute('role','button');
+    item.tabIndex = 0;
+    item.innerHTML = html;
+    const jump = ()=> goto(logCi, i);                 // lompat ke bagian ini di layar cerita
+    item.addEventListener('click', jump);
+    item.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); jump(); } });
+    frag.appendChild(item);
+  });
+
+  el.logList.innerHTML = '';
+  el.logList.appendChild(frag);
+}
+
 /* ---------- kendali ---------- */
 el.plate.onclick = e => { if(e.target.closest('.ctl-b')) return; step(); };
 $('bBack').onclick = e => { e.stopPropagation(); back(); };
 $('bMap').onclick  = e => { e.stopPropagation(); openMap(); };
 $('bRef').onclick  = e => { e.stopPropagation(); openRefs(); };
+$('bLog').onclick  = e => { e.stopPropagation(); openLog(); };
 document.querySelectorAll('[data-close]').forEach(b => b.onclick = closeSheets);
-[el.map, el.ref, el.select].forEach(s => s.onclick = e => { if(e.target===s) closeSheets(); });
+[el.map, el.ref, el.select, el.log].forEach(s => s && (s.onclick = e => { if(e.target===s) closeSheets(); }));
 
 addEventListener('keydown', e=>{
   if(el.intro && !el.intro.classList.contains('off')) {
@@ -654,11 +730,12 @@ addEventListener('keydown', e=>{
     return;
   }
   if(e.key==='Escape') return closeSheets();
-  if(el.map.classList.contains('on') || el.ref.classList.contains('on') || el.select.classList.contains('on')) return;
+  if(el.map.classList.contains('on') || el.ref.classList.contains('on') || el.select.classList.contains('on') || el.log.classList.contains('on')) return;
   if(e.key===' '||e.key==='Enter'||e.key==='ArrowRight'){ e.preventDefault(); step(); }
   else if(e.key==='ArrowLeft'){ e.preventDefault(); back(); }
   else if(e.key==='m'||e.key==='M'){ openMap(); }
   else if(e.key==='r'||e.key==='R'){ openRefs(); }
+  else if(e.key==='l'||e.key==='L'){ openLog(); }
   else if(/^[1-9]$/.test(e.key)){
     const b = el.choices.children[+e.key-1]; if(b) b.click();
   }
@@ -678,6 +755,7 @@ function begin(chapter, node){
   setTimeout(()=>{ if(el.intro.classList.contains('off')) el.intro.style.display='none'; }, 950);
   branchHub = null;
   ci = chapter||0; ni = node||0;
+  currentSubj = CH[ci].mainSubj || null;
   Scene.mood(CH[ci].id);
   Scene.setScene(ci);
   render();

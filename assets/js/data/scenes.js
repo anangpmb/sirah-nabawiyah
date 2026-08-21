@@ -15,12 +15,21 @@ const MOODS = {
   10: {top:'#1a1416', bot:'#0a0708', glow:'#7a3a24', colA:'#D98A5C', colB:'#E8D2A0', stars:.60, turb:0.11, pat:.18, dust:.95, hz:.34},
   11: {top:'#1c1608', bot:'#0c0904', glow:'#B08020', colA:'#FFD98A', colB:'#FFFFFF', stars:.55, turb:0.02, pat:.62, dust:.55, hz:.28},
   12: {top:'#0d1220', bot:'#05070e', glow:'#3a5a8a', colA:'#CFE0F5', colB:'#EBD08A', stars:1.05, turb:0.01, pat:.26, dust:.38, hz:.14},
-  13: {top:'#101526', bot:'#06080f', glow:'#4a5a3a', colA:'#C8D8A0', colB:'#EBD08A', stars:.95, turb:0.01, pat:.44, dust:.45, hz:.12}
+  13: {top:'#101526', bot:'#06080f', glow:'#4a5a3a', colA:'#C8D8A0', colB:'#EBD08A', stars:.95, turb:0.01, pat:.44, dust:.45, hz:.12},
+  14: {top:'#080e1e', bot:'#04080e', glow:'#1a3a6a', colA:'#8ABCF0', colB:'#EBD08A', stars:1.20, turb:0.04, pat:.28, dust:.35, hz:.18},
+  15: {top:'#081a12', bot:'#040c08', glow:'#2a6a3a', colA:'#80D0A0', colB:'#EBD08A', stars:.75, turb:0.01, pat:.50, dust:.40, hz:.20},
+  16: {top:'#141010', bot:'#0a0808', glow:'#8a6020', colA:'#FFCB6B', colB:'#E8D2A0', stars:.65, turb:0.03, pat:.35, dust:.55, hz:.22},
+  17: {top:'#160c0a', bot:'#0a0605', glow:'#7a3020', colA:'#E86B4C', colB:'#E8C060', stars:.55, turb:0.05, pat:.30, dust:.50, hz:.20}
 };
 
 /* pemetaan indeks bab → latar 3D (POINTER cerita aktif; di-swap oleh Story.load) */
 let CHAPTER_SCENES = [
   'mecca','desert','mecca','cave','mecca',
+  'mecca',
+  'migration',
   'mountains','ascent','migration','madinah',
-  'battlefield','mecca','arafah','interior'
+  'madinah',
+  'battlefield',
+  'madinah',
+  'mecca','arafah','interior'
 ];

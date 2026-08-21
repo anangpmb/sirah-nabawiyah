@@ -101,7 +101,8 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 
 #gls-tip{
   position:fixed;z-index:100;
-  max-width:min(320px,88vw);padding:10px 13px;
+  width:max-content;max-width:min(320px,calc(100vw - 16px));
+  padding:10px 13px;
   background:rgba(8,11,22,.96);border:1px solid rgba(200,160,60,.35);
   border-radius:5px;box-shadow:0 6px 28px rgba(0,0,0,.65);
   pointer-events:none;
@@ -120,6 +121,19 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   box-shadow:0 6px 28px rgba(0,0,0,.22);
 }
 [data-theme="light"] .gls-def{color:var(--c-text-dim)}
+
+/* subject badge — siapa yang sedang dibicarakan (resolver kata ganti) */
+.subj-badge{
+  display:none;
+  font-family:var(--f-mono);font-size:9px;letter-spacing:.07em;
+  color:var(--parch-dim);
+  padding:1px 7px 2px;margin-left:10px;
+  border:1px solid rgba(200,160,60,.22);border-radius:10px;
+  vertical-align:middle;white-space:nowrap;
+  opacity:0;transition:opacity .4s var(--ease);
+}
+.subj-badge.on{display:inline;opacity:.82}
+[data-theme="light"] .subj-badge{color:var(--c-text-dim);border-color:rgba(154,112,24,.22)}
 
 /* ---------- scene-art: silhouette illustration overlay ---------- */
 #scene-art{
@@ -341,7 +355,7 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   transition:all .18s var(--ease);
 }
 .ctl-b:hover,.ctl-b:focus-visible{color:var(--gold-lt);border-color:var(--gold);outline:none}
-#ctl .right{display:flex;gap:6px}
+#ctl .right{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
 #prog{
   height:1px;background:rgba(233,223,201,.1);margin-top:10px;position:relative;overflow:hidden;border-radius:1px;
 }
@@ -426,7 +440,7 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .mm-node.seen circle.bg{fill:rgba(200,160,60,.1);stroke:rgba(200,160,60,.45)}
 .mm-node.current circle.bg{fill:rgba(200,160,60,.2);stroke:var(--gold);stroke-width:2}
 .mm-node:hover circle.bg,.mm-node:focus-visible circle.bg{fill:rgba(200,160,60,.18);stroke:var(--gold);outline:none}
-.mm-node text.glyph{font-family:var(--f-ar);font-size:14px;fill:var(--parch-dim);text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+.mm-node text.glyph{font-family:var(--f-disp);font-size:14px;font-weight:600;fill:var(--parch-dim);text-anchor:middle;dominant-baseline:middle;pointer-events:none}
 .mm-node.seen text.glyph,.mm-node.current text.glyph{fill:var(--gold)}
 .mm-node text.lbl{font-family:var(--f-disp);font-size:9px;fill:var(--parch-dim);pointer-events:none}
 .mm-node.seen text.lbl,.mm-node.current text.lbl{fill:var(--c-text)}
@@ -467,6 +481,45 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .rf .src{font-family:var(--f-mono);font-size:12px;color:var(--gold);margin-bottom:3px}
 .rf .ctx{font-size:13.5px;color:var(--parch-dim);line-height:1.55}
 
+/* ---------- naskah / transkrip bab (backlog) ---------- */
+.log-tip{margin:-14px 0 20px;opacity:.7}
+#logNav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:24px;
+  padding-bottom:18px;border-bottom:1px solid rgba(200,160,60,.16)}
+.log-chip{
+  font-family:var(--f-mono);font-size:11px;min-width:28px;padding:4px 8px;
+  border:1px solid rgba(233,223,201,.15);border-radius:2px;color:var(--parch-dim);
+  transition:all .16s var(--ease);
+}
+.log-chip:hover,.log-chip:focus-visible{color:var(--gold-lt);border-color:var(--gold);outline:none}
+.log-chip.seen{color:var(--gold)}
+.log-chip.active{background:var(--gold);border-color:var(--gold);color:var(--ink);font-weight:700}
+.log-item{
+  position:relative;padding:12px 15px;margin:2px -15px;border-radius:4px;cursor:pointer;
+  border:1px solid transparent;transition:background .16s var(--ease),border-color .16s var(--ease);
+}
+.log-item:hover,.log-item:focus-visible{
+  background:rgba(200,160,60,.06);border-color:rgba(200,160,60,.2);outline:none;
+}
+.log-item p{margin:0;font-size:14.5px;line-height:1.75;color:var(--c-text);opacity:.94}
+.log-item em{font-style:italic;color:var(--gold-lt)}
+.log-spk{
+  font-family:var(--f-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gold);opacity:.7;margin-bottom:5px;
+}
+.log-item.k-a p{opacity:.82}
+.log-item.k-c{border-left:2px solid rgba(199,74,54,.5);background:rgba(199,74,54,.04)}
+.log-item.k-c .log-spk{color:var(--verm)}
+.log-item.k-sb,.log-item.k-ay{text-align:center}
+.log-item .arabic{margin:2px 0 8px;font-size:clamp(18px,3.4vw,24px)}
+.log-item .meaning{font-size:15px}
+.log-quote{font-style:italic}
+.log-qq{font-family:var(--f-disp);color:var(--gold-lt);font-size:16px;margin-bottom:9px !important}
+.log-opts{display:flex;flex-direction:column;gap:5px;margin-top:2px}
+.log-opt{font-family:var(--f-mono);font-size:12.5px;color:var(--parch-dim);opacity:.8}
+.log-opt.chosen{color:var(--gold);opacity:1}
+.log-src{font-family:var(--f-mono);font-size:10px;color:var(--gold);opacity:.75;margin-top:7px;
+  display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+
 /* ---------- layar pembuka ---------- */
 #intro{
   position:fixed;inset:0;z-index:30;display:flex;flex-direction:column;
@@ -495,19 +548,6 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 }
 #startKhulafa.alt:hover{border-color:var(--gold);color:var(--gold-lt);box-shadow:0 0 24px rgba(200,160,60,.18)}
 
-@media (max-width:640px){
-  :root{--rail:52px}
-  #plate{max-height:calc(100vh - 60px);max-height:calc(100dvh - 60px)}
-  body{font-size:15px}
-  #chaptop{padding:12px 16px 8px}
-  #chaptop .ttl{font-size:16px}
-  #stage{padding:0 10px 10px}
-  #plate{padding:13px 15px 12px}
-  #body{font-size:15.5px;min-height:4em}
-  .rail-mark .yr{font-size:9px}
-  .rail-mark .glyph{width:20px;height:20px;font-size:11px}
-  .sheet-in{padding:40px 16px 60px}
-}
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
 }
@@ -549,3 +589,57 @@ input[type=range].vol::-moz-range-thumb{
   background:var(--gold-lt);border:1px solid var(--gold);cursor:pointer;
 }
 [data-theme="light"] input[type=range].vol{background:rgba(26,16,7,.2)}
+
+/* ════════════════════════════════════════════════════
+   RESPONSIF MOBILE — harus di akhir file agar menang
+   ════════════════════════════════════════════════════ */
+@media (max-width:640px){
+  :root{--rail:52px}
+  #plate{max-height:calc(100vh - 60px);max-height:calc(100dvh - 60px)}
+  body{font-size:15px}
+  /* beri ruang kanan agar tidak tertutup toolbar */
+  #chaptop{padding:12px 16px 8px;padding-right:140px}
+  #chaptop .ttl{font-size:16px}
+  /* safe-area inset agar tidak tertutup home indicator iOS */
+  #stage{padding:0 8px max(10px,env(safe-area-inset-bottom)) 8px}
+  #plate{padding:13px 14px 11px}
+  #body{font-size:15.5px;min-height:4em;line-height:1.68}
+  .rail-mark .yr{font-size:9px}
+  .rail-mark .glyph{width:20px;height:20px;font-size:11px}
+  .sheet-in{padding:52px 16px 72px}
+
+  /* ── tombol kontrol: sembunyikan hint keyboard, perbesar touch target ── */
+  #hint{display:none}
+  #ctl{justify-content:flex-end;margin-top:10px;padding-top:8px}
+  .ctl-b{padding:10px 12px;font-size:11px;min-height:40px;letter-spacing:.09em}
+  #ctl .right{gap:5px}
+
+  /* ── tombol pilihan: lebih lega untuk jari ── */
+  .choice{padding:12px 13px;min-height:44px}
+
+  /* ── toolbar: touch target lebih besar, posisi sedikit lebih dalam ── */
+  #toolbar{top:10px;right:10px;gap:4px}
+  .tool-b{padding:8px 10px;min-height:36px;font-size:10px}
+  #bHome{font-size:14px;padding:8px 9px}
+
+  /* ── tombol ganti cerita di Peta Waktu ── */
+  .map-nav-b{padding:8px 12px;min-height:36px}
+  .map-nav{gap:6px;margin-bottom:18px}
+
+  /* ── tombol tutup sheet (×) ── */
+  .x{width:44px;height:44px;font-size:22px;top:10px;right:10px}
+
+  /* ── layar intro: tombol mulai memenuhi standar touch ── */
+  #start,#startKhulafa.alt{padding:15px 28px;min-height:44px}
+}
+
+/* ── layar sangat kecil (≤390px): kompres toolbar ── */
+@media (max-width:390px){
+  #toolbar{gap:3px}
+  .tool-b{padding:7px 8px;font-size:9.5px;letter-spacing:.06em}
+  #bHome{font-size:13px;padding:7px 8px}
+  .ctl-b{padding:9px 10px;font-size:10.5px}
+  .choice{font-size:14px}
+  #chaptop{padding-right:120px}
+}
+
