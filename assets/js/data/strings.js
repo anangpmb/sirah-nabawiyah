@@ -61,7 +61,6 @@ let CH_META_EN = [
   {title:'Al-Amīn',            years:'c. 595–610 CE',                       blurb:'A reputation built before any claim. A pact to defend the oppressed. And a clever solution that averted civil war.'},
   {title:'Read!',              years:'610 CE · Ramaḍān',                    blurb:'The first revelation, honest fear, and a woman who assessed prophethood by social record.'},
   {title:'The First Oppressed', years:'613–619 CE',                         blurb:'Open preaching, and a pattern repeated through history: those struck first are always the most powerless.'},
-  {title:'The Uncle Who Turned Away', years:'613–624 CE · Two Uncles, Two Paths', blurb:'Two uncles of the same man: one who protected without believing, one who cherished him then turned to enmity. Abu Lahab — from joy at a birth to a curse that named him.'},
   {title:'The Migration to Abyssinia', years:'615–628 CE · First Migration', blurb:'Twelve years in a Christian kingdom. Ja\'far recited from Mary\'s chapter before the king — and the king wept. The story of Islam\'s first asylum.'},
   {title:'Year of Grief',      years:"619–620 CE · ʿĀmul Ḥuzn",           blurb:"Loss of protector and support in one year. Then Ṭā'if — and an offer of revenge that was refused."},
   {title:'The Night Journey',  years:'c. 620–621 CE',                       blurb:'The most difficult event to explain in the Sīrah — and the ethical mandate it brought back to earth.'},

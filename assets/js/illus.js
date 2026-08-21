@@ -179,22 +179,7 @@ const ILLUSTRATIONS = (() => {
       + ground('M0,548 Q500,528 1000,548 L1000,600 L0,600 Z')
     + close,
 
-    /* 5 · Paman yang Berpaling — caller on the hill, a crowd, a lone figure amid flames */
-    open
-      + glow(560,410,340,210,'rgba(232,107,76,0.16)','g17')
-      + crescent(842,72,32,'cr17')
-      + stars([120,70,2],[262,48,1.8],[402,66,2.2],[600,44,2],[720,86,2])
-      + mountain(430,168,470,404)
-      + person(430,316,60)
-      + peeps([[150,506],[196,512],[242,506],[300,510],[344,514],[392,508]],46)
-      + '<path d="M712,512 Q694,468 712,438 Q719,466 734,449 Q747,477 738,506 Z" fill="rgba(232,107,76,0.55)"/>'
-      + '<path d="M760,512 Q746,480 760,452 Q766,472 779,459 Q790,483 781,507 Z" fill="rgba(232,192,96,0.5)"/>'
-      + '<path d="M735,512 Q724,486 735,466 Q740,480 749,470 Q757,488 750,508 Z" fill="rgba(255,150,90,0.4)"/>'
-      + person(738,508,50)
-      + ground('M0,538 Q500,518 1000,538 L1000,600 L0,600 Z')
-    + close,
-
-    /* 6 · Hijrah ke Habasyah — dhow at sea, crescent, refugees */
+    /* 5 · Hijrah ke Habasyah — dhow at sea, crescent, refugees */
     open
       + crescent(162,88,32,'cr14')
       + stars([322,58,2],[502,40,1.8],[682,72,2.2],[842,54,2],[180,120,1.8],[760,110,1.8])

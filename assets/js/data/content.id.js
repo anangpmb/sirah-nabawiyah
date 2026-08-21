@@ -201,6 +201,23 @@ nodes:[
  m:'“Maka sampaikanlah secara terang-terangan apa yang diperintahkan kepadamu, dan berpalinglah dari orang-orang musyrik.”',
  s:'QS Al-Hijr: 94', qref:1},
 {n:'Beliau naik ke bukit Shafa dan menyeru seluruh kabilah. Setelah mereka mengakui bahwa ia tak pernah berdusta, ia menyampaikan peringatannya. Abu Lahab — pamannya sendiri — memotong dengan makian dan membubarkan majelis.', s:'HR. Al-Bukhari no. 4770', g:'shahih'},
+{n:'Paman yang membubarkan majelis itu bukan orang asing. Abdul-‘Uzza bin Abdul-Muthalib adalah tetangga dinding-ke-dinding Muhammad, dan sebelum kenabian dua keluarga itu berbesan: dua putranya — ‘Utbah dan ‘Utaibah — menikahi dua putri Muhammad, Ruqayyah dan Ummu Kultsum. Namun sejarah mengenangnya bukan dengan nama aslinya, melainkan julukannya: <em>Abu Lahab</em>, “bapak nyala api”.', s:'Sirah Ibnu Hisyam; Ath-Thabari', g:'sirah'},
+{c:'Nama yang tidak disebut Al-Qur’an',
+ x:'Nama aslinya, Abdul-‘Uzza, berarti “hamba (berhala) ‘Uzza”. Al-Qur’an menyebutnya bukan dengan nama itu, melainkan dengan julukannya, <em>Abu Lahab</em> — dan pilihan kata ini punya gema: “bapak nyala api” bersandingan langsung dengan ancaman <em>nâran dzâta lahab</em>, “api yang bergejolak”.<br><br>Ia juga satu-satunya musuh sezaman yang dikutuk dengan sebutan pribadinya di dalam wahyu, ketika ia masih hidup dan masih bisa membantah.'},
+{n:'Bahkan kabar kelahiran Muhammad, kata riwayat, sempat membuat Abu Lahab bergembira. Yang membawa kabar itu adalah Tsuwaibah, budak perempuannya; karena senang, ia memerdekakannya. Tsuwaibah kemudian termasuk yang menyusui bayi itu di hari-hari pertamanya.', s:'Sirah Ibnu Hisyam; Thabaqat Ibnu Sa‘d', g:'sirah'},
+{c:'Setetes air setiap hari Senin',
+ x:'Ada riwayat masyhur — dicantumkan Al-Bukhari secara <em>mu‘allaq</em> (disebut tanpa sanad bersambung) dari ‘Urwah — bahwa Abu Lahab terlihat dalam mimpi seseorang sesudah matinya, dalam keadaan buruk, namun berkata bahwa setiap hari Senin siksanya diringankan: ia diberi seteguk air dari sela jarinya, sebab pada hari Senin itu dulu ia memerdekakan Tsuwaibah yang mengabarkan kelahiran Muhammad.<br><br>Statusnya mursal, dan para ulama berbeda menyikapinya — sebagian membacanya sebagai isyarat bahwa kebaikan sekecil apa pun kepada Rasulullah tidak sia-sia, sebagian menahan diri karena sanadnya tidak bersambung. Ditampilkan di sini apa adanya, bukan sebagai dalil hukum.'},
+{n:'Dan justru paman inilah yang pertama melawan ketika seruan itu menjadi terbuka. Kata-katanya di bukit Shafa terekam persis: “تَبًّا لَكَ سَائِرَ الْيَوْمِ! أَلِهَٰذَا جَمَعْتَنَا؟” — <em>Celaka engkau sepanjang hari! Untuk inikah kau kumpulkan kami?</em>', s:'HR. Al-Bukhari no. 4770; Muslim no. 208', g:'shahih'},
+{ay:'تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ ۝ مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ ۝ سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ ۝ وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ ۝ فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ',
+ m:'“Binasalah kedua tangan Abu Lahab, dan benar-benar binasa ia. Hartanya dan apa yang ia usahakan tidak berguna baginya. Kelak ia akan masuk ke dalam api yang bergejolak. Dan istrinya — pembawa kayu bakar. Di lehernya ada tali dari sabut.”',
+ s:'QS Al-Masad: 1-5', qref:1},
+{c:'Kutukan yang memantulkan kata-katanya sendiri',
+ x:'Abu Lahab berkata “<em>tabban laka</em>” — celaka kau. Wahyu turun membuka dengan “<em>tabbat yadâ abî lahab</em>” — celakalah kedua tangan Abu Lahab. Kata yang ia lemparkan, dikembalikan tepat kepadanya.<br><br>Tapi ada yang lebih tajam: surah ini sebuah <strong>ramalan</strong>. Ia menyatakan Abu Lahab akan mati dalam kekufuran — bertahun-tahun sebelum ia benar-benar mati. Seandainya ia ingin “mematahkan” Al-Qur’an, cukup baginya berpura-pura masuk Islam sekali saja. Ia tidak pernah melakukannya. Wahyu mempertaruhkan diri pada satu nama yang masih hidup — dan menang.'},
+{n:'Istrinya, Ummu Jamil binti Harb — saudari Abu Sufyan — disebut di dalam surah sebagai “pembawa kayu bakar”. Riwayat menyebut ia menebar duri dan ranting berduri di jalan yang biasa dilewati Muhammad, di kegelapan malam.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Atas desakan Abu Lahab, kedua putranya menceraikan Ruqayyah dan Ummu Kultsum — sebelum keduanya benar-benar dibawa berumah tangga. Ikatan besan yang dulu erat diputus hampir dalam semalam. Ruqayyah kemudian dinikahi Utsman bin Affan, dan turut hijrah bersamanya ke Habasyah.', s:'Sirah Ibnu Hisyam; Thabaqat Ibnu Sa‘d', g:'sirah'},
+{n:'Permusuhannya tidak berhenti di Makkah. Di musim haji, ketika kabilah-kabilah Arab berkumpul di pasar ‘Ukazh dan Dzul-Majaz, Muhammad berkeliling menawarkan Islam dari kemah ke kemah — dan ada satu orang yang selalu membuntuti di belakangnya, membisiki setiap orang agar tidak percaya.'},
+{r:'Rabi‘ah bin ‘Ibad ad-Dili r.a.', x:'“Aku melihat Rasulullah ﷺ di pasar Dzul-Majaz menyeru manusia... dan di belakangnya ada seorang lelaki bermata juling, berwajah cerah, dengan dua kepang rambut, berkata: ‘Wahai manusia, jangan taati dia, ia pendusta!’ Aku bertanya, siapa dia? Mereka menjawab: pamannya sendiri, Abu Lahab.”',
+ s:'HR. Ahmad; dinilai hasan oleh sebagian ulama', g:'hasan'},
 {n:'Sejak itu, penindasan dimulai. Tetapi perhatikan siapa yang lebih dulu dihajar.'},
 {n:'Bilal bin Rabah, budak Umayyah bin Khalaf, dijemur di padang pasir dengan batu besar di dada. Yang keluar dari mulutnya hanya satu kata berulang: <em>Ahad, Ahad.</em>', s:'Sirah Ibnu Hisyam; Ibnu Sa‘d', g:'sirah'},
 {n:'Keluarga Yasir — Yasir, istrinya Sumayyah, dan anaknya Ammar — disiksa di terik Ramdha’. Sumayyah, seorang perempuan tua berstatus budak, wafat di sana. Ia menjadi syahid pertama dalam Islam.'},
@@ -238,56 +255,9 @@ nodes:[
  m:'“Sesungguhnya engkau tidak dapat memberi petunjuk kepada orang yang engkau cintai, tetapi Allah memberi petunjuk kepada siapa yang Dia kehendaki.”',
  s:'QS Al-Qashash: 56', qref:1},
 {c:'Batas kuasa seorang nabi',
- x:'Ayat ini turun berkaitan dengan Abu Thalib, menurut riwayat Al-Bukhari no. 4772. Maknanya keras: <strong>bahkan Nabi tidak bisa memasukkan hidayah ke dalam dada orang yang paling ia cintai.</strong><br><br>Kalau beliau saja tidak bisa, maka siapa pun yang merasa berhak memaksa keyakinan orang lain sedang mengklaim wewenang yang tidak pernah diberikan kepada Rasulullah sendiri.'}
-]});
-
-CH.push({
-id:17, glyph:'ل', yr:'613', years:'613 – 624 M · Dua Paman, Dua Jalan', title:'Paman yang Berpaling',
-blurb:'Dua paman dari lelaki yang sama: satu melindungi tanpa beriman, satu menyayangi lalu berbalik memusuhi. Kisah Abu Lahab, dari kegembiraan atas kelahiran sampai kutukan yang menyebut namanya.',
-mainSubj:'Rasulullah ﷺ',
-nodes:[
-{n:'Kau baru saja meninggalkan satu paman di ambang kematiannya — Abu Thalib, yang melindungi keponakannya sampai napas terakhir tanpa pernah mengucap syahadat. Tetapi Abdul-Muthalib punya banyak anak, dan tidak semua paman berdiri di sisi yang sama. Ada satu yang justru berbalik.'},
-{n:'Namanya Abdul-‘Uzza bin Abdul-Muthalib. Rumahnya menempel dinding-ke-dinding dengan rumah keponakannya di Makkah. Namun sejarah nyaris tak pernah menyebut nama aslinya — ia dikenang dengan julukan: <em>Abu Lahab</em>, “bapak nyala api”, konon karena wajahnya yang tampan berseri kemerahan.', s:'Sirah Ibnu Hisyam', g:'sirah'},
-{c:'Nama yang tidak disebut Al-Qur’an',
- x:'Nama aslinya, Abdul-‘Uzza, berarti “hamba (berhala) ‘Uzza”. Al-Qur’an menyebutnya bukan dengan nama itu, melainkan dengan julukannya, <em>Abu Lahab</em> — dan pilihan kata ini punya gema: “bapak nyala api” bersandingan langsung dengan ancaman <em>nâran dzâta lahab</em>, “api yang bergejolak”.<br><br>Ia juga satu-satunya musuh sezaman yang dikutuk dengan sebutan pribadinya di dalam wahyu, ketika ia masih hidup dan masih bisa membantah.'},
-{n:'Sebelum kenabian, dua keluarga ini terjalin lebih dari sekadar bertetangga. Dua putra Abu Lahab — ‘Utbah dan ‘Utaibah — menikahi dua putri Muhammad: Ruqayyah dan Ummu Kultsum. Mereka berbesan. Sedekat itu.', s:'Sirah Ibnu Hisyam; Ath-Thabari', g:'sirah'},
-{n:'Bahkan kabar kelahiran Muhammad, kata riwayat, sempat membuat Abu Lahab bergembira. Yang membawa kabar itu adalah Tsuwaibah, budak perempuannya; karena senang, ia memerdekakannya. Tsuwaibah kemudian termasuk yang menyusui bayi itu di hari-hari pertamanya.', s:'Sirah Ibnu Hisyam; Thabaqat Ibnu Sa‘d', g:'sirah'},
-{c:'Setetes air setiap hari Senin',
- x:'Ada riwayat masyhur — dicantumkan Al-Bukhari secara <em>mu‘allaq</em> (disebut tanpa sanad bersambung) dari ‘Urwah — bahwa Abu Lahab terlihat dalam mimpi seseorang sesudah matinya, dalam keadaan buruk, namun berkata bahwa setiap hari Senin siksanya diringankan: ia diberi seteguk air dari sela jarinya, sebab pada hari Senin itu dulu ia memerdekakan Tsuwaibah yang mengabarkan kelahiran Muhammad.<br><br>Statusnya mursal, dan para ulama berbeda menyikapinya — sebagian membacanya sebagai isyarat bahwa kebaikan sekecil apa pun kepada Rasulullah tidak sia-sia, sebagian menahan diri karena sanadnya tidak bersambung. Ditampilkan di sini apa adanya, bukan sebagai dalil hukum.'},
-{n:'Lalu wahyu turun. Dan segala yang pernah menyatukan dua keluarga itu — tembok yang sama, ikatan besan, kegembiraan atas kelahiran — diuji oleh satu pertanyaan: apakah darah lebih kuat dari kebenaran?'},
-{a:'Kita cenderung mengira orang yang paling dekat akan menjadi pembela pertama. Kisah ini menolak asumsi itu sejak halaman pertamanya.'},
-{n:'Kau sudah menyaksikan momen di bukit Shafa: ketika Muhammad mengumpulkan kerabatnya dan menyampaikan peringatan, paman inilah yang pertama membentak dan membubarkan majelis.'},
-{n:'“تَبًّا لَكَ سَائِرَ الْيَوْمِ! أَلِهَٰذَا جَمَعْتَنَا؟” — <em>Celaka engkau sepanjang hari! Untuk inikah kau kumpulkan kami?</em> Begitu teriak Abu Lahab, di hadapan seluruh kabilah.', s:'HR. Al-Bukhari no. 4770; Muslim no. 208', g:'shahih'},
-{ay:'تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ ۝ مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ ۝ سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ ۝ وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ ۝ فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ',
- m:'“Binasalah kedua tangan Abu Lahab, dan benar-benar binasa ia. Hartanya dan apa yang ia usahakan tidak berguna baginya. Kelak ia akan masuk ke dalam api yang bergejolak. Dan istrinya — pembawa kayu bakar. Di lehernya ada tali dari sabut.”',
- s:'QS Al-Masad: 1-5', qref:1},
-{c:'Kutukan yang memantulkan kata-katanya sendiri',
- x:'Abu Lahab berkata “<em>tabban laka</em>” — celaka kau. Wahyu turun membuka dengan “<em>tabbat yadâ abî lahab</em>” — celakalah kedua tangan Abu Lahab. Kata yang ia lemparkan, dikembalikan tepat kepadanya.<br><br>Tapi ada yang lebih tajam: surah ini sebuah <strong>ramalan</strong>. Ia menyatakan Abu Lahab akan mati dalam kekufuran — bertahun-tahun sebelum ia benar-benar mati. Seandainya ia ingin “mematahkan” Al-Qur’an, cukup baginya berpura-pura masuk Islam sekali saja. Ia tidak pernah melakukannya. Wahyu mempertaruhkan diri pada satu nama yang masih hidup — dan menang.'},
-{n:'Istrinya, Ummu Jamil binti Harb — saudari Abu Sufyan — disebut di dalam surah sebagai “pembawa kayu bakar”. Riwayat menyebut ia menebar duri dan ranting berduri di jalan yang biasa dilewati Muhammad, di kegelapan malam.', s:'Sirah Ibnu Hisyam', g:'sirah'},
-{n:'Atas desakan Abu Lahab, kedua putranya menceraikan Ruqayyah dan Ummu Kultsum — sebelum keduanya benar-benar dibawa berumah tangga. Ikatan besan yang dulu erat diputus hampir dalam semalam. Ruqayyah kemudian dinikahi Utsman bin Affan, dan turut hijrah bersamanya ke Habasyah.', s:'Sirah Ibnu Hisyam; Thabaqat Ibnu Sa‘d', g:'sirah'},
-{q:'Sampai di sini, kau bisa menelusuri dua hal:', o:[
-  {l:'Sejauh mana ia mengejar keponakannya?', to:'lahab_pasar'},
-  {l:'Bagaimana akhir hidupnya?', to:'lahab_akhir'}
-]},
-
-{k:'lahab_pasar', n:'Di musim haji, ketika kabilah-kabilah Arab berkumpul di pasar ‘Ukazh dan Dzul-Majaz, Muhammad berkeliling menawarkan Islam dari kemah ke kemah. Dan ada satu orang yang selalu membuntuti di belakangnya, membisiki setiap orang agar tidak percaya.'},
-{r:'Rabi‘ah bin ‘Ibad ad-Dili r.a.', x:'“Aku melihat Rasulullah ﷺ di pasar Dzul-Majaz menyeru manusia... dan di belakangnya ada seorang lelaki bermata juling, berwajah cerah, dengan dua kepang rambut, berkata: ‘Wahai manusia, jangan taati dia, ia pendusta!’ Aku bertanya, siapa dia? Mereka menjawab: pamannya sendiri, Abu Lahab.”',
- s:'HR. Ahmad; dinilai hasan oleh sebagian ulama', g:'hasan'},
-{c:'Musuh yang tahu persis siapa kau',
- x:'Fitnah dari orang jauh mudah ditepis. Fitnah dari paman kandung punya bobot lain: “kalau keluarganya sendiri menolaknya, tentu ada yang salah dengannya.” Justru kedekatan itulah yang dijadikan senjata.<br><br>Rasulullah ﷺ menghadapi bukan sekadar penolakan, melainkan penolakan yang memakai nama baik keluarganya sendiri sebagai alat untuk meruntuhkan dirinya.'},
-{j:'lahab_g'},
-
-{k:'lahab_akhir', n:'Abu Lahab tidak ikut ke medan Badr; ia mengupah orang untuk menggantikan tempatnya. Ketika kabar kekalahan telak Quraisy sampai ke Makkah, ia terpukul hebat. Hanya beberapa hari kemudian tubuhnya diserang bisul ganas yang mereka sebut ‘adasah — penyakit yang mereka takuti menular seperti wabah.', s:'Sirah Ibnu Hisyam', g:'sirah'},
-{n:'Ia mati dalam keterkucilan. Riwayat menyebut jenazahnya dibiarkan dua-tiga hari hingga berbau, sebab tak ada yang berani menyentuhnya. Akhirnya mereka menyiramnya dengan air dari kejauhan, mendorong tubuhnya ke satu sudut, lalu menimbunnya dengan bebatuan.', s:'Sirah Ibnu Hisyam', g:'sirah'},
-{c:'Dua paman, dua kematian',
- x:'Abu Thalib mati sambil melindungi, tanpa beriman — dan Rasulullah ﷺ berduka atasnya. Abu Lahab mati tanpa melindungi dan tanpa beriman — ditinggalkan bahkan oleh anak-anaknya sendiri.<br><br>Keduanya berbagi darah yang sama dengan Nabi, dan darah itu tidak menyelamatkan salah satu dari keduanya. Garis pemisahnya bukan nasab, melainkan iman.'},
-{j:'lahab_g'},
-
-null,
-{k:'lahab_g', n:'Dua bersaudara. Dua paman dari lelaki yang sama. Keduanya pernah menggendong bayi yang sama dan menyaksikan wahyu yang sama turun di kota mereka. Yang satu memberikan seluruh perlindungannya tanpa sekali pun mengucap syahadat; yang satu menarik seluruh kasih sayangnya dan menggantinya dengan permusuhan sampai mati.'},
-{a:'Kedekatan sebelum kenabian ternyata tidak menjamin apa-apa. Dan permusuhan dari orang paling dekat pun tidak menghentikan apa-apa.'},
-{c:'Yang tidak bisa diwariskan',
- x:'Kalau ada satu pelajaran yang ditulis besar-besar oleh kisah Abu Lahab, ia sederhana dan keras sekaligus: <strong>iman tidak mengalir lewat darah.</strong> Al-Qur’an menyebut seorang paman kandung Nabi di antara yang dikutuk justru untuk menutup pintu itu rapat-rapat — tidak ada nasab, bahkan nasab kenabian, yang bisa menjadi jalan pintas.<br><br>Setiap orang berdiri sendiri di hadapan pilihannya. Tetangga dinding-ke-dinding pun tetap harus memilih.'}
+ x:'Ayat ini turun berkaitan dengan Abu Thalib, menurut riwayat Al-Bukhari no. 4772. Maknanya keras: <strong>bahkan Nabi tidak bisa memasukkan hidayah ke dalam dada orang yang paling ia cintai.</strong><br><br>Kalau beliau saja tidak bisa, maka siapa pun yang merasa berhak memaksa keyakinan orang lain sedang mengklaim wewenang yang tidak pernah diberikan kepada Rasulullah sendiri.'},
+{c:'Dua paman, dua jalan',
+ x:'Bandingkan dua paman dari lelaki yang sama. Abu Thalib melindunginya sampai mati tanpa pernah beriman. Abu Lahab — yang tadi kau lihat membentak di Shafa — melakukan kebalikannya: menolak tanpa pernah melindungi. Yang satu kehilangan harta dan kehormatannya demi keponakannya; yang satu justru namanya sendiri dikutuk di dalam wahyu.<br><br>Keduanya berbagi darah yang sama dengan Nabi, dan darah itu tidak menyelamatkan salah satunya. <strong>Iman tidak mengalir lewat nasab.</strong> Akhir hidup Abu Lahab sendiri baru akan kau temui bertahun-tahun kemudian, di ambang Perang Badar.'}
 ]});
 
 CH.push({
@@ -563,6 +533,10 @@ nodes:[
  s:'QS Al-Anfal: 67', qref:1},
 {c:'Kitab suci ini mengoreksi nabinya sendiri, secara terbuka',
  x:'Ini bukan satu-satunya. Ada teguran soal tawanan Badar. Ada QS ‘Abasa: 1-10 yang menegur beliau karena berpaling dari seorang buta demi melayani bangsawan. Ada QS At-Tahrim: 1 soal urusan rumah tangga. Ada QS At-Taubah: 43 soal izin yang terlalu cepat diberikan.<br><br>Dan semuanya <strong>dibacakan di depan umum, dihafal, dan dilestarikan</strong> oleh umat yang mencintainya. Tidak ada yang menyensornya.<br><br>Bagi siapa pun yang menilai keaslian sebuah teks, ini bukti yang berat: pemalsu tidak memasukkan bab kelemahan tokohnya ke dalam kitab suci.'},
+{n:'Kekalahan di Badar bergema sampai ke Makkah, dan menelan satu korban tak terduga di sana. Abu Lahab — paman Nabi yang dulu membubarkan majelis di Shafa dan namanya dikutuk dalam Surah Al-Masad — tidak ikut bertempur; ia mengupah orang untuk menggantikan tempatnya. Ketika kabar kekalahan tiba, ia terpukul hebat. Beberapa hari kemudian tubuhnya diserang bisul ganas yang mereka sebut ‘adasah — penyakit yang mereka takuti menular seperti wabah.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{n:'Ia mati dalam keterkucilan. Riwayat menyebut jenazahnya dibiarkan dua-tiga hari hingga berbau, sebab tak ada yang berani menyentuhnya. Akhirnya mereka menyiramnya dengan air dari kejauhan, mendorong tubuhnya ke satu sudut, lalu menimbunnya dengan bebatuan.', s:'Sirah Ibnu Hisyam', g:'sirah'},
+{c:'Dua paman, dua kematian',
+ x:'Abu Thalib mati sambil melindungi, tanpa beriman — dan Rasulullah ﷺ berduka atasnya. Abu Lahab mati tanpa melindungi dan tanpa beriman, ditinggalkan bahkan oleh anak-anaknya sendiri.<br><br>Keduanya berbagi darah yang sama dengan Nabi, dan darah itu tidak menyelamatkan salah satu dari keduanya. Garis pemisahnya bukan nasab, melainkan iman.'},
 {q:'Setahun kemudian datang Uhud. Kau ingin melihat keputusan apa di sana?', o:[
   {l:'Ketika Nabi kalah suara dalam musyawarah', to:'uhud'},
   {l:'Ketika beliau hendak melaknat musuhnya', to:'laknat'}
