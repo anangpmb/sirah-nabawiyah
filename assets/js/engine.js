@@ -156,6 +156,7 @@ function render(){
   el.ttl.textContent = currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].title : c.title;
   el.yrs.textContent = currentLang === 'en' && CH_META_EN[ci] ? CH_META_EN[ci].years : c.years;
   if(typeof IllusLayer !== 'undefined') IllusLayer.set(ci);
+  if(typeof VideoLayer !== 'undefined') VideoLayer.set(n, activeStory);
 
   /* subject tracker — resolves ambiguous pronouns (dia/ia/beliau/-nya) */
   if(n.subj !== undefined) currentSubj = n.subj;
@@ -762,6 +763,7 @@ function begin(chapter, node){
 }
 function showIntro(){
   TTS.stop();
+  if(typeof VideoLayer !== 'undefined') VideoLayer.hide();
   closeSheets();
   el.intro.style.display = '';
   requestAnimationFrame(()=> el.intro.classList.remove('off'));
